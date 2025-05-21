@@ -1,0 +1,144 @@
+                UCLA(2) vs. UNC Asheville(15)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+UCLA:        28.811    UNC Asheville: 10.618
+
+WINS ABOVE BUBBLE
+UCLA:        8.5    UNC Asheville: -1.8
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+UCLA:        66.27    UNC Asheville: 68.51
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+UCLA:        114.88    UNC Asheville: 104.14
+
+ADJUSTED DEFENSIVE EFFICIENCY
+UCLA:        87.24    UNC Asheville: 102.64
+
+OFFENSIVE EFFECTIVE FG%
+UCLA:        0.509    UNC Asheville: 0.539
+
+DEFENSIVE EFFECTIVE FG%
+UCLA:        0.468    UNC Asheville: 0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.21    UNC Asheville: -0.73
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+UCLA:        5.68    UNC Asheville: -0.54
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+UCLA:        5.65    UNC Asheville: -0.52
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.47    UNC Asheville: -0.25
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.52    UNC Asheville: -0.36
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+UCLA:        -0.52    UNC Asheville: 2.08
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+UCLA:        -0.52    UNC Asheville: 2.00
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.39    UNC Asheville: 0.19
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.35    UNC Asheville: 0.21
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+UCLA:        0.99    UNC Asheville: 4.91
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+UCLA:        0.99    UNC Asheville: 4.73
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.30    UNC Asheville: 0.04
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.35    UNC Asheville: 0.03
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+UCLA:        0.153    UNC Asheville: 0.2
+
+DEFENSIVE TURNOVER PERCENTAGE
+UCLA:        0.236    UNC Asheville: 0.179
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.23    UNC Asheville: -0.68
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+UCLA:        80.22    UNC Asheville: 80.27
+
+OFFENSIVE REBOUNDING PERCENTAGE
+UCLA:        0.337    UNC Asheville: 0.258
+
+DEFENSIVE REBOUND PERCENTAGE
+UCLA:        0.724    UNC Asheville: 0.713
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.41    UNC Asheville: -0.18
+
+
+
+WIN PERCENTAGE
+UCLA:        87.6 %    UNC Asheville: 12.4 %
+
+KEEP IN MIND:  UCLA(2) is expected to rank between 5-8 .  UNC Asheville(15) is expected to rank between 59-62
+
+ROUND OF 32 RANK
+UCLA:        4/68    UNC Asheville: 62/68
+
+SWEET 16 RANK
+UCLA:        7/68    UNC Asheville: 62/68
+
+ELITE 8 RANK
+UCLA:        7/68    UNC Asheville: 62/68
+
+FINAL 4 RANK
+UCLA:        8/68    UNC Asheville: 62/68
+
+NATIONAL CHAMPION RANK
+UCLA:        6/68    UNC Asheville: 60/68
+
+PROJECTED TOURNAMENT WINS
+UCLA:        2.79 (#4)    UNC Asheville: 0.13 (#62)

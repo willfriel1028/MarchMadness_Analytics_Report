@@ -49,6 +49,8 @@ march_analytics_report/
 |- venv/                                 # Virtual environment install (ignored by Git via .gitignore)
 |    |- ...
 |
+|- impact_vs_efficiency.md               # Explains impact and efficiency scores, and why they are used
+|
 |- main.py                               # The script for this program
 |
 |- output_walkthrough.md                 # Walks through an example output, explaining each section

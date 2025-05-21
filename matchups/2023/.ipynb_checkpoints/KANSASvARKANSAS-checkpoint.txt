@@ -1,0 +1,144 @@
+                Kansas(1) vs. Arkansas(8)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Kansas:      38.229    Arkansas:    30.654
+
+WINS ABOVE BUBBLE
+Kansas:      10.1    Arkansas:    0.4
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Kansas:      69.27    Arkansas:    69.68
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Kansas:      114.61    Arkansas:    112.60
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Kansas:      91.47    Arkansas:    93.97
+
+OFFENSIVE EFFECTIVE FG%
+Kansas:      0.524    Arkansas:    0.52
+
+DEFENSIVE EFFECTIVE FG%
+Kansas:      0.471    Arkansas:    0.465
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      -0.12    Arkansas:    -0.28
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Kansas:      2.99    Arkansas:    3.81
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Kansas:      2.85    Arkansas:    3.61
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      0.45    Arkansas:    0.50
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      0.34    Arkansas:    0.41
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Kansas:      0.65    Arkansas:    -0.02
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Kansas:      0.62    Arkansas:    -0.02
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      -0.34    Arkansas:    -0.49
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      -0.39    Arkansas:    -0.54
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Kansas:      -0.12    Arkansas:    -0.19
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Kansas:      -0.12    Arkansas:    -0.18
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      0.27    Arkansas:    0.26
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      0.19    Arkansas:    0.19
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Kansas:      0.175    Arkansas:    0.183
+
+DEFENSIVE TURNOVER PERCENTAGE
+Kansas:      0.202    Arkansas:    0.204
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      -0.21    Arkansas:    -0.27
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Kansas:      80.19    Arkansas:    80.36
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Kansas:      0.284    Arkansas:    0.305
+
+DEFENSIVE REBOUND PERCENTAGE
+Kansas:      0.717    Arkansas:    0.718
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas:      0.04    Arkansas:    0.19
+
+
+
+WIN PERCENTAGE
+Kansas:      64.8 %    Arkansas:    35.2 %
+
+KEEP IN MIND:  Kansas(1) is expected to rank between 1-4 .  Arkansas(8) is expected to rank between 29-32
+
+ROUND OF 32 RANK
+Kansas:      8/68    Arkansas:    25/68
+
+SWEET 16 RANK
+Kansas:      9/68    Arkansas:    30/68
+
+ELITE 8 RANK
+Kansas:      9/68    Arkansas:    27/68
+
+FINAL 4 RANK
+Kansas:      10/68    Arkansas:    27/68
+
+NATIONAL CHAMPION RANK
+Kansas:      10/68    Arkansas:    43/68
+
+PROJECTED TOURNAMENT WINS
+Kansas:      2.00 (#9)    Arkansas:    0.80 (#32)

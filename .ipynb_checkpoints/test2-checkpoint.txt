@@ -1,0 +1,125 @@
+                Alabama(2) vs. Auburn(1)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Alabama:     46.471    Auburn:      45.564
+
+WINS ABOVE BUBBLE
+Alabama:     9.8    Auburn:      12.5
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Alabama:     74.94    Auburn:      67.67
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Alabama:     126.60    Auburn:      128.50
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Alabama:     96.69    Auburn:      93.47
+
+OFFENSIVE EFFECTIVE FG%
+Alabama:     0.563    Auburn:      0.557
+
+DEFENSIVE EFFECTIVE FG%
+Alabama:     0.479    Auburn:      0.46
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Alabama:     0.21    Auburn:      0.40
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Alabama:     -0.46    Auburn:      2.45
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Alabama:     0.13    Auburn:      0.31
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Alabama:     2.94    Auburn:      3.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Alabama:     0.03    Auburn:      -0.03
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Alabama:     2.10    Auburn:      -1.20
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Alabama:     0.71    Auburn:      0.57
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Alabama:     0.167    Auburn:      0.134
+
+DEFENSIVE TURNOVER PERCENTAGE
+Alabama:     0.135    Auburn:      0.174
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Alabama:     -0.09    Auburn:      0.69
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Alabama:     82.58    Auburn:      81.06
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Alabama:     0.347    Auburn:      0.343
+
+DEFENSIVE REBOUND PERCENTAGE
+Alabama:     0.708    Auburn:      0.697
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Alabama:     0.48    Auburn:      0.42
+
+
+
+WIN PERCENTAGE
+Alabama:     36.4 %    Auburn:      63.6 %
+
+KEEP IN MIND:  Alabama(2) is expected to rank between 5-8 .  Auburn(1) is expected to rank between 1-4
+
+ROUND OF 32 RANK
+Alabama:     8/68    Auburn:      4/68
+
+SWEET 16 RANK
+Alabama:     7/68    Auburn:      4/68
+
+ELITE 8 RANK
+Alabama:     5/68    Auburn:      4/68
+
+FINAL 4 RANK
+Alabama:     8/68    Auburn:      4/68
+
+NATIONAL CHAMPION RANK
+Alabama:     7/68    Auburn:      4/68
+
+PROJECTED TOURNAMENT WINS
+Alabama:     1.88 (#7)    Auburn:      3.16 (#4)

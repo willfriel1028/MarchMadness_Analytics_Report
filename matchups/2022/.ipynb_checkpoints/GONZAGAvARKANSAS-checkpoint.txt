@@ -1,0 +1,144 @@
+                Gonzaga(1) vs. Arkansas(4)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Gonzaga:     24.951    Arkansas:    27.25
+
+WINS ABOVE BUBBLE
+Gonzaga:     6.7    Arkansas:    4.5
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Gonzaga:     72.48    Arkansas:    70.59
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Gonzaga:     121.81    Arkansas:    111.07
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Gonzaga:     88.84    Arkansas:    92.05
+
+OFFENSIVE EFFECTIVE FG%
+Gonzaga:     0.594    Arkansas:    0.492
+
+DEFENSIVE EFFECTIVE FG%
+Gonzaga:     0.432    Arkansas:    0.475
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.34    Arkansas:    -0.22
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Gonzaga:     7.44    Arkansas:    3.69
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Gonzaga:     6.77    Arkansas:    3.45
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.62    Arkansas:    0.28
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.41    Arkansas:    0.01
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Gonzaga:     1.92    Arkansas:    -1.07
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Gonzaga:     1.75    Arkansas:    -1.00
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.48    Arkansas:    -0.25
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.30    Arkansas:    -0.44
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Gonzaga:     3.69    Arkansas:    3.70
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Gonzaga:     3.36    Arkansas:    3.46
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.35    Arkansas:    0.23
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.13    Arkansas:    0.01
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.159    Arkansas:    0.174
+
+DEFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.17    Arkansas:    0.206
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     -0.03    Arkansas:    0.15
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Gonzaga:     81.96    Arkansas:    79.64
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Gonzaga:     0.29    Arkansas:    0.309
+
+DEFENSIVE REBOUND PERCENTAGE
+Gonzaga:     0.77    Arkansas:    0.742
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.03    Arkansas:    0.10
+
+
+
+WIN PERCENTAGE
+Gonzaga:     75.1 %    Arkansas:    24.9 %
+
+KEEP IN MIND:  Gonzaga(1) is expected to rank between 1-4 .  Arkansas(4) is expected to rank between 13-16
+
+ROUND OF 32 RANK
+Gonzaga:     2/68    Arkansas:    22/68
+
+SWEET 16 RANK
+Gonzaga:     1/68    Arkansas:    24/68
+
+ELITE 8 RANK
+Gonzaga:     6/68    Arkansas:    24/68
+
+FINAL 4 RANK
+Gonzaga:     3/68    Arkansas:    23/68
+
+NATIONAL CHAMPION RANK
+Gonzaga:     3/68    Arkansas:    27/68
+
+PROJECTED TOURNAMENT WINS
+Gonzaga:     3.44 (#1)    Arkansas:    0.83 (#24)

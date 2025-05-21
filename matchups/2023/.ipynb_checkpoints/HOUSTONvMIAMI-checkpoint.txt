@@ -1,0 +1,144 @@
+                Houston(1) vs. Miami FL(5)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Houston:     23.376    Miami FL:    23.676
+
+WINS ABOVE BUBBLE
+Houston:     8.1    Miami FL:    3.7
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Houston:     63.33    Miami FL:    68.85
+Suggestion: Look at the teams' respective Efficiency Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Houston:     118.39    Miami FL:    118.23
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Houston:     89.57    Miami FL:    103.32
+
+OFFENSIVE EFFECTIVE FG%
+Houston:     0.527    Miami FL:    0.55
+
+DEFENSIVE EFFECTIVE FG%
+Houston:     0.425    Miami FL:    0.513
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     0.34    Miami FL:    -0.18
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Houston:     5.76    Miami FL:    2.47
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Houston:     6.01    Miami FL:    2.37
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     0.22    Miami FL:    -0.30
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     0.31    Miami FL:    -0.33
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Houston:     0.99    Miami FL:    0.19
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Houston:     1.04    Miami FL:    0.18
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     0.22    Miami FL:    0.03
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     0.30    Miami FL:    0.12
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Houston:     -1.65    Miami FL:    3.68
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Houston:     -1.72    Miami FL:    3.53
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     -0.42    Miami FL:    0.14
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     -0.43    Miami FL:    0.18
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Houston:     0.153    Miami FL:    0.164
+
+DEFENSIVE TURNOVER PERCENTAGE
+Houston:     0.22    Miami FL:    0.181
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     0.21    Miami FL:    -0.23
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Houston:     79.51    Miami FL:    79.36
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Houston:     0.371    Miami FL:    0.32
+
+DEFENSIVE REBOUND PERCENTAGE
+Houston:     0.726    Miami FL:    0.71
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Houston:     0.62    Miami FL:    0.27
+
+
+
+WIN PERCENTAGE
+Houston:     75.4 %    Miami FL:    24.6 %
+
+KEEP IN MIND:  Houston(1) is expected to rank between 1-4 .  Miami FL(5) is expected to rank between 17-20
+
+ROUND OF 32 RANK
+Houston:     3/68    Miami FL:    30/68
+
+SWEET 16 RANK
+Houston:     4/68    Miami FL:    22/68
+
+ELITE 8 RANK
+Houston:     3/68    Miami FL:    24/68
+
+FINAL 4 RANK
+Houston:     6/68    Miami FL:    24/68
+
+NATIONAL CHAMPION RANK
+Houston:     3/68    Miami FL:    19/68
+
+PROJECTED TOURNAMENT WINS
+Houston:     3.20 (#3)    Miami FL:    0.91 (#25)

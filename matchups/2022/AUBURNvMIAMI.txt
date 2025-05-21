@@ -1,0 +1,144 @@
+                Auburn(2) vs. Miami FL(10)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Auburn:      27.557    Miami FL:    27.253
+
+WINS ABOVE BUBBLE
+Auburn:      7.4    Miami FL:    2.6
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Auburn:      70.02    Miami FL:    67.28
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Auburn:      113.60    Miami FL:    114.76
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Auburn:      89.15    Miami FL:    102.14
+
+OFFENSIVE EFFECTIVE FG%
+Auburn:      0.503    Miami FL:    0.542
+
+DEFENSIVE EFFECTIVE FG%
+Auburn:      0.441    Miami FL:    0.534
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      0.48    Miami FL:    -0.06
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Auburn:      3.13    Miami FL:    2.80
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Auburn:      2.95    Miami FL:    2.75
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      0.25    Miami FL:    0.17
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      0.19    Miami FL:    0.09
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Auburn:      1.16    Miami FL:    -0.12
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Auburn:      1.09    Miami FL:    -0.12
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      0.37    Miami FL:    0.06
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      0.33    Miami FL:    0.01
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Auburn:      -0.31    Miami FL:    2.96
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Auburn:      -0.29    Miami FL:    2.91
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      -0.10    Miami FL:    0.35
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      -0.21    Miami FL:    0.27
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Auburn:      0.167    Miami FL:    0.142
+
+DEFENSIVE TURNOVER PERCENTAGE
+Auburn:      0.207    Miami FL:    0.203
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      -0.09    Miami FL:    0.16
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Auburn:      82.67    Miami FL:    80.22
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Auburn:      0.332    Miami FL:    0.234
+
+DEFENSIVE REBOUND PERCENTAGE
+Auburn:      0.707    Miami FL:    0.697
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Auburn:      0.58    Miami FL:    -0.43
+
+
+
+WIN PERCENTAGE
+Auburn:      75.0 %    Miami FL:    25.0 %
+
+KEEP IN MIND:  Auburn(2) is expected to rank between 5-8 .  Miami FL(10) is expected to rank between 37-40
+
+ROUND OF 32 RANK
+Auburn:      12/68    Miami FL:    43/68
+
+SWEET 16 RANK
+Auburn:      12/68    Miami FL:    42/68
+
+ELITE 8 RANK
+Auburn:      12/68    Miami FL:    41/68
+
+FINAL 4 RANK
+Auburn:      12/68    Miami FL:    48/68
+
+NATIONAL CHAMPION RANK
+Auburn:      11/68    Miami FL:    47/68
+
+PROJECTED TOURNAMENT WINS
+Auburn:      1.88 (#12)    Miami FL:    0.56 (#43)

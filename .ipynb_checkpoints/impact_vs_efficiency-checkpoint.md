@@ -17,11 +17,11 @@ Unfortunately these are not questions that I am capable of solving at this momen
      
 ### Impact Scores
 
-Impact scores are used when tempo **is** predictable.
+Impact scores is what I use when tempo **is** predictable.
 
 I think that tempo is predictable when teams are within 5 possessions of each other on average, so when that is the case my program uses impact scores for its win percentage algorithm and it suggests that the user primarily analyzes those scores. 
 
-If teams are within 5 possesions of each other on average, their impact scores should accurately relay how effective they can be at that aspect of the game
+If teams are within 5 possesions with each other on average, their impact scores should accurately relay how effective they can be at that aspect of the game
 
 Impact scores involve a given team's tempo.
 
@@ -44,7 +44,7 @@ Looking at the previous example, we would expect Florida to score ~9.16 threes i
 
 ### Efficiency Scores
 
-Efficiency scores are used when tempo **is not** predictable
+Efficiency scores is what I use when tempo **is not** predictable
 
 I think that tempo is not predictable when teams are more than 5 possessions apart on average, so when that is the case my program uses efficiency scores for its win percentage algorithm and it suggests that the user primarily analyzes those scores.
 

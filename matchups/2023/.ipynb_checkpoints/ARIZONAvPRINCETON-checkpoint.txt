@@ -1,0 +1,144 @@
+                Arizona(2) vs. Princeton(15)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Arizona:     29.572    Princeton:   11.173
+
+WINS ABOVE BUBBLE
+Arizona:     7.6    Princeton:   -3.2
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Arizona:     72.31    Princeton:   67.45
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Arizona:     119.98    Princeton:   109.09
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Arizona:     97.12    Princeton:   103.53
+
+OFFENSIVE EFFECTIVE FG%
+Arizona:     0.568    Princeton:   0.525
+
+DEFENSIVE EFFECTIVE FG%
+Arizona:     0.472    Princeton:   0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.40    Princeton:   -0.17
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Arizona:     3.80    Princeton:   -0.56
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Arizona:     3.47    Princeton:   -0.55
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.54    Princeton:   0.08
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.43    Princeton:   -0.13
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Arizona:     0.94    Princeton:   1.53
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Arizona:     0.86    Princeton:   1.50
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.32    Princeton:   0.47
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.23    Princeton:   0.38
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Arizona:     4.10    Princeton:   0.79
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Arizona:     3.74    Princeton:   0.77
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.24    Princeton:   -0.06
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.15    Princeton:   -0.18
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Arizona:     0.184    Princeton:   0.169
+
+DEFENSIVE TURNOVER PERCENTAGE
+Arizona:     0.169    Princeton:   0.145
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.28    Princeton:   0.16
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Arizona:     82.47    Princeton:   79.58
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Arizona:     0.311    Princeton:   0.284
+
+DEFENSIVE REBOUND PERCENTAGE
+Arizona:     0.738    Princeton:   0.772
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.08    Princeton:   -0.02
+
+
+
+WIN PERCENTAGE
+Arizona:     79.8 %    Princeton:   20.2 %
+
+KEEP IN MIND:  Arizona(2) is expected to rank between 5-8 .  Princeton(15) is expected to rank between 59-62
+
+ROUND OF 32 RANK
+Arizona:     7/68    Princeton:   57/68
+
+SWEET 16 RANK
+Arizona:     6/68    Princeton:   58/68
+
+ELITE 8 RANK
+Arizona:     5/68    Princeton:   58/68
+
+FINAL 4 RANK
+Arizona:     3/68    Princeton:   57/68
+
+NATIONAL CHAMPION RANK
+Arizona:     5/68    Princeton:   59/68
+
+PROJECTED TOURNAMENT WINS
+Arizona:     2.22 (#7)    Princeton:   0.21 (#57)
