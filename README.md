@@ -64,7 +64,7 @@ march_analytics_report/
 Run these lines in your terminal to install this program:
 ```
 git clone https://github.com/willfriel1003/projectname.git
-cd March
+cd marchmadness_analytics_report
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
