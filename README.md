@@ -34,7 +34,7 @@ march_analytics_report/
 |- data/                                 # Folder containing any datasets for this program
 |    |- march_data.csv                   # The dataset used for this program
 |
-|- matchups/                             # Folder where you can find some example matchup outputs
+|- outputs/                              # Folder where you can find some example matchup outputs
 |      |- 2025/                          # Each year's folder contains some matchups from that year
 |      |    |- FLORIDAvHOUSTON.txt       # Output for Florida vs. Houston (2025)
 |      |- 2024/
@@ -46,10 +46,9 @@ march_analytics_report/
 |
 |- .gitignore                            # Specifies files and folders to ignore in version control
 |
-|- venv/                                 # Virtual environment install (ignored by Git via .gitignore)
-|    |- ...
-|
 |- main.py                               # The script for this program
+|
+|- matchup_scores_explained              # Explains the [-1,1] matchup scores
 |
 |- output_walkthrough.md                 # Walks through an example output, explaining each section
 |
