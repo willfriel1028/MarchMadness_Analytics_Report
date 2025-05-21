@@ -22,7 +22,7 @@ def main():
     Calls team_matchup and prints results onto output file
     '''
     
-    data = pd.read_csv("data/new_march_data.csv") # READ DATASET
+    data = pd.read_csv("data/march_data.csv") # READ DATASET
     
     # Save teams' offensive/defensive efficiencies into variables (fixed tempo to be ~average - 66.5)
     data['FT_Off_Eff'] = data['FT%'] * data['FTR'] * 66.5 * (1 - data['TOV%'])
@@ -609,8 +609,8 @@ def ft_matchup(team1, team2, tempo, data_test):
     # For defense, it is calculated using the opponent's FT%
     teamA_of = (teamA['FT%'].iloc[0] * teamA['FTR'].iloc[0] * tempo * (1 - teamA['TOV%'].iloc[0]))
     teamB_of = (teamB['FT%'].iloc[0] * teamB['FTR'].iloc[0] * tempo * (1 - teamB['TOV%'].iloc[0]))
-    teamA_df = (teamB['FT%'] * teamA['FTRD'].iloc[0] * tempo * (1 - teamA['TOV%D'].iloc[0]))
-    teamB_df = (teamA['FT%'] * teamB['FTRD'].iloc[0] * tempo * (1 - teamB['TOV%D'].iloc[0]))
+    teamA_df = (teamB['FT%'].iloc[0] * teamA['FTRD'].iloc[0] * tempo * (1 - teamA['TOV%D'].iloc[0]))
+    teamB_df = (teamA['FT%'].iloc[0] * teamB['FTRD'].iloc[0] * tempo * (1 - teamB['TOV%D'].iloc[0]))
     teamA_netf = teamA_of - teamA_df
     teamB_netf = teamB_of - teamB_df
     
