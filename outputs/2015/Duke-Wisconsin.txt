@@ -1,0 +1,125 @@
+                Duke(1) vs. Wisconsin(1)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Duke:        33.93    Wisconsin:   30.284
+
+WINS ABOVE BUBBLE
+Duke:        10.7    Wisconsin:   11.4
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Duke:        65.64    Wisconsin:   58.08
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Duke:        124.25    Wisconsin:   126.81
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Duke:        94.95    Wisconsin:   93.29
+
+OFFENSIVE EFFECTIVE FG%
+Duke:        0.569    Wisconsin:   0.546
+
+DEFENSIVE EFFECTIVE FG%
+Duke:        0.474    Wisconsin:   0.467
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.24    Wisconsin:   0.37
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Duke:        1.85    Wisconsin:   2.19
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.57    Wisconsin:   0.63
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Duke:        2.40    Wisconsin:   2.20
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.11    Wisconsin:   0.04
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Duke:        4.74    Wisconsin:   7.21
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        -0.55    Wisconsin:   -0.15
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Duke:        0.168    Wisconsin:   0.124
+
+DEFENSIVE TURNOVER PERCENTAGE
+Duke:        0.187    Wisconsin:   0.167
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.26    Wisconsin:   0.56
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Duke:        81.33    Wisconsin:   82.39
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Duke:        0.374    Wisconsin:   0.319
+
+DEFENSIVE REBOUND PERCENTAGE
+Duke:        0.699    Wisconsin:   0.763
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.31    Wisconsin:   0.14
+
+
+
+WIN PERCENTAGE
+Duke:        41.7 %    Wisconsin:   58.3 %
+
+KEEP IN MIND:  Duke(1) is expected to rank between 1-4 .  Wisconsin(1) is expected to rank between 1-4
+
+ROUND OF 32 RANK
+Duke:        6/68    Wisconsin:   2/68
+
+SWEET 16 RANK
+Duke:        5/68    Wisconsin:   2/68
+
+ELITE 8 RANK
+Duke:        5/68    Wisconsin:   2/68
+
+FINAL 4 RANK
+Duke:        6/68    Wisconsin:   2/68
+
+NATIONAL CHAMPION RANK
+Duke:        6/68    Wisconsin:   2/68
+
+PROJECTED TOURNAMENT WINS
+Duke:        3.21 (#4)    Wisconsin:   4.44 (#2)

@@ -1,0 +1,125 @@
+                Villanova(1) vs. Michigan(3)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Villanova:   32.489    Michigan:    32.027
+
+WINS ABOVE BUBBLE
+Villanova:   10.6    Michigan:    6.9
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Villanova:   68.28    Michigan:    64.36
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Villanova:   127.38    Michigan:    115.90
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Villanova:   95.97    Michigan:    92.71
+
+OFFENSIVE EFFECTIVE FG%
+Villanova:   0.597    Michigan:    0.544
+
+DEFENSIVE EFFECTIVE FG%
+Villanova:   0.492    Michigan:    0.484
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Villanova:   0.29    Michigan:    0.07
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Villanova:   0.87    Michigan:    0.11
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Villanova:   0.41    Michigan:    0.30
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Villanova:   4.21    Michigan:    3.42
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Villanova:   0.26    Michigan:    0.21
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Villanova:   3.43    Michigan:    -1.08
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Villanova:   -0.08    Michigan:    -0.71
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Villanova:   0.146    Michigan:    0.139
+
+DEFENSIVE TURNOVER PERCENTAGE
+Villanova:   0.185    Michigan:    0.194
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Villanova:   0.29    Michigan:    0.48
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Villanova:   79.49    Michigan:    81.53
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Villanova:   0.288    Michigan:    0.26
+
+DEFENSIVE REBOUND PERCENTAGE
+Villanova:   0.733    Michigan:    0.756
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Villanova:   -0.17    Michigan:    -0.37
+
+
+
+WIN PERCENTAGE
+Villanova:   64.5 %    Michigan:    35.5 %
+
+KEEP IN MIND:  Villanova(1) is expected to rank between 1-4 .  Michigan(3) is expected to rank between 9-12
+
+ROUND OF 32 RANK
+Villanova:   2/68    Michigan:    7/68
+
+SWEET 16 RANK
+Villanova:   1/68    Michigan:    5/68
+
+ELITE 8 RANK
+Villanova:   1/68    Michigan:    6/68
+
+FINAL 4 RANK
+Villanova:   1/68    Michigan:    8/68
+
+NATIONAL CHAMPION RANK
+Villanova:   2/68    Michigan:    8/68
+
+PROJECTED TOURNAMENT WINS
+Villanova:   4.75 (#2)    Michigan:    2.13 (#6)

@@ -1,0 +1,125 @@
+                Duke(1) vs. Butler(5)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Duke:        31.735    Butler:      20.638
+
+WINS ABOVE BUBBLE
+Duke:        8.4    Butler:      4.5
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Duke:        64.96    Butler:      63.24
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Duke:        119.30    Butler:      110.75
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Duke:        87.75    Butler:      90.72
+
+OFFENSIVE EFFECTIVE FG%
+Duke:        0.503    Butler:      0.52
+
+DEFENSIVE EFFECTIVE FG%
+Duke:        0.439    Butler:      0.463
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.32    Butler:      -0.12
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Duke:        0.12    Butler:      0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        -0.06    Butler:      0.00
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Duke:        3.23    Butler:      2.03
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.23    Butler:      -0.15
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Duke:        2.58    Butler:      4.66
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.28    Butler:      0.41
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Duke:        0.164    Butler:      0.192
+
+DEFENSIVE TURNOVER PERCENTAGE
+Duke:        0.219    Butler:      0.211
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.10    Butler:      -0.22
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Duke:        82.02    Butler:      79.89
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Duke:        0.404    Butler:      0.312
+
+DEFENSIVE REBOUND PERCENTAGE
+Duke:        0.675    Butler:      0.729
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.32    Butler:      -0.24
+
+
+
+WIN PERCENTAGE
+Duke:        73.6 %    Butler:      26.4 %
+
+KEEP IN MIND:  Duke(1) is expected to rank between 1-4 .  Butler(5) is expected to rank between 17-20
+
+ROUND OF 32 RANK
+Duke:        2/68    Butler:      36/68
+
+SWEET 16 RANK
+Duke:        2/68    Butler:      39/68
+
+ELITE 8 RANK
+Duke:        2/68    Butler:      34/68
+
+FINAL 4 RANK
+Duke:        2/68    Butler:      34/68
+
+NATIONAL CHAMPION RANK
+Duke:        2/68    Butler:      41/68
+
+PROJECTED TOURNAMENT WINS
+Duke:        3.88 (#2)    Butler:      0.73 (#35)

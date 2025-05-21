@@ -1,0 +1,125 @@
+                North Carolina(1) vs. Villanova(2)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+North Carolina: 32.034    Villanova:   30.779
+
+WINS ABOVE BUBBLE
+North Carolina: 8.5    Villanova:   8.9
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+North Carolina: 71.07    Villanova:   66.56
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+North Carolina: 121.14    Villanova:   118.30
+
+ADJUSTED DEFENSIVE EFFICIENCY
+North Carolina: 93.10    Villanova:   91.55
+
+OFFENSIVE EFFECTIVE FG%
+North Carolina: 0.521    Villanova:   0.543
+
+DEFENSIVE EFFECTIVE FG%
+North Carolina: 0.474    Villanova:   0.463
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: -0.01    Villanova:   -0.04
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+North Carolina: 7.24    Villanova:   3.21
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: 0.29    Villanova:   -0.19
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+North Carolina: -2.30    Villanova:   1.79
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: -0.51    Villanova:   0.52
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+North Carolina: 0.91    Villanova:   2.64
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: -0.16    Villanova:   0.02
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+North Carolina: 0.154    Villanova:   0.164
+
+DEFENSIVE TURNOVER PERCENTAGE
+North Carolina: 0.186    Villanova:   0.204
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: 0.01    Villanova:   0.07
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+North Carolina: 81.62    Villanova:   80.03
+
+OFFENSIVE REBOUNDING PERCENTAGE
+North Carolina: 0.398    Villanova:   0.286
+
+DEFENSIVE REBOUND PERCENTAGE
+North Carolina: 0.701    Villanova:   0.713
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: 0.69    Villanova:   0.09
+
+
+
+WIN PERCENTAGE
+North Carolina: 47.8 %    Villanova:   52.2 %
+
+KEEP IN MIND:  North Carolina(1) is expected to rank between 1-4 .  Villanova(2) is expected to rank between 5-8
+
+ROUND OF 32 RANK
+North Carolina: 1/68    Villanova:   6/68
+
+SWEET 16 RANK
+North Carolina: 2/68    Villanova:   8/68
+
+ELITE 8 RANK
+North Carolina: 2/68    Villanova:   8/68
+
+FINAL 4 RANK
+North Carolina: 3/68    Villanova:   8/68
+
+NATIONAL CHAMPION RANK
+North Carolina: 3/68    Villanova:   8/68
+
+PROJECTED TOURNAMENT WINS
+North Carolina: 3.67 (#2)    Villanova:   2.07 (#7)
