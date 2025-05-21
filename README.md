@@ -44,6 +44,8 @@ march_analytics_report/
 |      |- team_names.py                  # Script to generate list of each team in the dataset alphabetically
 |      |- team_names.txt                 # Alphabetical list of all valid team names
 |
+|- .gitignore                            # Specifies files and folders to ignore in version control
+|
 |- venv/                                 # Virtual environment install (ignored by Git via .gitignore)
 |    |- ...
 |
@@ -56,8 +58,7 @@ march_analytics_report/
 |- README.md                             # The README for this program
 |
 |- requirements.txt                      # Required Python libraries
-|
-|- .gitignore                            # Specifies files and folders to ignore in version control
+
 ```
 ## Set Up and Installation
 
