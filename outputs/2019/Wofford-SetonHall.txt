@@ -1,0 +1,125 @@
+                Wofford(7) vs. Seton Hall(10)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Wofford:     18.861    Seton Hall:  26.683
+
+WINS ABOVE BUBBLE
+Wofford:     4.2    Seton Hall:  -0.3
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Wofford:     65.64    Seton Hall:  68.92
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Wofford:     118.36    Seton Hall:  109.30
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Wofford:     97.64    Seton Hall:  96.40
+
+OFFENSIVE EFFECTIVE FG%
+Wofford:     0.578    Seton Hall:  0.499
+
+DEFENSIVE EFFECTIVE FG%
+Wofford:     0.502    Seton Hall:  0.493
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wofford:     0.25    Seton Hall:  -0.01
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Wofford:     0.77    Seton Hall:  2.15
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wofford:     -0.07    Seton Hall:  0.10
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Wofford:     3.07    Seton Hall:  -0.65
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wofford:     0.66    Seton Hall:  -0.00
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Wofford:     -1.21    Seton Hall:  1.31
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wofford:     -0.36    Seton Hall:  0.00
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Wofford:     0.162    Seton Hall:  0.175
+
+DEFENSIVE TURNOVER PERCENTAGE
+Wofford:     0.193    Seton Hall:  0.2
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wofford:     0.06    Seton Hall:  -0.01
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Wofford:     80.66    Seton Hall:  81.50
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Wofford:     0.323    Seton Hall:  0.293
+
+DEFENSIVE REBOUND PERCENTAGE
+Wofford:     0.754    Seton Hall:  0.706
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wofford:     0.39    Seton Hall:  -0.02
+
+
+
+WIN PERCENTAGE
+Wofford:     66.8 %    Seton Hall:  33.2 %
+
+KEEP IN MIND:  Wofford(7) is expected to rank between 25-28 .  Seton Hall(10) is expected to rank between 37-40
+
+ROUND OF 32 RANK
+Wofford:     25/68    Seton Hall:  46/68
+
+SWEET 16 RANK
+Wofford:     22/68    Seton Hall:  46/68
+
+ELITE 8 RANK
+Wofford:     18/68    Seton Hall:  47/68
+
+FINAL 4 RANK
+Wofford:     20/68    Seton Hall:  47/68
+
+NATIONAL CHAMPION RANK
+Wofford:     23/68    Seton Hall:  47/68
+
+PROJECTED TOURNAMENT WINS
+Wofford:     1.12 (#19)    Seton Hall:  0.41 (#46)

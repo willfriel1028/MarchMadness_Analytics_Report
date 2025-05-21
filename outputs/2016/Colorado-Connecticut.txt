@@ -1,0 +1,125 @@
+                Colorado(8) vs. Connecticut(9)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Colorado:    26.719    Connecticut: 23.62
+
+WINS ABOVE BUBBLE
+Colorado:    0.7    Connecticut: 1.2
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Colorado:    68.95    Connecticut: 65.74
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Colorado:    108.78    Connecticut: 111.65
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Colorado:    95.19    Connecticut: 92.90
+
+OFFENSIVE EFFECTIVE FG%
+Colorado:    0.484    Connecticut: 0.52
+
+DEFENSIVE EFFECTIVE FG%
+Colorado:    0.469    Connecticut: 0.442
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado:    -0.41    Connecticut: -0.19
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Colorado:    -1.86    Connecticut: 4.56
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado:    -0.63    Connecticut: 0.38
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Colorado:    1.10    Connecticut: 0.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado:    0.07    Connecticut: -0.16
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Colorado:    0.20    Connecticut: -0.88
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado:    0.27    Connecticut: 0.16
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Colorado:    0.188    Connecticut: 0.165
+
+DEFENSIVE TURNOVER PERCENTAGE
+Colorado:    0.154    Connecticut: 0.181
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado:    -0.14    Connecticut: 0.42
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Colorado:    81.15    Connecticut: 80.97
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Colorado:    0.35    Connecticut: 0.291
+
+DEFENSIVE REBOUND PERCENTAGE
+Colorado:    0.754    Connecticut: 0.708
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado:    0.46    Connecticut: -0.02
+
+
+
+WIN PERCENTAGE
+Colorado:    37.4 %    Connecticut: 62.6 %
+
+KEEP IN MIND:  Colorado(8) is expected to rank between 29-32 .  Connecticut(9) is expected to rank between 33-36
+
+ROUND OF 32 RANK
+Colorado:    44/68    Connecticut: 28/68
+
+SWEET 16 RANK
+Colorado:    45/68    Connecticut: 29/68
+
+ELITE 8 RANK
+Colorado:    41/68    Connecticut: 30/68
+
+FINAL 4 RANK
+Colorado:    41/68    Connecticut: 31/68
+
+NATIONAL CHAMPION RANK
+Colorado:    45/68    Connecticut: 29/68
+
+PROJECTED TOURNAMENT WINS
+Colorado:    0.51 (#43)    Connecticut: 0.79 (#31)

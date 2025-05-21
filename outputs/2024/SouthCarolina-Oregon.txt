@@ -1,0 +1,125 @@
+                South Carolina(6) vs. Oregon(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+South Carolina: 28.077    Oregon:      28.128
+
+WINS ABOVE BUBBLE
+South Carolina: 4.7    Oregon:      1.4
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+South Carolina: 62.87    Oregon:      67.15
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+South Carolina: 114.73    Oregon:      114.04
+
+ADJUSTED DEFENSIVE EFFICIENCY
+South Carolina: 99.67    Oregon:      100.61
+
+OFFENSIVE EFFECTIVE FG%
+South Carolina: 0.508    Oregon:      0.518
+
+DEFENSIVE EFFECTIVE FG%
+South Carolina: 0.48    Oregon:      0.515
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+South Carolina: 0.18    Oregon:      0.12
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+South Carolina: -1.25    Oregon:      0.91
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+South Carolina: 0.14    Oregon:      0.41
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+South Carolina: 1.75    Oregon:      0.20
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+South Carolina: 0.12    Oregon:      -0.23
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+South Carolina: 0.29    Oregon:      0.29
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+South Carolina: 0.21    Oregon:      0.21
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+South Carolina: 0.155    Oregon:      0.148
+
+DEFENSIVE TURNOVER PERCENTAGE
+South Carolina: 0.149    Oregon:      0.179
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+South Carolina: 0.04    Oregon:      0.39
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+South Carolina: 80.09    Oregon:      80.10
+
+OFFENSIVE REBOUNDING PERCENTAGE
+South Carolina: 0.331    Oregon:      0.287
+
+DEFENSIVE REBOUND PERCENTAGE
+South Carolina: 0.72    Oregon:      0.729
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+South Carolina: 0.26    Oregon:      -0.05
+
+
+
+WIN PERCENTAGE
+South Carolina: 54.9 %    Oregon:      45.1 %
+
+KEEP IN MIND:  South Carolina(6) is expected to rank between 21-24 .  Oregon(11) is expected to rank between 43-46
+
+ROUND OF 32 RANK
+South Carolina: 32/68    Oregon:      35/68
+
+SWEET 16 RANK
+South Carolina: 35/68    Oregon:      26/68
+
+ELITE 8 RANK
+South Carolina: 34/68    Oregon:      30/68
+
+FINAL 4 RANK
+South Carolina: 34/68    Oregon:      23/68
+
+NATIONAL CHAMPION RANK
+South Carolina: 27/68    Oregon:      28/68
+
+PROJECTED TOURNAMENT WINS
+South Carolina: 0.75 (#32)    Oregon:      0.71 (#35)

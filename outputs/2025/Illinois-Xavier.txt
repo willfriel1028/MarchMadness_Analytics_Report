@@ -1,0 +1,125 @@
+                Illinois(6) vs. Xavier(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Illinois:    39.298    Xavier:      28.812
+
+WINS ABOVE BUBBLE
+Illinois:    3.4    Xavier:      0.35
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Illinois:    71.40    Xavier:      69.14
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Illinois:    121.63    Xavier:      115.46
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Illinois:    98.04    Xavier:      98.29
+
+OFFENSIVE EFFECTIVE FG%
+Illinois:    0.523    Xavier:      0.539
+
+DEFENSIVE EFFECTIVE FG%
+Illinois:    0.473    Xavier:      0.506
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.25    Xavier:      0.03
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Illinois:    -1.68    Xavier:      0.59
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.09    Xavier:      0.38
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Illinois:    2.42    Xavier:      1.26
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.21    Xavier:      -0.04
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Illinois:    2.48    Xavier:      5.09
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.25    Xavier:      0.47
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Illinois:    0.158    Xavier:      0.16
+
+DEFENSIVE TURNOVER PERCENTAGE
+Illinois:    0.127    Xavier:      0.176
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    -0.02    Xavier:      0.50
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Illinois:    82.01    Xavier:      80.41
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Illinois:    0.36    Xavier:      0.252
+
+DEFENSIVE REBOUND PERCENTAGE
+Illinois:    0.737    Xavier:      0.748
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.40    Xavier:      -0.33
+
+
+
+WIN PERCENTAGE
+Illinois:    58.7 %    Xavier:      41.3 %
+
+KEEP IN MIND:  Illinois(6) is expected to rank between 21-24 .  Xavier(11) is expected to rank between 41-46
+
+ROUND OF 32 RANK
+Illinois:    23/68    Xavier:      47/68
+
+SWEET 16 RANK
+Illinois:    20/68    Xavier:      48/68
+
+ELITE 8 RANK
+Illinois:    28/68    Xavier:      49/68
+
+FINAL 4 RANK
+Illinois:    17/68    Xavier:      44/68
+
+NATIONAL CHAMPION RANK
+Illinois:    17/68    Xavier:      50/68
+
+PROJECTED TOURNAMENT WINS
+Illinois:    1.08 (#21)    Xavier:      0.43 (#49)

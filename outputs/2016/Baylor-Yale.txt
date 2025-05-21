@@ -1,0 +1,125 @@
+                Baylor(5) vs. Yale(12)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Baylor:      35.471    Yale:        15.942
+
+WINS ABOVE BUBBLE
+Baylor:      3.5    Yale:        -0.1
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Baylor:      66.45    Yale:        65.98
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Baylor:      118.76    Yale:        109.51
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Baylor:      98.84    Yale:        95.68
+
+OFFENSIVE EFFECTIVE FG%
+Baylor:      0.517    Yale:        0.525
+
+DEFENSIVE EFFECTIVE FG%
+Baylor:      0.51    Yale:        0.463
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.09    Yale:        -0.12
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Baylor:      2.01    Yale:        2.54
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.20    Yale:        0.30
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Baylor:      -0.92    Yale:        0.12
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      -0.36    Yale:        -0.08
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Baylor:      1.81    Yale:        1.55
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.17    Yale:        0.15
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Baylor:      0.189    Yale:        0.201
+
+DEFENSIVE TURNOVER PERCENTAGE
+Baylor:      0.198    Yale:        0.182
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      -0.16    Yale:        -0.45
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Baylor:      80.20    Yale:        79.41
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Baylor:      0.402    Yale:        0.392
+
+DEFENSIVE REBOUND PERCENTAGE
+Baylor:      0.712    Yale:        0.76
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.59    Yale:        0.67
+
+
+
+WIN PERCENTAGE
+Baylor:      59.3 %    Yale:        40.7 %
+
+KEEP IN MIND:  Baylor(5) is expected to rank between 17-20 .  Yale(12) is expected to rank between 47-50
+
+ROUND OF 32 RANK
+Baylor:      19/68    Yale:        42/68
+
+SWEET 16 RANK
+Baylor:      21/68    Yale:        44/68
+
+ELITE 8 RANK
+Baylor:      16/68    Yale:        36/68
+
+FINAL 4 RANK
+Baylor:      22/68    Yale:        35/68
+
+NATIONAL CHAMPION RANK
+Baylor:      23/68    Yale:        40/68
+
+PROJECTED TOURNAMENT WINS
+Baylor:      1.11 (#19)    Yale:        0.54 (#41)

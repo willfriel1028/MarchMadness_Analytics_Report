@@ -1,0 +1,125 @@
+                Marquette(5) vs. Murray St.(12)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Marquette:   24.34    Murray St.:  12.081
+
+WINS ABOVE BUBBLE
+Marquette:   2.8    Murray St.:  1.3
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Marquette:   68.58    Murray St.:  69.01
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Marquette:   114.15    Murray St.:  112.04
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Marquette:   95.73    Murray St.:  98.71
+
+OFFENSIVE EFFECTIVE FG%
+Marquette:   0.541    Murray St.:  0.552
+
+DEFENSIVE EFFECTIVE FG%
+Marquette:   0.459    Murray St.:  0.464
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.20    Murray St.:  0.00
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Marquette:   -0.22    Murray St.:  3.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   -0.10    Murray St.:  0.30
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Marquette:   2.54    Murray St.:  1.64
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.05    Murray St.:  -0.05
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Marquette:   -0.09    Murray St.:  2.08
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.05    Murray St.:  0.35
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Marquette:   0.195    Murray St.:  0.172
+
+DEFENSIVE TURNOVER PERCENTAGE
+Marquette:   0.166    Murray St.:  0.195
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   -0.23    Murray St.:  0.29
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Marquette:   80.72    Murray St.:  79.74
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Marquette:   0.291    Murray St.:  0.324
+
+DEFENSIVE REBOUND PERCENTAGE
+Marquette:   0.738    Murray St.:  0.7
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.15    Murray St.:  0.29
+
+
+
+WIN PERCENTAGE
+Marquette:   50.8 %    Murray St.:  49.2 %
+
+KEEP IN MIND:  Marquette(5) is expected to rank between 17-20 .  Murray St.(12) is expected to rank between 47-50
+
+ROUND OF 32 RANK
+Marquette:   42/68    Murray St.:  38/68
+
+SWEET 16 RANK
+Marquette:   36/68    Murray St.:  35/68
+
+ELITE 8 RANK
+Marquette:   27/68    Murray St.:  46/68
+
+FINAL 4 RANK
+Marquette:   36/68    Murray St.:  31/68
+
+NATIONAL CHAMPION RANK
+Marquette:   36/68    Murray St.:  26/68
+
+PROJECTED TOURNAMENT WINS
+Marquette:   0.61 (#34)    Murray St.:  0.51 (#42)

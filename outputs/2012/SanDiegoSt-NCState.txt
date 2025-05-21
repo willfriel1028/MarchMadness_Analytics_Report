@@ -1,0 +1,125 @@
+                San Diego St.(6) vs. North Carolina St.(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+San Diego St.: 21.466    North Carolina St.: 25.85
+
+WINS ABOVE BUBBLE
+San Diego St.: 2.9    North Carolina St.: 0.5
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+San Diego St.: 65.11    North Carolina St.: 66.39
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+San Diego St.: 107.25    North Carolina St.: 111.85
+
+ADJUSTED DEFENSIVE EFFICIENCY
+San Diego St.: 94.76    North Carolina St.: 98.71
+
+OFFENSIVE EFFECTIVE FG%
+San Diego St.: 0.503    North Carolina St.: 0.509
+
+DEFENSIVE EFFECTIVE FG%
+San Diego St.: 0.466    North Carolina St.: 0.474
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+San Diego St.: -0.03    North Carolina St.: -0.02
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+San Diego St.: 3.65    North Carolina St.: 3.34
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+San Diego St.: 0.23    North Carolina St.: 0.15
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+San Diego St.: -1.17    North Carolina St.: -1.04
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+San Diego St.: 0.01    North Carolina St.: 0.01
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+San Diego St.: 2.76    North Carolina St.: 1.40
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+San Diego St.: -0.00    North Carolina St.: -0.19
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+San Diego St.: 0.189    North Carolina St.: 0.188
+
+DEFENSIVE TURNOVER PERCENTAGE
+San Diego St.: 0.187    North Carolina St.: 0.184
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+San Diego St.: 0.08    North Carolina St.: 0.06
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+San Diego St.: 79.72    North Carolina St.: 80.17
+
+OFFENSIVE REBOUNDING PERCENTAGE
+San Diego St.: 0.313    North Carolina St.: 0.358
+
+DEFENSIVE REBOUND PERCENTAGE
+San Diego St.: 0.728    North Carolina St.: 0.692
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+San Diego St.: -0.34    North Carolina St.: -0.06
+
+
+
+WIN PERCENTAGE
+San Diego St.: 52.7 %    North Carolina St.: 47.3 %
+
+KEEP IN MIND:  San Diego St.(6) is expected to rank between 21-24 .  North Carolina St.(11) is expected to rank between 41-44
+
+ROUND OF 32 RANK
+San Diego St.: 44/68    North Carolina St.: 39/68
+
+SWEET 16 RANK
+San Diego St.: 42/68    North Carolina St.: 43/68
+
+ELITE 8 RANK
+San Diego St.: 39/68    North Carolina St.: 44/68
+
+FINAL 4 RANK
+San Diego St.: 46/68    North Carolina St.: 43/68
+
+NATIONAL CHAMPION RANK
+San Diego St.: 52/68    North Carolina St.: 42/68
+
+PROJECTED TOURNAMENT WINS
+San Diego St.: 0.46 (#44)    North Carolina St.: 0.51 (#42)

@@ -1,0 +1,125 @@
+                North Carolina(1) vs. Auburn(5)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+North Carolina: 36.978    Auburn:      32.322
+
+WINS ABOVE BUBBLE
+North Carolina: 10.0    Auburn:      6.1
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+North Carolina: 74.29    Auburn:      67.54
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+North Carolina: 119.87    Auburn:      119.57
+
+ADJUSTED DEFENSIVE EFFICIENCY
+North Carolina: 90.70    Auburn:      96.24
+
+OFFENSIVE EFFECTIVE FG%
+North Carolina: 0.529    Auburn:      0.542
+
+DEFENSIVE EFFECTIVE FG%
+North Carolina: 0.483    Auburn:      0.518
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: 0.29    Auburn:      0.05
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+North Carolina: 3.77    Auburn:      0.20
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: -0.15    Auburn:      -0.58
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+North Carolina: -0.38    Auburn:      2.74
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: 0.31    Auburn:      0.80
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+North Carolina: 1.52    Auburn:      -1.40
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: 0.08    Auburn:      -0.31
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+North Carolina: 0.171    Auburn:      0.175
+
+DEFENSIVE TURNOVER PERCENTAGE
+North Carolina: 0.185    Auburn:      0.253
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: -0.46    Auburn:      0.06
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+North Carolina: 80.81    Auburn:      79.99
+
+OFFENSIVE REBOUNDING PERCENTAGE
+North Carolina: 0.346    Auburn:      0.327
+
+DEFENSIVE REBOUND PERCENTAGE
+North Carolina: 0.768    Auburn:      0.671
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+North Carolina: 0.70    Auburn:      0.21
+
+
+
+WIN PERCENTAGE
+North Carolina: 62.0 %    Auburn:      38.0 %
+
+KEEP IN MIND:  North Carolina(1) is expected to rank between 1-4 .  Auburn(5) is expected to rank between 17-20
+
+ROUND OF 32 RANK
+North Carolina: 6/68    Auburn:      13/68
+
+SWEET 16 RANK
+North Carolina: 7/68    Auburn:      10/68
+
+ELITE 8 RANK
+North Carolina: 5/68    Auburn:      4/68
+
+FINAL 4 RANK
+North Carolina: 8/68    Auburn:      10/68
+
+NATIONAL CHAMPION RANK
+North Carolina: 10/68    Auburn:      7/68
+
+PROJECTED TOURNAMENT WINS
+North Carolina: 2.43 (#5)    Auburn:      1.81 (#10)

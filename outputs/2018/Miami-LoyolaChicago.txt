@@ -1,0 +1,125 @@
+                Miami FL(6) vs. Loyola Chicago(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Miami FL:    28.51    Loyola Chicago: 14.914
+
+WINS ABOVE BUBBLE
+Miami FL:    2.7    Loyola Chicago: 2.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Miami FL:    67.06    Loyola Chicago: 65.32
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Miami FL:    113.31    Loyola Chicago: 111.33
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Miami FL:    97.60    Loyola Chicago: 96.19
+
+OFFENSIVE EFFECTIVE FG%
+Miami FL:    0.53    Loyola Chicago: 0.578
+
+DEFENSIVE EFFECTIVE FG%
+Miami FL:    0.488    Loyola Chicago: 0.473
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Miami FL:    -0.01    Loyola Chicago: -0.02
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Miami FL:    1.46    Loyola Chicago: 3.93
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Miami FL:    0.16    Loyola Chicago: 0.52
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Miami FL:    1.11    Loyola Chicago: 1.39
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Miami FL:    -0.10    Loyola Chicago: -0.05
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Miami FL:    -0.39    Loyola Chicago: 3.91
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Miami FL:    -0.81    Loyola Chicago: -0.21
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Miami FL:    0.165    Loyola Chicago: 0.188
+
+DEFENSIVE TURNOVER PERCENTAGE
+Miami FL:    0.189    Loyola Chicago: 0.2
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Miami FL:    -0.02    Loyola Chicago: -0.16
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Miami FL:    81.18    Loyola Chicago: 78.50
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Miami FL:    0.29    Loyola Chicago: 0.221
+
+DEFENSIVE REBOUND PERCENTAGE
+Miami FL:    0.717    Loyola Chicago: 0.741
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Miami FL:    -0.10    Loyola Chicago: -0.75
+
+
+
+WIN PERCENTAGE
+Miami FL:    49.2 %    Loyola Chicago: 50.8 %
+
+KEEP IN MIND:  Miami FL(6) is expected to rank between 21-24 .  Loyola Chicago(11) is expected to rank between 41-46
+
+ROUND OF 32 RANK
+Miami FL:    26/68    Loyola Chicago: 38/68
+
+SWEET 16 RANK
+Miami FL:    26/68    Loyola Chicago: 39/68
+
+ELITE 8 RANK
+Miami FL:    29/68    Loyola Chicago: 53/68
+
+FINAL 4 RANK
+Miami FL:    32/68    Loyola Chicago: 51/68
+
+NATIONAL CHAMPION RANK
+Miami FL:    25/68    Loyola Chicago: 37/68
+
+PROJECTED TOURNAMENT WINS
+Miami FL:    0.85 (#26)    Loyola Chicago: 0.47 (#45)

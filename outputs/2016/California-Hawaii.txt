@@ -1,0 +1,125 @@
+                California(4) vs. Hawaii(13)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+California:  27.208    Hawaii:      13.153
+
+WINS ABOVE BUBBLE
+California:  2.2    Hawaii:      0.8
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+California:  68.02    Hawaii:      70.52
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+California:  112.90    Hawaii:      108.24
+
+ADJUSTED DEFENSIVE EFFICIENCY
+California:  93.26    Hawaii:      96.51
+
+OFFENSIVE EFFECTIVE FG%
+California:  0.525    Hawaii:      0.525
+
+DEFENSIVE EFFECTIVE FG%
+California:  0.44    Hawaii:      0.449
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+California:  -0.09    Hawaii:      -0.41
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+California:  1.44    Hawaii:      2.50
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+California:  -0.01    Hawaii:      0.16
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+California:  1.57    Hawaii:      1.51
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+California:  -0.18    Hawaii:      -0.21
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+California:  0.41    Hawaii:      3.65
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+California:  0.17    Hawaii:      0.46
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+California:  0.175    Hawaii:      0.184
+
+DEFENSIVE TURNOVER PERCENTAGE
+California:  0.141    Hawaii:      0.199
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+California:  -0.19    Hawaii:      0.38
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+California:  82.18    Hawaii:      80.76
+
+OFFENSIVE REBOUNDING PERCENTAGE
+California:  0.324    Hawaii:      0.309
+
+DEFENSIVE REBOUND PERCENTAGE
+California:  0.743    Hawaii:      0.733
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+California:  0.24    Hawaii:      0.12
+
+
+
+WIN PERCENTAGE
+California:  56.4 %    Hawaii:      43.6 %
+
+KEEP IN MIND:  California(4) is expected to rank between 13-16 .  Hawaii(13) is expected to rank between 51-54
+
+ROUND OF 32 RANK
+California:  23/68    Hawaii:      47/68
+
+SWEET 16 RANK
+California:  23/68    Hawaii:      48/68
+
+ELITE 8 RANK
+California:  22/68    Hawaii:      47/68
+
+FINAL 4 RANK
+California:  23/68    Hawaii:      46/68
+
+NATIONAL CHAMPION RANK
+California:  24/68    Hawaii:      44/68
+
+PROJECTED TOURNAMENT WINS
+California:  0.99 (#21)    Hawaii:      0.41 (#47)

@@ -1,0 +1,125 @@
+                Creighton(6) vs. Rhode Island(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Creighton:   29.959    Rhode Island: 20.094
+
+WINS ABOVE BUBBLE
+Creighton:   4.3    Rhode Island: 0.4
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Creighton:   70.88    Rhode Island: 66.12
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Creighton:   115.64    Rhode Island: 110.67
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Creighton:   96.05    Rhode Island: 95.05
+
+OFFENSIVE EFFECTIVE FG%
+Creighton:   0.58    Rhode Island: 0.507
+
+DEFENSIVE EFFECTIVE FG%
+Creighton:   0.5    Rhode Island: 0.447
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Creighton:   0.03    Rhode Island: -0.11
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Creighton:   3.27    Rhode Island: 2.08
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Creighton:   0.43    Rhode Island: 0.30
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Creighton:   1.41    Rhode Island: 1.45
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Creighton:   -0.15    Rhode Island: -0.06
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Creighton:   0.47    Rhode Island: -2.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Creighton:   0.10    Rhode Island: -0.18
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Creighton:   0.171    Rhode Island: 0.166
+
+DEFENSIVE TURNOVER PERCENTAGE
+Creighton:   0.196    Rhode Island: 0.195
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Creighton:   0.22    Rhode Island: 0.26
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Creighton:   81.78    Rhode Island: 79.82
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Creighton:   0.241    Rhode Island: 0.331
+
+DEFENSIVE REBOUND PERCENTAGE
+Creighton:   0.703    Rhode Island: 0.707
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Creighton:   -0.61    Rhode Island: 0.21
+
+
+
+WIN PERCENTAGE
+Creighton:   56.4 %    Rhode Island: 43.6 %
+
+KEEP IN MIND:  Creighton(6) is expected to rank between 21-24 .  Rhode Island(11) is expected to rank between 41-46
+
+ROUND OF 32 RANK
+Creighton:   25/68    Rhode Island: 41/68
+
+SWEET 16 RANK
+Creighton:   25/68    Rhode Island: 44/68
+
+ELITE 8 RANK
+Creighton:   27/68    Rhode Island: 45/68
+
+FINAL 4 RANK
+Creighton:   27/68    Rhode Island: 46/68
+
+NATIONAL CHAMPION RANK
+Creighton:   26/68    Rhode Island: 36/68
+
+PROJECTED TOURNAMENT WINS
+Creighton:   0.95 (#27)    Rhode Island: 0.50 (#41)

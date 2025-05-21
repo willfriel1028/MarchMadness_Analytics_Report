@@ -1,0 +1,125 @@
+                Temple(5) vs. South Florida(12)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Temple:      24.848    South Florida: 28.86
+
+WINS ABOVE BUBBLE
+Temple:      4.2    South Florida: 0.1
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Temple:      65.27    South Florida: 57.93
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Temple:      114.09    South Florida: 102.79
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Temple:      98.55    South Florida: 91.31
+
+OFFENSIVE EFFECTIVE FG%
+Temple:      0.532    South Florida: 0.482
+
+DEFENSIVE EFFECTIVE FG%
+Temple:      0.486    South Florida: 0.443
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Temple:      -0.10    South Florida: -0.22
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Temple:      0.56    South Florida: 1.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Temple:      0.10    South Florida: 0.27
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Temple:      1.51    South Florida: -0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Temple:      0.14    South Florida: -0.34
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Temple:      0.70    South Florida: 0.10
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Temple:      -0.03    South Florida: -0.11
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Temple:      0.179    South Florida: 0.228
+
+DEFENSIVE TURNOVER PERCENTAGE
+Temple:      0.194    South Florida: 0.187
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Temple:      0.15    South Florida: -0.34
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Temple:      79.37    South Florida: 80.59
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Temple:      0.313    South Florida: 0.342
+
+DEFENSIVE REBOUND PERCENTAGE
+Temple:      0.686    South Florida: 0.69
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Temple:      -0.33    South Florida: -0.02
+
+
+
+WIN PERCENTAGE
+Temple:      62.8 %    South Florida: 37.2 %
+
+KEEP IN MIND:  Temple(5) is expected to rank between 17-20 .  South Florida(12) is expected to rank between 45-49
+
+ROUND OF 32 RANK
+Temple:      34/68    South Florida: 48/68
+
+SWEET 16 RANK
+Temple:      32/68    South Florida: 50/68
+
+ELITE 8 RANK
+Temple:      26/68    South Florida: 55/68
+
+FINAL 4 RANK
+Temple:      37/68    South Florida: 51/68
+
+NATIONAL CHAMPION RANK
+Temple:      32/68    South Florida: 48/68
+
+PROJECTED TOURNAMENT WINS
+Temple:      0.69 (#29)    South Florida: 0.35 (#50)

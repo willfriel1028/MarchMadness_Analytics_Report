@@ -1,0 +1,125 @@
+                Kentucky(1) vs. Baylor(3)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Kentucky:    27.605    Baylor:      30.445
+
+WINS ABOVE BUBBLE
+Kentucky:    11.3    Baylor:      7.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Kentucky:    64.08    Baylor:      64.81
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Kentucky:    120.57    Baylor:      115.66
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Kentucky:    88.84    Baylor:      94.24
+
+OFFENSIVE EFFECTIVE FG%
+Kentucky:    0.534    Baylor:      0.526
+
+DEFENSIVE EFFECTIVE FG%
+Kentucky:    0.416    Baylor:      0.472
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kentucky:    0.28    Baylor:      -0.16
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Kentucky:    6.03    Baylor:      2.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kentucky:    0.39    Baylor:      -0.18
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Kentucky:    0.32    Baylor:      0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kentucky:    0.00    Baylor:      0.03
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Kentucky:    5.21    Baylor:      2.47
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kentucky:    0.17    Baylor:      -0.17
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Kentucky:    0.172    Baylor:      0.206
+
+DEFENSIVE TURNOVER PERCENTAGE
+Kentucky:    0.181    Baylor:      0.213
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kentucky:    -0.01    Baylor:      -0.04
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Kentucky:    81.48    Baylor:      81.69
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Kentucky:    0.384    Baylor:      0.376
+
+DEFENSIVE REBOUND PERCENTAGE
+Kentucky:    0.69    Baylor:      0.671
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kentucky:    0.44    Baylor:      0.28
+
+
+
+WIN PERCENTAGE
+Kentucky:    73.5 %    Baylor:      26.5 %
+
+KEEP IN MIND:  Kentucky(1) is expected to rank between 1-4 .  Baylor(3) is expected to rank between 9-12
+
+ROUND OF 32 RANK
+Kentucky:    1/68    Baylor:      12/68
+
+SWEET 16 RANK
+Kentucky:    1/68    Baylor:      11/68
+
+ELITE 8 RANK
+Kentucky:    1/68    Baylor:      10/68
+
+FINAL 4 RANK
+Kentucky:    2/68    Baylor:      14/68
+
+NATIONAL CHAMPION RANK
+Kentucky:    2/68    Baylor:      13/68
+
+PROJECTED TOURNAMENT WINS
+Kentucky:    5.00 (#1)    Baylor:      1.58 (#10)

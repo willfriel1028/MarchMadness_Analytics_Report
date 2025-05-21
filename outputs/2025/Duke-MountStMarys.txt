@@ -1,0 +1,125 @@
+                Duke(1) vs. Mount St. Mary's(16)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Duke:        30.63    Mount St. Mary's: 8.934
+
+WINS ABOVE BUBBLE
+Duke:        9.6    Mount St. Mary's: -8.2
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Duke:        65.80    Mount St. Mary's: 67.44
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Duke:        128.00    Mount St. Mary's: 100.19
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Duke:        89.85    Mount St. Mary's: 106.86
+
+OFFENSIVE EFFECTIVE FG%
+Duke:        0.574    Mount St. Mary's: 0.51
+
+DEFENSIVE EFFECTIVE FG%
+Duke:        0.445    Mount St. Mary's: 0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.78    Mount St. Mary's: -0.88
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Duke:        3.28    Mount St. Mary's: 0.28
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        -0.11    Mount St. Mary's: -0.56
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Duke:        3.34    Mount St. Mary's: -0.36
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.66    Mount St. Mary's: -0.04
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Duke:        4.19    Mount St. Mary's: 0.08
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.22    Mount St. Mary's: -0.22
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Duke:        0.144    Mount St. Mary's: 0.217
+
+DEFENSIVE TURNOVER PERCENTAGE
+Duke:        0.177    Mount St. Mary's: 0.159
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.30    Mount St. Mary's: -0.55
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Duke:        82.22    Mount St. Mary's: 80.42
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Duke:        0.352    Mount St. Mary's: 0.311
+
+DEFENSIVE REBOUND PERCENTAGE
+Duke:        0.735    Mount St. Mary's: 0.717
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.45    Mount St. Mary's: 0.13
+
+
+
+WIN PERCENTAGE
+Duke:        97.3 %    Mount St. Mary's: 2.7 %
+
+KEEP IN MIND:  Duke(1) is expected to rank between 1-4 .  Mount St. Mary's(16) is expected to rank between 63-68
+
+ROUND OF 32 RANK
+Duke:        2/68    Mount St. Mary's: 67/68
+
+SWEET 16 RANK
+Duke:        1/68    Mount St. Mary's: 65/68
+
+ELITE 8 RANK
+Duke:        3/68    Mount St. Mary's: 66/68
+
+FINAL 4 RANK
+Duke:        1/68    Mount St. Mary's: 65/68
+
+NATIONAL CHAMPION RANK
+Duke:        1/68    Mount St. Mary's: 65/68
+
+PROJECTED TOURNAMENT WINS
+Duke:        4.51 (#2)    Mount St. Mary's: 0.05 (#67)
