@@ -1,0 +1,144 @@
+                UCLA(11) vs. Abilene Christian(14)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+UCLA:        34.379    Abilene Christian: 9.607
+
+WINS ABOVE BUBBLE
+UCLA:        2.6    Abilene Christian: -1.1
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+UCLA:        64.69    Abilene Christian: 69.95
+Suggestion: Look at the teams' respective Efficiency Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+UCLA:        113.40    Abilene Christian: 103.05
+
+ADJUSTED DEFENSIVE EFFICIENCY
+UCLA:        97.49    Abilene Christian: 92.92
+
+OFFENSIVE EFFECTIVE FG%
+UCLA:        0.52    Abilene Christian: 0.529
+
+DEFENSIVE EFFECTIVE FG%
+UCLA:        0.507    Abilene Christian: 0.454
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.02    Abilene Christian: -0.21
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+UCLA:        2.56    Abilene Christian: 2.52
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+UCLA:        2.61    Abilene Christian: 2.38
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.09    Abilene Christian: -0.09
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.02    Abilene Christian: 0.02
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+UCLA:        -1.03    Abilene Christian: 2.69
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+UCLA:        -1.05    Abilene Christian: 2.53
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.47    Abilene Christian: 0.38
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.35    Abilene Christian: 0.45
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+UCLA:        1.99    Abilene Christian: -2.39
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+UCLA:        2.03    Abilene Christian: -2.26
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.39    Abilene Christian: -0.09
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.40    Abilene Christian: -0.11
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+UCLA:        0.167    Abilene Christian: 0.194
+
+DEFENSIVE TURNOVER PERCENTAGE
+UCLA:        0.176    Abilene Christian: 0.267
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.44    Abilene Christian: 0.04
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+UCLA:        79.63    Abilene Christian: 79.77
+
+OFFENSIVE REBOUNDING PERCENTAGE
+UCLA:        0.308    Abilene Christian: 0.306
+
+DEFENSIVE REBOUND PERCENTAGE
+UCLA:        0.758    Abilene Christian: 0.721
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.12    Abilene Christian: -0.01
+
+
+
+WIN PERCENTAGE
+UCLA:        56.5 %    Abilene Christian: 43.5 %
+
+KEEP IN MIND:  UCLA(11) is expected to rank between 41-46 .  Abilene Christian(14) is expected to rank between 55-58
+
+ROUND OF 32 RANK
+UCLA:        35/68    Abilene Christian: 50/68
+
+SWEET 16 RANK
+UCLA:        33/68    Abilene Christian: 54/68
+
+ELITE 8 RANK
+UCLA:        33/68    Abilene Christian: 54/68
+
+FINAL 4 RANK
+UCLA:        35/68    Abilene Christian: 51/68
+
+NATIONAL CHAMPION RANK
+UCLA:        41/68    Abilene Christian: 51/68
+
+PROJECTED TOURNAMENT WINS
+UCLA:        0.83 (#33)    Abilene Christian: 0.31 (#54)

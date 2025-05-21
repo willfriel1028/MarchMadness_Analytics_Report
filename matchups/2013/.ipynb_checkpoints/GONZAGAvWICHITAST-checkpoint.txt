@@ -1,0 +1,144 @@
+                Gonzaga(1) vs. Wichita St.(9)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Gonzaga:     22.395    Wichita St.: 22.177
+
+WINS ABOVE BUBBLE
+Gonzaga:     7.6    Wichita St.: 2.2
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Gonzaga:     62.47    Wichita St.: 62.42
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Gonzaga:     120.83    Wichita St.: 109.97
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Gonzaga:     91.88    Wichita St.: 92.58
+
+OFFENSIVE EFFECTIVE FG%
+Gonzaga:     0.555    Wichita St.: 0.502
+
+DEFENSIVE EFFECTIVE FG%
+Gonzaga:     0.442    Wichita St.: 0.46
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.28    Wichita St.: -0.07
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Gonzaga:     7.05    Wichita St.: 2.30
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Gonzaga:     7.45    Wichita St.: 2.44
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.05    Wichita St.: -0.60
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.21    Wichita St.: -0.48
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Gonzaga:     -0.11    Wichita St.: 0.00
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Gonzaga:     -0.11    Wichita St.: 0.00
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.22    Wichita St.: 0.24
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.34    Wichita St.: 0.36
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Gonzaga:     4.70    Wichita St.: -0.96
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Gonzaga:     4.96    Wichita St.: -1.01
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.38    Wichita St.: -0.29
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.49    Wichita St.: -0.24
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.171    Wichita St.: 0.198
+
+DEFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.209    Wichita St.: 0.204
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.08    Wichita St.: -0.21
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Gonzaga:     81.97    Wichita St.: 80.75
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Gonzaga:     0.374    Wichita St.: 0.38
+
+DEFENSIVE REBOUND PERCENTAGE
+Gonzaga:     0.698    Wichita St.: 0.747
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.12    Wichita St.: 0.34
+
+
+
+WIN PERCENTAGE
+Gonzaga:     73.3 %    Wichita St.: 26.7 %
+
+KEEP IN MIND:  Gonzaga(1) is expected to rank between 1-4 .  Wichita St.(9) is expected to rank between 33-36
+
+ROUND OF 32 RANK
+Gonzaga:     5/68    Wichita St.: 38/68
+
+SWEET 16 RANK
+Gonzaga:     5/68    Wichita St.: 37/68
+
+ELITE 8 RANK
+Gonzaga:     4/68    Wichita St.: 30/68
+
+FINAL 4 RANK
+Gonzaga:     5/68    Wichita St.: 39/68
+
+NATIONAL CHAMPION RANK
+Gonzaga:     5/68    Wichita St.: 38/68
+
+PROJECTED TOURNAMENT WINS
+Gonzaga:     2.63 (#3)    Wichita St.: 0.75 (#38)

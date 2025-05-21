@@ -1,0 +1,144 @@
+                Michigan(5) vs. UC San Diego(12)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Michigan:    37.294    UC San Diego: 12.106
+
+WINS ABOVE BUBBLE
+Michigan:    6.2    UC San Diego: 1.2
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Michigan:    69.60    UC San Diego: 65.73
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Michigan:    116.79    UC San Diego: 115.29
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Michigan:    94.97    UC San Diego: 96.51
+
+OFFENSIVE EFFECTIVE FG%
+Michigan:    0.545    UC San Diego: 0.554
+
+DEFENSIVE EFFECTIVE FG%
+Michigan:    0.463    UC San Diego: 0.477
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    0.01    UC San Diego: -0.10
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Michigan:    2.12    UC San Diego: 3.12
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Michigan:    2.01    UC San Diego: 3.13
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    -0.41    UC San Diego: -0.22
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    -0.50    UC San Diego: -0.28
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Michigan:    0.81    UC San Diego: 2.91
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Michigan:    0.76    UC San Diego: 2.92
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    0.30    UC San Diego: 0.62
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    0.21    UC San Diego: 0.55
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Michigan:    2.31    UC San Diego: 3.61
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Michigan:    2.19    UC San Diego: 3.63
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    0.08    UC San Diego: 0.23
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    0.05    UC San Diego: 0.20
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Michigan:    0.198    UC San Diego: 0.134
+
+DEFENSIVE TURNOVER PERCENTAGE
+Michigan:    0.16    UC San Diego: 0.233
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    -0.85    UC San Diego: 0.41
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Michigan:    83.40    UC San Diego: 78.92
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Michigan:    0.332    UC San Diego: 0.256
+
+DEFENSIVE REBOUND PERCENTAGE
+Michigan:    0.702    UC San Diego: 0.716
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Michigan:    0.32    UC San Diego: -0.19
+
+
+
+WIN PERCENTAGE
+Michigan:    48.2 %    UC San Diego: 51.8 %
+
+KEEP IN MIND:  Michigan(5) is expected to rank between 17-20 .  UC San Diego(12) is expected to rank between 47-50
+
+ROUND OF 32 RANK
+Michigan:    16/68    UC San Diego: 34/68
+
+SWEET 16 RANK
+Michigan:    8/68    UC San Diego: 38/68
+
+ELITE 8 RANK
+Michigan:    13/68    UC San Diego: 41/68
+
+FINAL 4 RANK
+Michigan:    7/68    UC San Diego: 33/68
+
+NATIONAL CHAMPION RANK
+Michigan:    8/68    UC San Diego: 34/68
+
+PROJECTED TOURNAMENT WINS
+Michigan:    1.15 (#14)    UC San Diego: 0.66 (#36)

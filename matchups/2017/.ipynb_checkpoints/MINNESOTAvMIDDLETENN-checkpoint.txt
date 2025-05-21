@@ -1,0 +1,144 @@
+                Minnesota(5) vs. Middle Tennessee(12)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Minnesota:   28.647    Middle Tennessee: 12.053
+
+WINS ABOVE BUBBLE
+Minnesota:   3.7    Middle Tennessee: 2.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Minnesota:   69.39    Middle Tennessee: 64.25
+Suggestion: Look at the teams' respective Efficiency Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Minnesota:   109.57    Middle Tennessee: 111.64
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Minnesota:   92.98    Middle Tennessee: 96.98
+
+OFFENSIVE EFFECTIVE FG%
+Minnesota:   0.486    Middle Tennessee: 0.543
+
+DEFENSIVE EFFECTIVE FG%
+Minnesota:   0.449    Middle Tennessee: 0.474
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   -0.11    Middle Tennessee: -0.20
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Minnesota:   2.44    Middle Tennessee: 4.83
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Minnesota:   2.32    Middle Tennessee: 4.97
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   0.09    Middle Tennessee: 0.34
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   0.13    Middle Tennessee: 0.43
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Minnesota:   0.12    Middle Tennessee: 0.18
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Minnesota:   0.12    Middle Tennessee: 0.19
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   -0.17    Middle Tennessee: -0.16
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   -0.21    Middle Tennessee: -0.20
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Minnesota:   4.52    Middle Tennessee: -2.60
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Minnesota:   4.30    Middle Tennessee: -2.67
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   0.47    Middle Tennessee: -0.22
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   0.47    Middle Tennessee: -0.33
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Minnesota:   0.162    Middle Tennessee: 0.156
+
+DEFENSIVE TURNOVER PERCENTAGE
+Minnesota:   0.177    Middle Tennessee: 0.202
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   0.25    Middle Tennessee: 0.55
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Minnesota:   81.15    Middle Tennessee: 80.21
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Minnesota:   0.301    Middle Tennessee: 0.302
+
+DEFENSIVE REBOUND PERCENTAGE
+Minnesota:   0.7    Middle Tennessee: 0.757
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Minnesota:   -0.22    Middle Tennessee: -0.01
+
+
+
+WIN PERCENTAGE
+Minnesota:   54.9 %    Middle Tennessee: 45.1 %
+
+KEEP IN MIND:  Minnesota(5) is expected to rank between 17-20 .  Middle Tennessee(12) is expected to rank between 47-50
+
+ROUND OF 32 RANK
+Minnesota:   27/68    Middle Tennessee: 39/68
+
+SWEET 16 RANK
+Minnesota:   29/68    Middle Tennessee: 38/68
+
+ELITE 8 RANK
+Minnesota:   40/68    Middle Tennessee: 38/68
+
+FINAL 4 RANK
+Minnesota:   29/68    Middle Tennessee: 41/68
+
+NATIONAL CHAMPION RANK
+Minnesota:   27/68    Middle Tennessee: 44/68
+
+PROJECTED TOURNAMENT WINS
+Minnesota:   0.67 (#30)    Middle Tennessee: 0.53 (#40)

@@ -1,0 +1,144 @@
+                Mississippi St.(8) vs. Baylor(9)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Mississippi St.: 38.324    Baylor:      42.981
+
+WINS ABOVE BUBBLE
+Mississippi St.: 3.0    Baylor:      2.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Mississippi St.: 68.20    Baylor:      64.60
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Mississippi St.: 118.79    Baylor:      120.89
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Mississippi St.: 98.70    Baylor:      99.73
+
+OFFENSIVE EFFECTIVE FG%
+Mississippi St.: 0.517    Baylor:      0.515
+
+DEFENSIVE EFFECTIVE FG%
+Mississippi St.: 0.519    Baylor:      0.512
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.21    Baylor:      0.24
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Mississippi St.: 3.00    Baylor:      1.13
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Mississippi St.: 2.90    Baylor:      1.15
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: -0.06    Baylor:      -0.28
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.01    Baylor:      -0.25
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Mississippi St.: -1.12    Baylor:      -0.02
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Mississippi St.: -1.09    Baylor:      -0.02
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.29    Baylor:      0.48
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.26    Baylor:      0.46
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Mississippi St.: -1.17    Baylor:      -0.03
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Mississippi St.: -1.14    Baylor:      -0.03
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.15    Baylor:      0.26
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.17    Baylor:      0.28
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Mississippi St.: 0.151    Baylor:      0.161
+
+DEFENSIVE TURNOVER PERCENTAGE
+Mississippi St.: 0.19    Baylor:      0.188
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: -0.05    Baylor:      -0.17
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Mississippi St.: 80.47    Baylor:      79.57
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Mississippi St.: 0.341    Baylor:      0.356
+
+DEFENSIVE REBOUND PERCENTAGE
+Mississippi St.: 0.705    Baylor:      0.688
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.47    Baylor:      0.51
+
+
+
+WIN PERCENTAGE
+Mississippi St.: 49.9 %    Baylor:      50.1 %
+
+KEEP IN MIND:  Mississippi St.(8) is expected to rank between 29-32 .  Baylor(9) is expected to rank between 33-36
+
+ROUND OF 32 RANK
+Mississippi St.: 32/68    Baylor:      29/68
+
+SWEET 16 RANK
+Mississippi St.: 33/68    Baylor:      31/68
+
+ELITE 8 RANK
+Mississippi St.: 22/68    Baylor:      26/68
+
+FINAL 4 RANK
+Mississippi St.: 35/68    Baylor:      32/68
+
+NATIONAL CHAMPION RANK
+Mississippi St.: 37/68    Baylor:      31/68
+
+PROJECTED TOURNAMENT WINS
+Mississippi St.: 0.85 (#29)    Baylor:      0.90 (#28)

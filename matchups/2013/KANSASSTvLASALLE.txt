@@ -1,0 +1,144 @@
+                Kansas St.(4) vs. La Salle(13)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Kansas St.:  29.676    La Salle:    23.333
+
+WINS ABOVE BUBBLE
+Kansas St.:  5.4    La Salle:    0.3
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Kansas St.:  60.99    La Salle:    64.37
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Kansas St.:  113.29    La Salle:    110.55
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Kansas St.:  95.03    La Salle:    97.24
+
+OFFENSIVE EFFECTIVE FG%
+Kansas St.:  0.492    La Salle:    0.515
+
+DEFENSIVE EFFECTIVE FG%
+Kansas St.:  0.474    La Salle:    0.492
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  0.23    La Salle:    0.07
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Kansas St.:  -0.05    La Salle:    -2.40
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Kansas St.:  -0.05    La Salle:    -2.46
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  0.22    La Salle:    -0.08
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  0.38    La Salle:    0.06
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Kansas St.:  1.42    La Salle:    3.39
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Kansas St.:  1.54    La Salle:    3.47
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  -0.37    La Salle:    0.11
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  -0.30    La Salle:    0.21
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Kansas St.:  -1.56    La Salle:    2.11
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Kansas St.:  -1.68    La Salle:    2.16
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  -0.49    La Salle:    -0.01
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  -0.47    La Salle:    0.05
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Kansas St.:  0.182    La Salle:    0.173
+
+DEFENSIVE TURNOVER PERCENTAGE
+Kansas St.:  0.224    La Salle:    0.22
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  -0.15    La Salle:    -0.10
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Kansas St.:  79.71    La Salle:    79.02
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Kansas St.:  0.385    La Salle:    0.296
+
+DEFENSIVE REBOUND PERCENTAGE
+Kansas St.:  0.66    La Salle:    0.671
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Kansas St.:  0.48    La Salle:    -0.17
+
+
+
+WIN PERCENTAGE
+Kansas St.:  58.5 %    La Salle:    41.5 %
+
+KEEP IN MIND:  Kansas St.(4) is expected to rank between 13-16 .  La Salle(13) is expected to rank between 50-54
+
+ROUND OF 32 RANK
+Kansas St.:  20/68    La Salle:    47/68
+
+SWEET 16 RANK
+Kansas St.:  25/68    La Salle:    46/68
+
+ELITE 8 RANK
+Kansas St.:  20/68    La Salle:    49/68
+
+FINAL 4 RANK
+Kansas St.:  24/68    La Salle:    48/68
+
+NATIONAL CHAMPION RANK
+Kansas St.:  19/68    La Salle:    41/68
+
+PROJECTED TOURNAMENT WINS
+Kansas St.:  1.08 (#18)    La Salle:    0.51 (#44)

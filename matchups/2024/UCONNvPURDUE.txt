@@ -1,0 +1,144 @@
+                Connecticut(1) vs. Purdue(1)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Connecticut: 33.643    Purdue:      36.076
+
+WINS ABOVE BUBBLE
+Connecticut: 11.3    Purdue:      11.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Connecticut: 64.45    Purdue:      67.38
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Connecticut: 126.61    Purdue:      124.99
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Connecticut: 94.39    Purdue:      95.87
+
+OFFENSIVE EFFECTIVE FG%
+Connecticut: 0.571    Purdue:      0.56
+
+DEFENSIVE EFFECTIVE FG%
+Connecticut: 0.451    Purdue:      0.477
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.36    Purdue:      0.26
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Connecticut: 3.20    Purdue:      1.95
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Connecticut: 3.27    Purdue:      1.91
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.28    Purdue:      0.14
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.37    Purdue:      0.20
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Connecticut: 2.51    Purdue:      1.27
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Connecticut: 2.57    Purdue:      1.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.17    Purdue:      -0.12
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.25    Purdue:      -0.05
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Connecticut: 1.00    Purdue:      7.83
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Connecticut: 1.03    Purdue:      7.67
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: -0.07    Purdue:      0.52
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: -0.06    Purdue:      0.60
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Connecticut: 0.149    Purdue:      0.165
+
+DEFENSIVE TURNOVER PERCENTAGE
+Connecticut: 0.162    Purdue:      0.14
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.48    Purdue:      0.10
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Connecticut: 81.57    Purdue:      83.25
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Connecticut: 0.365    Purdue:      0.374
+
+DEFENSIVE REBOUND PERCENTAGE
+Connecticut: 0.732    Purdue:      0.753
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.41    Purdue:      0.54
+
+
+
+WIN PERCENTAGE
+Connecticut: 55.2 %    Purdue:      44.8 %
+
+KEEP IN MIND:  Connecticut(1) is expected to rank between 1-4 .  Purdue(1) is expected to rank between 1-4
+
+ROUND OF 32 RANK
+Connecticut: 1/68    Purdue:      4/68
+
+SWEET 16 RANK
+Connecticut: 1/68    Purdue:      4/68
+
+ELITE 8 RANK
+Connecticut: 1/68    Purdue:      3/68
+
+FINAL 4 RANK
+Connecticut: 1/68    Purdue:      5/68
+
+NATIONAL CHAMPION RANK
+Connecticut: 1/68    Purdue:      5/68
+
+PROJECTED TOURNAMENT WINS
+Connecticut: 4.94 (#1)    Purdue:      2.94 (#3)

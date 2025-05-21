@@ -1,0 +1,144 @@
+                Iowa St.(2) vs. Illinois(3)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Iowa St.:    33.017    Illinois:    32.635
+
+WINS ABOVE BUBBLE
+Iowa St.:    6.9    Illinois:    6.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Iowa St.:    67.34    Illinois:    69.89
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Iowa St.:    113.86    Illinois:    125.55
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Iowa St.:    87.15    Illinois:    101.56
+
+OFFENSIVE EFFECTIVE FG%
+Iowa St.:    0.519    Illinois:    0.538
+
+DEFENSIVE EFFECTIVE FG%
+Iowa St.:    0.471    Illinois:    0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    0.18    Illinois:    -0.02
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Iowa St.:    7.05    Illinois:    -0.57
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Iowa St.:    6.91    Illinois:    -0.54
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    0.68    Illinois:    -0.18
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    0.66    Illinois:    -0.36
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Iowa St.:    -0.75    Illinois:    2.07
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Iowa St.:    -0.74    Illinois:    1.95
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    -0.43    Illinois:    0.18
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    -0.50    Illinois:    0.14
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Iowa St.:    1.69    Illinois:    4.83
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Iowa St.:    1.66    Illinois:    4.56
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    0.24    Illinois:    0.48
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    0.18    Illinois:    0.46
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Iowa St.:    0.157    Illinois:    0.151
+
+DEFENSIVE TURNOVER PERCENTAGE
+Iowa St.:    0.257    Illinois:    0.123
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    0.59    Illinois:    -0.47
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Iowa St.:    80.57    Illinois:    80.64
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Iowa St.:    0.316    Illinois:    0.362
+
+DEFENSIVE REBOUND PERCENTAGE
+Iowa St.:    0.706    Illinois:    0.739
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Iowa St.:    0.12    Illinois:    0.54
+
+
+
+WIN PERCENTAGE
+Iowa St.:    62.1 %    Illinois:    37.9 %
+
+KEEP IN MIND:  Iowa St.(2) is expected to rank between 5-8 .  Illinois(3) is expected to rank between 9-12
+
+ROUND OF 32 RANK
+Iowa St.:    3/68    Illinois:    9/68
+
+SWEET 16 RANK
+Iowa St.:    2/68    Illinois:    6/68
+
+ELITE 8 RANK
+Iowa St.:    4/68    Illinois:    6/68
+
+FINAL 4 RANK
+Iowa St.:    2/68    Illinois:    6/68
+
+NATIONAL CHAMPION RANK
+Iowa St.:    4/68    Illinois:    6/68
+
+PROJECTED TOURNAMENT WINS
+Iowa St.:    2.85 (#4)    Illinois:    1.94 (#6)

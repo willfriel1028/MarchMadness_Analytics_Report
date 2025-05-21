@@ -1,0 +1,142 @@
+                Wisconsin(3) vs. Montana(14)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Wisconsin:   35.559    Montana:     15.101
+
+WINS ABOVE BUBBLE
+Wisconsin:   5.9    Montana:     -3.1
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Wisconsin:   67.75    Montana:     67.11
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Wisconsin:   123.28    Montana:     110.84
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Wisconsin:   96.83    Montana:     110.44
+
+OFFENSIVE EFFECTIVE FG%
+Wisconsin:   0.536    Montana:     0.564
+
+DEFENSIVE EFFECTIVE FG%
+Wisconsin:   0.479    Montana:     0.522
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.76    Montana:     -0.18
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Wisconsin:   0.01    Montana:     0.79
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Wisconsin:   0.01    Montana:     0.78
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.19    Montana:     0.27
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.24    Montana:     0.33
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Wisconsin:   2.30    Montana:     0.87
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Wisconsin:   2.24    Montana:     0.85
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.46    Montana:     0.25
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.39    Montana:     0.17
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Wisconsin:   4.65    Montana:     2.25
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Wisconsin:   4.53    Montana:     2.22
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.50    Montana:     0.27
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.48    Montana:     0.25
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Wisconsin:   0.141    Montana:     0.162
+
+DEFENSIVE TURNOVER PERCENTAGE
+Wisconsin:   0.145    Montana:     0.155
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   0.38    Montana:     0.26
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Wisconsin:   81.78    Montana:     78.53
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Wisconsin:   0.28    Montana:     0.226
+
+DEFENSIVE REBOUND PERCENTAGE
+Wisconsin:   0.734    Montana:     0.71
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Wisconsin:   -0.02    Montana:     -0.56
+
+
+
+WIN PERCENTAGE
+Wisconsin:   86.3 %    Montana:     13.7 %
+
+ROUND OF 32 RANK
+Wisconsin:   22/68    Montana:     60/68
+
+SWEET 16 RANK
+Wisconsin:   17/68    Montana:     58/68
+
+ELITE 8 RANK
+Wisconsin:   20/68    Montana:     58/68
+
+FINAL 4 RANK
+Wisconsin:   16/68    Montana:     61/68
+
+NATIONAL CHAMPION RANK
+Wisconsin:   22/68    Montana:     60/68
+
+PROJECTED TOURNAMENT WINS
+Wisconsin:   1.12 (#18)    Montana:     0.13 (#60)

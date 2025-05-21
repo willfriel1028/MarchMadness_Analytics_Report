@@ -1,0 +1,144 @@
+                Arizona(4) vs. Oregon(5)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Arizona:     44.259    Oregon:      35.999
+
+WINS ABOVE BUBBLE
+Arizona:     5.4    Oregon:      5.3
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Arizona:     69.93    Oregon:      67.67
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Arizona:     122.57    Oregon:      116.64
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Arizona:     96.82    Oregon:      96.49
+
+OFFENSIVE EFFECTIVE FG%
+Arizona:     0.529    Oregon:      0.522
+
+DEFENSIVE EFFECTIVE FG%
+Arizona:     0.486    Oregon:      0.491
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.20    Oregon:      0.02
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Arizona:     5.12    Oregon:      1.00
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Arizona:     4.84    Oregon:      0.98
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.46    Oregon:      0.01
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.46    Oregon:      -0.09
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Arizona:     -1.64    Oregon:      0.83
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Arizona:     -1.55    Oregon:      0.81
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     -0.13    Oregon:      0.36
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     -0.28    Oregon:      0.23
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Arizona:     4.64    Oregon:      3.41
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Arizona:     4.38    Oregon:      3.32
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.33    Oregon:      0.26
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.26    Oregon:      0.19
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Arizona:     0.162    Oregon:      0.162
+
+DEFENSIVE TURNOVER PERCENTAGE
+Arizona:     0.166    Oregon:      0.176
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     -0.06    Oregon:      0.04
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Arizona:     80.50    Oregon:      81.55
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Arizona:     0.359    Oregon:      0.306
+
+DEFENSIVE REBOUND PERCENTAGE
+Arizona:     0.715    Oregon:      0.708
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.52    Oregon:      0.15
+
+
+
+WIN PERCENTAGE
+Arizona:     56.9 %    Oregon:      43.1 %
+
+KEEP IN MIND:  Arizona(4) is expected to rank between 13-16 .  Oregon(5) is expected to rank between 17-20
+
+ROUND OF 32 RANK
+Arizona:     11/68    Oregon:      31/68
+
+SWEET 16 RANK
+Arizona:     11/68    Oregon:      29/68
+
+ELITE 8 RANK
+Arizona:     12/68    Oregon:      30/68
+
+FINAL 4 RANK
+Arizona:     13/68    Oregon:      31/68
+
+NATIONAL CHAMPION RANK
+Arizona:     12/68    Oregon:      32/68
+
+PROJECTED TOURNAMENT WINS
+Arizona:     1.38 (#11)    Oregon:      0.81 (#32)

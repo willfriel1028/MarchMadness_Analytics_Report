@@ -1,0 +1,144 @@
+                Ohio St.(2) vs. Oral Roberts(15)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Ohio St.:    39.398    Oral Roberts: 16.652
+
+WINS ABOVE BUBBLE
+Ohio St.:    6.0    Oral Roberts: -4.9
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Ohio St.:    67.08    Oral Roberts: 71.76
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Ohio St.:    122.27    Oral Roberts: 108.66
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Ohio St.:    96.85    Oral Roberts: 107.44
+
+OFFENSIVE EFFECTIVE FG%
+Ohio St.:    0.531    Oral Roberts: 0.536
+
+DEFENSIVE EFFECTIVE FG%
+Ohio St.:    0.489    Oral Roberts: 0.504
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.87    Oral Roberts: -0.02
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Ohio St.:    1.18    Oral Roberts: -3.29
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Ohio St.:    1.16    Oral Roberts: -3.03
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.25    Oral Roberts: -0.21
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.29    Oral Roberts: -0.27
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Ohio St.:    0.78    Oral Roberts: 4.09
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Ohio St.:    0.77    Oral Roberts: 3.76
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.32    Oral Roberts: 0.87
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.31    Oral Roberts: 0.84
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Ohio St.:    2.52    Oral Roberts: 0.00
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Ohio St.:    2.48    Oral Roberts: 0.00
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.59    Oral Roberts: 0.35
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.52    Oral Roberts: 0.27
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Ohio St.:    0.153    Oral Roberts: 0.157
+
+DEFENSIVE TURNOVER PERCENTAGE
+Ohio St.:    0.15    Oral Roberts: 0.182
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.40    Oral Roberts: 0.70
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Ohio St.:    79.54    Oral Roberts: 79.55
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Ohio St.:    0.291    Oral Roberts: 0.232
+
+DEFENSIVE REBOUND PERCENTAGE
+Ohio St.:    0.726    Oral Roberts: 0.67
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Ohio St.:    0.16    Oral Roberts: -0.56
+
+
+
+WIN PERCENTAGE
+Ohio St.:    86.8 %    Oral Roberts: 13.2 %
+
+KEEP IN MIND:  Ohio St.(2) is expected to rank between 5-8 .  Oral Roberts(15) is expected to rank between 59-62
+
+ROUND OF 32 RANK
+Ohio St.:    16/68    Oral Roberts: 64/68
+
+SWEET 16 RANK
+Ohio St.:    10/68    Oral Roberts: 62/68
+
+ELITE 8 RANK
+Ohio St.:    9/68    Oral Roberts: 62/68
+
+FINAL 4 RANK
+Ohio St.:    12/68    Oral Roberts: 63/68
+
+NATIONAL CHAMPION RANK
+Ohio St.:    10/68    Oral Roberts: 63/68
+
+PROJECTED TOURNAMENT WINS
+Ohio St.:    1.55 (#9)    Oral Roberts: 0.11 (#63)

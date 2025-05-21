@@ -1,0 +1,144 @@
+                Duke(1) vs. Gonzaga(1)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Duke:        37.373    Gonzaga:     21.704
+
+WINS ABOVE BUBBLE
+Duke:        11.2    Gonzaga:     7.1
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Duke:        72.21    Gonzaga:     69.77
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Duke:        120.08    Gonzaga:     125.12
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Duke:        88.09    Gonzaga:     92.34
+
+OFFENSIVE EFFECTIVE FG%
+Duke:        0.534    Gonzaga:     0.596
+
+DEFENSIVE EFFECTIVE FG%
+Duke:        0.446    Gonzaga:     0.442
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.14    Gonzaga:     0.11
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Duke:        4.64    Gonzaga:     8.10
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Duke:        4.24    Gonzaga:     7.66
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.49    Gonzaga:     0.81
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.20    Gonzaga:     0.55
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Duke:        0.86    Gonzaga:     1.64
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Duke:        0.79    Gonzaga:     1.55
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        -0.18    Gonzaga:     -0.04
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        -0.36    Gonzaga:     -0.21
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Duke:        4.25    Gonzaga:     6.32
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Duke:        3.88    Gonzaga:     5.98
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        -0.26    Gonzaga:     -0.06
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        -0.45    Gonzaga:     -0.22
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Duke:        0.177    Gonzaga:     0.145
+
+DEFENSIVE TURNOVER PERCENTAGE
+Duke:        0.198    Gonzaga:     0.189
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.00    Gonzaga:     0.28
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Duke:        80.83    Gonzaga:     80.47
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Duke:        0.361    Gonzaga:     0.306
+
+DEFENSIVE REBOUND PERCENTAGE
+Duke:        0.703    Gonzaga:     0.729
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Duke:        0.59    Gonzaga:     0.27
+
+
+
+WIN PERCENTAGE
+Duke:        50.7 %    Gonzaga:     49.3 %
+
+KEEP IN MIND:  Duke(1) is expected to rank between 1-4 .  Gonzaga(1) is expected to rank between 1-4
+
+ROUND OF 32 RANK
+Duke:        1/68    Gonzaga:     4/68
+
+SWEET 16 RANK
+Duke:        1/68    Gonzaga:     4/68
+
+ELITE 8 RANK
+Duke:        1/68    Gonzaga:     9/68
+
+FINAL 4 RANK
+Duke:        1/68    Gonzaga:     4/68
+
+NATIONAL CHAMPION RANK
+Duke:        1/68    Gonzaga:     4/68
+
+PROJECTED TOURNAMENT WINS
+Duke:        4.92 (#1)    Gonzaga:     2.73 (#4)

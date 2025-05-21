@@ -1,0 +1,144 @@
+                Mississippi(6) vs. North Carolina(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Mississippi: 41.324    North Carolina: 35.154
+
+WINS ABOVE BUBBLE
+Mississippi: 4.8    North Carolina: 1.4
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Mississippi: 68.11    North Carolina: 70.51
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Mississippi: 117.90    North Carolina: 118.91
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Mississippi: 95.82    North Carolina: 99.38
+
+OFFENSIVE EFFECTIVE FG%
+Mississippi: 0.511    North Carolina: 0.542
+
+DEFENSIVE EFFECTIVE FG%
+Mississippi: 0.505    North Carolina: 0.496
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.17    North Carolina: 0.06
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Mississippi: 2.47    North Carolina: 2.44
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Mississippi: 2.39    North Carolina: 2.28
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.24    North Carolina: 0.20
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.16    North Carolina: 0.11
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Mississippi: 0.35    North Carolina: 0.23
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Mississippi: 0.34    North Carolina: 0.21
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.38    North Carolina: 0.36
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.22    North Carolina: 0.20
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Mississippi: 0.31    North Carolina: 2.53
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Mississippi: 0.30    North Carolina: 2.37
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.43    North Carolina: 0.64
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.34    North Carolina: 0.54
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Mississippi: 0.128    North Carolina: 0.151
+
+DEFENSIVE TURNOVER PERCENTAGE
+Mississippi: 0.205    North Carolina: 0.152
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: 0.57    North Carolina: -0.19
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Mississippi: 79.50    North Carolina: 79.98
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Mississippi: 0.254    North Carolina: 0.292
+
+DEFENSIVE REBOUND PERCENTAGE
+Mississippi: 0.692    North Carolina: 0.729
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi: -0.29    North Carolina: 0.12
+
+
+
+WIN PERCENTAGE
+Mississippi: 59.3 %    North Carolina: 40.7 %
+
+KEEP IN MIND:  Mississippi(6) is expected to rank between 21-24 .  North Carolina(11) is expected to rank between 41-46
+
+ROUND OF 32 RANK
+Mississippi: 28/68    North Carolina: 35/68
+
+SWEET 16 RANK
+Mississippi: 34/68    North Carolina: 32/68
+
+ELITE 8 RANK
+Mississippi: 24/68    North Carolina: 37/68
+
+FINAL 4 RANK
+Mississippi: 37/68    North Carolina: 36/68
+
+NATIONAL CHAMPION RANK
+Mississippi: 39/68    North Carolina: 38/68
+
+PROJECTED TOURNAMENT WINS
+Mississippi: 0.83 (#31)    North Carolina: 0.71 (#34)

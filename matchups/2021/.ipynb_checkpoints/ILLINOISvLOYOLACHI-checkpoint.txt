@@ -1,0 +1,144 @@
+                Illinois(1) vs. Loyola Chicago(8)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Illinois:    40.223    Loyola Chicago: 16.033
+
+WINS ABOVE BUBBLE
+Illinois:    8.8    Loyola Chicago: 1.8
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Illinois:    70.71    Loyola Chicago: 64.19
+Suggestion: Look at the teams' respective Efficiency Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Illinois:    118.96    Loyola Chicago: 110.42
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Illinois:    88.34    Loyola Chicago: 86.66
+
+OFFENSIVE EFFECTIVE FG%
+Illinois:    0.556    Loyola Chicago: 0.563
+
+DEFENSIVE EFFECTIVE FG%
+Illinois:    0.466    Loyola Chicago: 0.467
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    -0.11    Loyola Chicago: -0.33
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Illinois:    4.12    Loyola Chicago: 4.10
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Illinois:    3.85    Loyola Chicago: 4.21
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.15    Loyola Chicago: 0.22
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.30    Loyola Chicago: 0.38
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Illinois:    0.27    Loyola Chicago: 1.28
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Illinois:    0.26    Loyola Chicago: 1.32
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    -0.22    Loyola Chicago: 0.01
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    -0.12    Loyola Chicago: 0.11
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Illinois:    2.73    Loyola Chicago: 3.71
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Illinois:    2.55    Loyola Chicago: 3.82
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    -0.24    Loyola Chicago: 0.03
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    -0.28    Loyola Chicago: 0.01
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Illinois:    0.182    Loyola Chicago: 0.185
+
+DEFENSIVE TURNOVER PERCENTAGE
+Illinois:    0.161    Loyola Chicago: 0.216
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    -0.21    Loyola Chicago: 0.28
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Illinois:    80.55    Loyola Chicago: 79.59
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Illinois:    0.33    Loyola Chicago: 0.26
+
+DEFENSIVE REBOUND PERCENTAGE
+Illinois:    0.778    Loyola Chicago: 0.79
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Illinois:    0.06    Loyola Chicago: -0.46
+
+
+
+WIN PERCENTAGE
+Illinois:    62.4 %    Loyola Chicago: 37.6 %
+
+KEEP IN MIND:  Illinois(1) is expected to rank between 1-4 .  Loyola Chicago(8) is expected to rank between 29-32
+
+ROUND OF 32 RANK
+Illinois:    1/68    Loyola Chicago: 17/68
+
+SWEET 16 RANK
+Illinois:    1/68    Loyola Chicago: 28/68
+
+ELITE 8 RANK
+Illinois:    1/68    Loyola Chicago: 30/68
+
+FINAL 4 RANK
+Illinois:    1/68    Loyola Chicago: 15/68
+
+NATIONAL CHAMPION RANK
+Illinois:    1/68    Loyola Chicago: 22/68
+
+PROJECTED TOURNAMENT WINS
+Illinois:    4.09 (#1)    Loyola Chicago: 0.93 (#31)

@@ -1,0 +1,144 @@
+                Marquette(2) vs. North Carolina St.(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Marquette:   37.073    North Carolina St.: 28.902
+
+WINS ABOVE BUBBLE
+Marquette:   6.5    North Carolina St.: -0.6
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Marquette:   68.98    North Carolina St.: 68.06
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Marquette:   118.29    North Carolina St.: 114.39
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Marquette:   95.56    North Carolina St.: 101.33
+
+OFFENSIVE EFFECTIVE FG%
+Marquette:   0.551    North Carolina St.: 0.507
+
+DEFENSIVE EFFECTIVE FG%
+Marquette:   0.497    North Carolina St.: 0.505
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.31    North Carolina St.: -0.02
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Marquette:   4.46    North Carolina St.: 1.67
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Marquette:   4.27    North Carolina St.: 1.62
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.40    North Carolina St.: 0.09
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.33    North Carolina St.: -0.04
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Marquette:   0.69    North Carolina St.: -0.08
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Marquette:   0.66    North Carolina St.: -0.07
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.25    North Carolina St.: 0.11
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.22    North Carolina St.: 0.07
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Marquette:   -0.15    North Carolina St.: 1.27
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Marquette:   -0.15    North Carolina St.: 1.23
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.00    North Carolina St.: 0.12
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   -0.08    North Carolina St.: 0.06
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Marquette:   0.143    North Carolina St.: 0.137
+
+DEFENSIVE TURNOVER PERCENTAGE
+Marquette:   0.211    North Carolina St.: 0.179
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   0.16    North Carolina St.: -0.02
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Marquette:   81.65    North Carolina St.: 80.48
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Marquette:   0.26    North Carolina St.: 0.286
+
+DEFENSIVE REBOUND PERCENTAGE
+Marquette:   0.692    North Carolina St.: 0.707
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Marquette:   -0.24    North Carolina St.: 0.04
+
+
+
+WIN PERCENTAGE
+Marquette:   69.2 %    North Carolina St.: 30.8 %
+
+KEEP IN MIND:  Marquette(2) is expected to rank between 5-8 .  North Carolina St.(11) is expected to rank between 43-46
+
+ROUND OF 32 RANK
+Marquette:   8/68    North Carolina St.: 40/68
+
+SWEET 16 RANK
+Marquette:   8/68    North Carolina St.: 34/68
+
+ELITE 8 RANK
+Marquette:   8/68    North Carolina St.: 43/68
+
+FINAL 4 RANK
+Marquette:   11/68    North Carolina St.: 29/68
+
+NATIONAL CHAMPION RANK
+Marquette:   11/68    North Carolina St.: 31/68
+
+PROJECTED TOURNAMENT WINS
+Marquette:   1.84 (#8)    North Carolina St.: 0.65 (#41)

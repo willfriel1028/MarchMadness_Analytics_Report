@@ -1,0 +1,144 @@
+                Louisville(2) vs. Michigan(7)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Louisville:  35.79    Michigan:    31.879
+
+WINS ABOVE BUBBLE
+Louisville:  6.9    Michigan:    3.8
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Louisville:  67.99    Michigan:    62.84
+Suggestion: Look at the teams' respective Efficiency Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Louisville:  117.18    Michigan:    121.59
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Louisville:  90.46    Michigan:    98.97
+
+OFFENSIVE EFFECTIVE FG%
+Louisville:  0.514    Michigan:    0.569
+
+DEFENSIVE EFFECTIVE FG%
+Louisville:  0.451    Michigan:    0.517
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  0.24    Michigan:    0.03
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Louisville:  3.77    Michigan:    -1.09
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Louisville:  3.66    Michigan:    -1.14
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  0.34    Michigan:    -0.17
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  0.52    Michigan:    -0.07
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Louisville:  0.64    Michigan:    3.77
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Louisville:  0.62    Michigan:    3.96
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  -0.13    Michigan:    0.35
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  -0.13    Michigan:    0.39
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Louisville:  -1.92    Michigan:    2.81
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Louisville:  -1.86    Michigan:    2.95
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  -0.20    Michigan:    0.29
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  -0.25    Michigan:    0.33
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Louisville:  0.161    Michigan:    0.146
+
+DEFENSIVE TURNOVER PERCENTAGE
+Louisville:  0.198    Michigan:    0.201
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  0.27    Michigan:    0.47
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Louisville:  82.03    Michigan:    81.79
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Louisville:  0.363    Michigan:    0.253
+
+DEFENSIVE REBOUND PERCENTAGE
+Louisville:  0.713    Michigan:    0.706
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Louisville:  0.44    Michigan:    -0.51
+
+
+
+WIN PERCENTAGE
+Louisville:  60.0 %    Michigan:    40.0 %
+
+KEEP IN MIND:  Louisville(2) is expected to rank between 5-8 .  Michigan(7) is expected to rank between 25-28
+
+ROUND OF 32 RANK
+Louisville:  9/68    Michigan:    23/68
+
+SWEET 16 RANK
+Louisville:  10/68    Michigan:    14/68
+
+ELITE 8 RANK
+Louisville:  9/68    Michigan:    12/68
+
+FINAL 4 RANK
+Louisville:  11/68    Michigan:    8/68
+
+NATIONAL CHAMPION RANK
+Louisville:  12/68    Michigan:    8/68
+
+PROJECTED TOURNAMENT WINS
+Louisville:  2.03 (#8)    Michigan:    1.53 (#15)

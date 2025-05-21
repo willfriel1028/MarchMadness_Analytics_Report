@@ -1,0 +1,142 @@
+                Tennessee(2) vs. Kentucky(3)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Tennessee:   41.282    Kentucky:    43.526
+
+WINS ABOVE BUBBLE
+Tennessee:   9.3    Kentucky:    5.6
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Tennessee:   63.62    Kentucky:    71.01
+Suggestion: Look at the teams' respective Efficiency Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Tennessee:   119.98    Kentucky:    123.87
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Tennessee:   88.54    Kentucky:    99.61
+
+OFFENSIVE EFFECTIVE FG%
+Tennessee:   0.528    Kentucky:    0.56
+
+DEFENSIVE EFFECTIVE FG%
+Tennessee:   0.444    Kentucky:    0.504
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.25    Kentucky:    -0.10
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Tennessee:   3.07    Kentucky:    1.10
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Tennessee:   3.19    Kentucky:    1.02
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.08    Kentucky:    -0.22
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.11    Kentucky:    -0.25
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Tennessee:   1.26    Kentucky:    1.21
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Tennessee:   1.30    Kentucky:    1.12
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.42    Kentucky:    0.37
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.36    Kentucky:    0.31
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Tennessee:   3.06    Kentucky:    2.42
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Tennessee:   3.18    Kentucky:    2.25
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.37    Kentucky:    0.26
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.35    Kentucky:    0.25
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Tennessee:   0.16    Kentucky:    0.152
+
+DEFENSIVE TURNOVER PERCENTAGE
+Tennessee:   0.178    Kentucky:    0.14
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.34    Kentucky:    0.03
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Tennessee:   81.35    Kentucky:    82.18
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Tennessee:   0.354    Kentucky:    0.287
+
+DEFENSIVE REBOUND PERCENTAGE
+Tennessee:   0.699    Kentucky:    0.741
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Tennessee:   0.39    Kentucky:    0.06
+
+
+
+WIN PERCENTAGE
+Tennessee:   70.4 %    Kentucky:    29.6 %
+
+ROUND OF 32 RANK
+Tennessee:   6/68    Kentucky:    27/68
+
+SWEET 16 RANK
+Tennessee:   6/68    Kentucky:    21/68
+
+ELITE 8 RANK
+Tennessee:   6/68    Kentucky:    15/68
+
+FINAL 4 RANK
+Tennessee:   6/68    Kentucky:    20/68
+
+NATIONAL CHAMPION RANK
+Tennessee:   6/68    Kentucky:    27/68
+
+PROJECTED TOURNAMENT WINS
+Tennessee:   2.05 (#5)    Kentucky:    1.07 (#23)

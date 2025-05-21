@@ -1,0 +1,144 @@
+                Virginia(4) vs. Ohio(13)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Virginia:    30.502    Ohio:        16.438
+
+WINS ABOVE BUBBLE
+Virginia:    3.5    Ohio:        -2.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Virginia:    60.07    Ohio:        69.32
+Suggestion: Look at the teams' respective Efficiency Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Virginia:    115.64    Ohio:        113.00
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Virginia:    92.98    Ohio:        101.89
+
+OFFENSIVE EFFECTIVE FG%
+Virginia:    0.561    Ohio:        0.558
+
+DEFENSIVE EFFECTIVE FG%
+Virginia:    0.479    Ohio:        0.511
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    0.43    Ohio:        -0.03
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Virginia:    1.47    Ohio:        2.72
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Virginia:    1.61    Ohio:        2.59
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    -0.17    Ohio:        -0.08
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    0.10    Ohio:        0.22
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Virginia:    1.75    Ohio:        0.67
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Virginia:    1.92    Ohio:        0.64
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    0.49    Ohio:        0.26
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    0.67    Ohio:        0.46
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Virginia:    0.17    Ohio:        0.05
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Virginia:    0.19    Ohio:        0.05
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    -0.44    Ohio:        -0.46
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    -0.36    Ohio:        -0.39
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Virginia:    0.154    Ohio:        0.17
+
+DEFENSIVE TURNOVER PERCENTAGE
+Virginia:    0.152    Ohio:        0.2
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    0.22    Ohio:        0.54
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Virginia:    82.28    Ohio:        79.75
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Virginia:    0.231    Ohio:        0.287
+
+DEFENSIVE REBOUND PERCENTAGE
+Virginia:    0.774    Ohio:        0.726
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Virginia:    -0.57    Ohio:        -0.21
+
+
+
+WIN PERCENTAGE
+Virginia:    69.5 %    Ohio:        30.5 %
+
+KEEP IN MIND:  Virginia(4) is expected to rank between 13-16 .  Ohio(13) is expected to rank between 51-54
+
+ROUND OF 32 RANK
+Virginia:    22/68    Ohio:        54/68
+
+SWEET 16 RANK
+Virginia:    15/68    Ohio:        53/68
+
+ELITE 8 RANK
+Virginia:    20/68    Ohio:        53/68
+
+FINAL 4 RANK
+Virginia:    17/68    Ohio:        54/68
+
+NATIONAL CHAMPION RANK
+Virginia:    27/68    Ohio:        54/68
+
+PROJECTED TOURNAMENT WINS
+Virginia:    1.13 (#17)    Ohio:        0.32 (#53)

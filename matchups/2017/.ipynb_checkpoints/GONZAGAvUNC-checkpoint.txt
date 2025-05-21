@@ -1,0 +1,144 @@
+                Gonzaga(1) vs. North Carolina(1)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Gonzaga:     19.459    North Carolina: 35.516
+
+WINS ABOVE BUBBLE
+Gonzaga:     7.7    North Carolina: 8.3
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Gonzaga:     70.02    North Carolina: 70.70
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Gonzaga:     120.71    North Carolina: 122.08
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Gonzaga:     87.66    North Carolina: 94.07
+
+OFFENSIVE EFFECTIVE FG%
+Gonzaga:     0.58    North Carolina: 0.523
+
+DEFENSIVE EFFECTIVE FG%
+Gonzaga:     0.416    North Carolina: 0.485
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.16    North Carolina: -0.08
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Gonzaga:     7.46    North Carolina: 4.87
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Gonzaga:     7.03    North Carolina: 4.55
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.51    North Carolina: 0.28
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.40    North Carolina: 0.13
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Gonzaga:     1.84    North Carolina: -1.24
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Gonzaga:     1.73    North Carolina: -1.16
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.37    North Carolina: -0.15
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.24    North Carolina: -0.32
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Gonzaga:     5.89    North Carolina: 0.93
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Gonzaga:     5.55    North Carolina: 0.87
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.40    North Carolina: -0.07
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.24    North Carolina: -0.32
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.159    North Carolina: 0.164
+
+DEFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.177    North Carolina: 0.187
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.42    North Carolina: 0.47
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Gonzaga:     82.62    North Carolina: 81.41
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Gonzaga:     0.299    North Carolina: 0.42
+
+DEFENSIVE REBOUND PERCENTAGE
+Gonzaga:     0.746    North Carolina: 0.749
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     -0.21    North Carolina: 0.67
+
+
+
+WIN PERCENTAGE
+Gonzaga:     60.6 %    North Carolina: 39.4 %
+
+KEEP IN MIND:  Gonzaga(1) is expected to rank between 1-4 .  North Carolina(1) is expected to rank between 1-4
+
+ROUND OF 32 RANK
+Gonzaga:     2/68    North Carolina: 4/68
+
+SWEET 16 RANK
+Gonzaga:     3/68    North Carolina: 6/68
+
+ELITE 8 RANK
+Gonzaga:     8/68    North Carolina: 5/68
+
+FINAL 4 RANK
+Gonzaga:     6/68    North Carolina: 7/68
+
+NATIONAL CHAMPION RANK
+Gonzaga:     4/68    North Carolina: 11/68
+
+PROJECTED TOURNAMENT WINS
+Gonzaga:     2.34 (#5)    North Carolina: 2.44 (#4)

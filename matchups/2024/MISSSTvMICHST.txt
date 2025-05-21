@@ -1,0 +1,144 @@
+                Mississippi St.(8) vs. Michigan St.(9)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Mississippi St.: 32.154    Michigan St.: 34.196
+
+WINS ABOVE BUBBLE
+Mississippi St.: 0.8    Michigan St.: 0.21
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Mississippi St.: 67.05    Michigan St.: 65.19
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Mississippi St.: 113.68    Michigan St.: 113.76
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Mississippi St.: 95.70    Michigan St.: 93.73
+
+OFFENSIVE EFFECTIVE FG%
+Mississippi St.: 0.517    Michigan St.: 0.515
+
+DEFENSIVE EFFECTIVE FG%
+Mississippi St.: 0.477    Michigan St.: 0.48
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: -0.11    Michigan St.: -0.04
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Mississippi St.: 1.77    Michigan St.: 4.95
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Mississippi St.: 1.74    Michigan St.: 5.01
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: -0.14    Michigan St.: 0.21
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: -0.15    Michigan St.: 0.26
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Mississippi St.: 0.14    Michigan St.: -1.15
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Mississippi St.: 0.14    Michigan St.: -1.17
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: -0.04    Michigan St.: -0.33
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.03    Michigan St.: -0.28
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Mississippi St.: 1.18    Michigan St.: -0.62
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Mississippi St.: 1.16    Michigan St.: -0.62
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.25    Michigan St.: 0.09
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.29    Michigan St.: 0.11
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Mississippi St.: 0.187    Michigan St.: 0.147
+
+DEFENSIVE TURNOVER PERCENTAGE
+Mississippi St.: 0.182    Michigan St.: 0.187
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: -0.31    Michigan St.: 0.10
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Mississippi St.: 80.79    Michigan St.: 80.88
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Mississippi St.: 0.354    Michigan St.: 0.299
+
+DEFENSIVE REBOUND PERCENTAGE
+Mississippi St.: 0.724    Michigan St.: 0.713
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Mississippi St.: 0.47    Michigan St.: 0.04
+
+
+
+WIN PERCENTAGE
+Mississippi St.: 48.0 %    Michigan St.: 52.0 %
+
+KEEP IN MIND:  Mississippi St.(8) is expected to rank between 29-32 .  Michigan St.(9) is expected to rank between 33-36
+
+ROUND OF 32 RANK
+Mississippi St.: 29/68    Michigan St.: 18/68
+
+SWEET 16 RANK
+Mississippi St.: 32/68    Michigan St.: 19/68
+
+ELITE 8 RANK
+Mississippi St.: 25/68    Michigan St.: 35/68
+
+FINAL 4 RANK
+Mississippi St.: 30/68    Michigan St.: 24/68
+
+NATIONAL CHAMPION RANK
+Mississippi St.: 30/68    Michigan St.: 26/68
+
+PROJECTED TOURNAMENT WINS
+Mississippi St.: 0.82 (#28)    Michigan St.: 0.93 (#23)

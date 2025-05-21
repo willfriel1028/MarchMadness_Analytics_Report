@@ -1,0 +1,144 @@
+                Texas(3) vs. Abilene Christian(14)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Texas:       32.75    Abilene Christian: 9.607
+
+WINS ABOVE BUBBLE
+Texas:       4.2    Abilene Christian: -1.1
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Texas:       69.21    Abilene Christian: 69.95
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Texas:       113.85    Abilene Christian: 103.05
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Texas:       93.27    Abilene Christian: 92.92
+
+OFFENSIVE EFFECTIVE FG%
+Texas:       0.529    Abilene Christian: 0.529
+
+DEFENSIVE EFFECTIVE FG%
+Texas:       0.467    Abilene Christian: 0.454
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       -0.00    Abilene Christian: -0.39
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Texas:       -0.54    Abilene Christian: 2.52
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Texas:       -0.51    Abilene Christian: 2.38
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       -0.28    Abilene Christian: 0.05
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       -0.36    Abilene Christian: 0.04
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Texas:       2.12    Abilene Christian: 2.69
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Texas:       2.03    Abilene Christian: 2.53
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       -0.06    Abilene Christian: 0.12
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       -0.06    Abilene Christian: 0.12
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Texas:       -1.63    Abilene Christian: -2.39
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Texas:       -1.56    Abilene Christian: -2.26
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       0.46    Abilene Christian: 0.39
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       0.38    Abilene Christian: 0.30
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Texas:       0.202    Abilene Christian: 0.194
+
+DEFENSIVE TURNOVER PERCENTAGE
+Texas:       0.178    Abilene Christian: 0.267
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       -0.78    Abilene Christian: 0.02
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Texas:       81.49    Abilene Christian: 79.77
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Texas:       0.313    Abilene Christian: 0.306
+
+DEFENSIVE REBOUND PERCENTAGE
+Texas:       0.731    Abilene Christian: 0.721
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Texas:       0.15    Abilene Christian: 0.07
+
+
+
+WIN PERCENTAGE
+Texas:       62.5 %    Abilene Christian: 37.5 %
+
+KEEP IN MIND:  Texas(3) is expected to rank between 9-12 .  Abilene Christian(14) is expected to rank between 55-58
+
+ROUND OF 32 RANK
+Texas:       14/68    Abilene Christian: 50/68
+
+SWEET 16 RANK
+Texas:       9/68    Abilene Christian: 54/68
+
+ELITE 8 RANK
+Texas:       10/68    Abilene Christian: 54/68
+
+FINAL 4 RANK
+Texas:       9/68    Abilene Christian: 51/68
+
+NATIONAL CHAMPION RANK
+Texas:       9/68    Abilene Christian: 51/68
+
+PROJECTED TOURNAMENT WINS
+Texas:       1.36 (#11)    Abilene Christian: 0.31 (#54)

@@ -1,0 +1,142 @@
+                Gonzaga(8) vs. Georgia(9)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Gonzaga:     26.112    Georgia:     37.778
+
+WINS ABOVE BUBBLE
+Gonzaga:     2.7    Georgia:     2.0
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Gonzaga:     70.24    Georgia:     66.50
+Suggestion: Look at the teams' respective Impact Scores
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Gonzaga:     123.61    Georgia:     115.47
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Gonzaga:     96.32    Georgia:     96.10
+
+OFFENSIVE EFFECTIVE FG%
+Gonzaga:     0.557    Georgia:     0.525
+
+DEFENSIVE EFFECTIVE FG%
+Gonzaga:     0.475    Georgia:     0.472
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.22    Georgia:     -0.04
+
+
+
+TWO POINT COMPARISON
+
+NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
+Gonzaga:     6.68    Georgia:     2.88
+
+NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
+Gonzaga:     6.27    Georgia:     2.86
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.43    Georgia:     0.09
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.45    Georgia:     0.05
+
+
+
+THREE POINT COMPARISON
+
+NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
+Gonzaga:     -0.02    Georgia:     -0.18
+
+NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
+Gonzaga:     -0.02    Georgia:     -0.18
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.02    Georgia:     -0.02
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     -0.11    Georgia:     -0.15
+
+
+
+FREE THROW COMPARISON
+
+NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
+Gonzaga:     3.34    Georgia:     3.56
+
+NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
+Gonzaga:     3.14    Georgia:     3.53
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.28    Georgia:     0.30
+
+OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.23    Georgia:     0.24
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.132    Georgia:     0.188
+
+DEFENSIVE TURNOVER PERCENTAGE
+Gonzaga:     0.182    Georgia:     0.18
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.24    Georgia:     -0.36
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Gonzaga:     80.87    Georgia:     81.87
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Gonzaga:     0.327    Georgia:     0.361
+
+DEFENSIVE REBOUND PERCENTAGE
+Gonzaga:     0.736    Georgia:     0.682
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Gonzaga:     0.40    Georgia:     0.45
+
+
+
+WIN PERCENTAGE
+Gonzaga:     65.0 %    Georgia:     35.0 %
+
+ROUND OF 32 RANK
+Gonzaga:     12/68    Georgia:     30/68
+
+SWEET 16 RANK
+Gonzaga:     10/68    Georgia:     28/68
+
+ELITE 8 RANK
+Gonzaga:     27/68    Georgia:     29/68
+
+FINAL 4 RANK
+Gonzaga:     14/68    Georgia:     29/68
+
+NATIONAL CHAMPION RANK
+Gonzaga:     11/68    Georgia:     24/68
+
+PROJECTED TOURNAMENT WINS
+Gonzaga:     1.23 (#13)    Georgia:     0.84 (#30)
