@@ -28,6 +28,8 @@ Elite SOS is mainly important to keep in mind when analyzing statistics further 
 
 In a situation where a team has a significantly higher WAB, it shows that they performed much better throughout the season compared to the other team, even if their statistics seem close.
 
+Make sure to keep Elite SOS in mind when analyzing any statistic that does not take opponent difficulty into account.
+
 
 ```
 _______________________________________________
@@ -36,23 +38,17 @@ TEMPO COMPARISON
 
 ADJUSTED TEMPO
 Arizona:     69.93    Oregon:      67.67
-Suggestion: Look at the teams' respective Impact Scores
 _______________________________________________
 ```
-This section displays each team's adjusted tempo, as well as whether these teams' impact or efficiency scores should be analyzed.
-
-*For more information about impact/efficiency scores and factoring tempo into matchups, check impact_vs_efficiency.md*
+This section displays each team's adjusted tempo
 
 **Matchup-specific insights**
 
 Both teams play at a similar pace - tempo will likely not be a major factor in this game.
 
-We should prioritize looking at impact scores for the rest of the output.
-
 **Overall insights**
 
 Tempo alone will not tell you too much generally unless there is a significant gap between tempos (think >10 difference). It is then up to the user to determine which team, if any, will dominate the tempo in that matchup.
-
 
 ```
 _______________________________________________
@@ -117,21 +113,15 @@ _______________________________________________
 
 TWO POINT COMPARISON
 
-NET 2PT IMPACT SCORE (Shows estimated 2pt margin for team given adjusted tempo)
-Arizona:     5.12    Oregon:      1.00
-
-NET 2PT EFFICIENCY SCORE (Shows estimated 2pt margin for team given a fixed tempo)
-Arizona:     4.84    Oregon:      0.98
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Arizona:     5.04    Oregon:      1.02
 
 HEAD TO HEAD MATCHUP
-OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.46    Oregon:      0.01
-
-OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.46    Oregon:      -0.09
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.46    Oregon:      -0.08
 _______________________________________________
 ```
-This section displays each team's net 2pt impact/efficiency score, as well as their 2pt Offense vs Defense impact/efficiency scores.
+This section displays each team's expected net 2pt margin and 2pt offense vs defense score.
 
 The net 2pt scores show how many more 2-pointers a team will generally score compared to their opponents.
 
@@ -139,14 +129,14 @@ This head-to-head matchup score gives you an idea of how well each team should b
 
 **Matchup-specific insights**
 
-Arizona generally scores 5 more 2-pointers than their opponent, a significant margin
-Oregon only will score 1 more 2-pointer than their opponent, a very slight edge
+Arizona is expected to score 5.04 more 2-pointers than their opponent in a game at this expected pace, a significant margin.
+Oregon is expected to score 1.02 more 2-pointer than their opponent at this expected pace, a very slight edge.
 
 The head-to-head matchup scores show us that Arizona's offense should have a significant advantage in generating 2pt shots compared to Oregon's offense.
-The 0.45 difference in score is pretty significant on a [-1,1] scale.
+The 0.54 difference in score is pretty significant on a [-1,1] scale.
 
 Arizona's score of 0.46 suggests that they have an advantage in scoring 2-pointers against Oregon's 2-point defense.
-Oregon's score of 0.01 means that their offense does not particularly have an advantage or disadvantage scoring 2-pointers against Arizona's 2-point defense.
+Oregon's score of -0.08 means that their offense has a very slight disadvantage scoring 2-pointers against Arizona's 2-point defense.
 
 We can conclude that Arizona is expected to have an advantage at scoring 2-pointers over Oregon.
 
@@ -154,11 +144,9 @@ We can conclude that Arizona is expected to have an advantage at scoring 2-point
 
 The statistics this section is calculated with do not particularly take strength of opponent's defense into consideration, so make sure to keep each team's Elite SOS in the back of your mind when analyzing this. 
 
-If one team appears to be significantly better than the other AND they have a better Elite SOS, then that is probably a solid indication that they will outperform the other team in terms of 2 pointers.
-
-If one team appears to be significantly better than the other and has a worse Elite SOS, they might still be the better 2pt team, but their stats could be inflated by a weaker schedule.
-
 This section largely represents each team's offensive playstyle, which could possibly still translate for a worse team playing a better team, it is up for the user to interpret.
+
+2-pointers are a very important aspect of college basketball to analyze because if a team can generate a lot more of them than their opponent, they have a good chance at controlling the game.
 
 
 ```
@@ -166,21 +154,15 @@ _______________________________________________
 
 THREE POINT COMPARISON
 
-NET 3PT IMPACT SCORE (Shows estimated 3pt margin for team given adjusted tempo)
-Arizona:     -1.64    Oregon:      0.83
-
-NET 3PT EFFICIENCY SCORE (Shows estimated 3pt margin for team given a fixed tempo)
-Arizona:     -1.55    Oregon:      0.81
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Arizona:     -1.61    Oregon:      0.85
 
 HEAD TO HEAD MATCHUP
-OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     -0.13    Oregon:      0.36
-
-OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
 Arizona:     -0.28    Oregon:      0.23
 _______________________________________________
 ```
-This section displays each team's net 3pt impact/efficiency score, as well as their 3pt Offense vs Defense impact/efficiency scores.
+This section displays each team's expected net 3pt margin and 3pt offense vs defense score.
 
 The net 3pt scores show how many more 3-pointers a team will generally score compared to their opponents.
 
@@ -188,14 +170,14 @@ This head-to-head matchup score gives you an idea of how well each team should b
 
 **Matchup-specific insights**
 
-Arizona generally scores 1.6 less 3-pointers than their opponent, a relatively slight deficit.
-Oregon generally scores 0.83 more 3-pointers than their opponent, which is pretty even.
+Arizona is expected to score 1.61 less 3-pointers than their opponent in a game at this expected pace, a relatively slight deficit.
+Oregon is expected to score 0.85 more 3-pointers than their opponent in a game at this expected pace, which is pretty even.
 
 The head-to-head matchup scores shows us that Oregon should have a significant advantage in scoring 3pt shots compared to Arizona's offense.
-The 0.49 difference in score is pretty significant.
+The 0.51 difference in score is pretty significant.
 
-Arizona's score of -0.13 suggests that their offense has a very slight disadvantage at generating 3-pointers against Oregon's defense.
-Oregon's score of 0.36 suggests their offense has a decent advantage at generating 3-pointers against Arizona.
+Arizona's score of -0.28 suggests that their offense has a decent disadvantage at generating 3-pointers against Oregon's defense.
+Oregon's score of 0.23 suggests their offense has a slight advantage at generating 3-pointers against Arizona.
 
 We can conclude that Oregon is expected to have an advantage at scoring 3-pointers over Arizona.
 
@@ -203,11 +185,9 @@ We can conclude that Oregon is expected to have an advantage at scoring 3-pointe
 
 The statistics this section is calculated with do not particularly take strength of opponent's defense into consideration, so make sure to keep each team's Elite SOS in the back of your mind when analyzing this. 
 
-If one team appears to be significantly better than the other AND they have a better Elite SOS, then that is probably a solid indication that they will outperform the other team in terms of 3 pointers.
-
-If one team appears to be significantly better than the other and has a worse Elite SOS, they might still be the better 3pt team, but their stats could be inflated by a weaker schedule.
-
 This section largely represents each team's offensive playstyle, which could possibly still translate for a worse team playing a better team, it is up for the user to interpret.
+
+3-pointers are important to iterpret when analyzing a matchup because they are the quickest way to generate points. If a team is expected to score significantly more threes than their opponent, they do not need to hit as many shots to outscore them. I think that threes are very helpful for detecting upsets, as well.
 
 
 ```
@@ -215,21 +195,15 @@ _______________________________________________
 
 FREE THROW COMPARISON
 
-NET FT IMPACT SCORE (Shows estimated FT margin for team given adjusted tempo)
-Arizona:     4.64    Oregon:      3.41
-
-NET FT EFFICIENCY SCORE (Shows estimated FT margin for team given a fixed tempo)
-Arizona:     4.38    Oregon:      3.32
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Arizona:     3.76    Oregon:      2.38
 
 HEAD TO HEAD MATCHUP
-OFFENSE VS DEFENSE IMPACT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.33    Oregon:      0.26
-
-OFFENSE VS DEFENSE EFFICIENCY SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.26    Oregon:      0.19
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Arizona:     0.38    Oregon:      0.27
 _______________________________________________
 ```
-This section displays each team's net free throw impact/efficiency score, as well as their Free Throw Offense vs Defense impact/efficiency scores.
+This section displays each team's expected net free throw margin and FT offense vs defense score.
 
 The net FT scores show how many more free throws a team will generally score compared to their opponents.
 
@@ -237,26 +211,24 @@ This head-to-head matchup score gives you an idea of how well each team should b
 
 **Matchup-specific insights**
 
-Arizona generally scores 4.64 more free throws than their opponent, which is a solid margin
-Oregon will score 3.41 more free throws than their opponent, which is also pretty solid
+Arizona is expected to score 3.76 more free throws than their opponent in a game at this expected pace, which is a solid margin
+Oregon is expected to score 2.38 more free throws than their opponent in a game at this expected pace, which is also pretty solid
 
 The head-to-head matchup scores show us that both teams are pretty even in terms of scoring free throws aginst one another.
-The 0.07 difference in matchup scores is pretty insignificant on a [-1,1] scale. 
+The 0.11 difference in matchup scores is not super telling on a [-1,1] scale. 
 
-Arizona's score of 0.33 suggests their offense has a slight advantage at generating free throws against Oregon's defense
-Oregon's score of 0.26 suggests their offense has a slight advantage at generating free throws against Arizona's defense
+Arizona's score of 0.38 suggests their offense has a slight advantage at generating free throws against Oregon's defense
+Oregon's score of 0.27 suggests their offense has a slight advantage at generating free throws against Arizona's defense
 
-We can not confidently conclude who will score more free throws from this.
+We can not confidently conclude who will score more free throws from this, however we see that Arizona may have a slight edge.
 
 **Overall insights**
 
 The statistics this section is calculated with do not particularly take strength of opponent's defense into consideration, so make sure to keep each team's Elite SOS in the back of your mind when analyzing this. 
 
-If one team appears to be significantly better than the other AND they have a better Elite SOS, then that is probably a solid indication that they will outperform the other team in terms of free throws.
-
-If one team appears to be significantly better than the other and has a worse Elite SOS, they might still be the better FT team, but their stats could be inflated by a weaker schedule.
-
 This section largely represents how well each team gets to the free throw line while not allowing their opponent to get to the free throw line. This is something that could translate for a weaker team playing a stronger team, it is up for the user to interpret this.
+
+It is important to look at free throw comparisons in a matchup because they allow teams to generate points without attempting a shot, which is why they are so efficient.
 
 
 ```
@@ -296,11 +268,9 @@ We can not confidently conclude who will turn the ball over less from this.
 
 The statistics this section is calculated with do not particularly take strength of opponent's defense into consideration, so make sure to keep each team's Elite SOS in the back of your mind when analyzing this. 
 
-If one team appears to be significantly better than the other AND they have a better Elite SOS, then that is probably a solid indication that they will outperform the other team in terms of turnovers.
-
-If one team appears to be significantly better than the other and has a worse Elite SOS, they might still be the better TO team, but their stats could be inflated by a weaker schedule.
-
 This section largely shows off which teams tend to take care of the ball and force turnovers. If a weaker team is elite in either of those categories, there is a pretty good chance it could translate when playing a stronger team.
+
+It is crucial to analyze turnovers in a matchup because each turnover essentially allows that team to attempt one less shot, which gives them less opportunity to score.
 
 
 ```
@@ -347,18 +317,16 @@ We can conclude that Arizona is likely to grab more offensive rebounds from this
 
 The statistics this section is calculated with do not particularly take strength of opponent's defense into consideration, so make sure to keep each team's Elite SOS in the back of your mind when analyzing this. 
 
-If one team appears to be significantly better than the other AND they have a better Elite SOS, then that is probably a solid indication that they will outperform the other team in terms of rebounds.
-
-If one team appears to be significantly better than the other and has a worse Elite SOS, they might still be the better rebounding team, but their stats could be inflated by a weaker schedule.
-
 This section largely shows off which teams hustle more for offensive and defensive rebounding. If a weaker team shows that they go for rebounds aggressively it could translate going against a stronger team.
+
+Rebounding is a very overlooked aspect when analyzing a matchup. Each offensive rebound a team gets gives them an extra opportunity to score compared to the opponent. Defensive rebound prevents their ability to do that.
 
 
 ```
 _______________________________________________
 
 WIN PERCENTAGE
-Arizona:     56.9 %    Oregon:      43.1 %
+Arizona:     57.5 %    Oregon:      42.5 %
 _______________________________________________
 ```
 This section displays each team's win percentage. (Their chance to win the game)
@@ -367,8 +335,8 @@ This section displays each team's win percentage. (Their chance to win the game)
 
 According to the algorithm,
      
-   Arizona has a 56.9% chance to win this game.
-   Oregon has a 43.1% chance to win this game.
+   Arizona has a 57.5% chance to win this game.
+   Oregon has a 42.5% chance to win this game.
    
 This matchup appears to be very close, which we would expect to see in a 4 vs 5 matchup. Overall, Arizona has a slight advantage, but according to the algorithm this appears to be a toss-up game.
 
