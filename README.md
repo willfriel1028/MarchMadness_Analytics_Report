@@ -61,7 +61,7 @@ march_analytics_report/
 
 Run these lines in your terminal to install this program:
 ```
-git clone https://github.com/willfriel1003/projectname.git
+git clone https://github.com/willfriel1028/MarchMadness_Analytics_Report.git
 ```
 ```
 cd marchmadness_analytics_report
