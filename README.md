@@ -35,7 +35,7 @@ march_analytics_report/
 |
 |- outputs/                              # Folder where you can find some example matchup outputs
 |      |- 2025/                          # Each year's folder contains some matchups from that year
-|      |    |- FLORIDAvHOUSTON.txt       # Output for Florida vs. Houston (2025)
+|      |    |- Florida-Houston.txt       # Output for Florida vs. Houston (2025)
 |      |- 2024/
 |      |- ...                            # Other years
 |
