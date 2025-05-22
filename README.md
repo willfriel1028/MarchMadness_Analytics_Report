@@ -23,7 +23,6 @@ It is designed to help users optimize their bracket selections by providing in-d
   - Sweet 16
   - Elite 8
   - Final Four
-  - Championship Game
   - National Champion
 - A Poisson regression model that projects each team’s expected number of tournament wins
 
