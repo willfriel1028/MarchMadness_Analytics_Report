@@ -107,19 +107,19 @@ North Carolina: 63.8 %    Michigan St.: 36.2 %
 KEEP IN MIND:  North Carolina(1) is expected to rank between 1-4 .  Michigan St.(2) is expected to rank between 5-8
 
 ROUND OF 32 RANK
-North Carolina: 5/68    Michigan St.: 14/68
+North Carolina: 5/65    Michigan St.: 14/65
 
 SWEET 16 RANK
-North Carolina: 6/68    Michigan St.: 17/68
+North Carolina: 6/65    Michigan St.: 17/65
 
 ELITE 8 RANK
-North Carolina: 4/68    Michigan St.: 10/68
+North Carolina: 4/65    Michigan St.: 10/65
 
 FINAL 4 RANK
-North Carolina: 7/68    Michigan St.: 17/68
+North Carolina: 7/65    Michigan St.: 17/65
 
 NATIONAL CHAMPION RANK
-North Carolina: 7/68    Michigan St.: 18/68
+North Carolina: 7/65    Michigan St.: 18/65
 
 PROJECTED TOURNAMENT WINS
 North Carolina: 2.58 (#5)    Michigan St.: 1.54 (#15)

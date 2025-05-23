@@ -107,19 +107,19 @@ Duke:        73.6 %    Butler:      26.4 %
 KEEP IN MIND:  Duke(1) is expected to rank between 1-4 .  Butler(5) is expected to rank between 17-20
 
 ROUND OF 32 RANK
-Duke:        2/68    Butler:      36/68
+Duke:        2/65    Butler:      36/65
 
 SWEET 16 RANK
-Duke:        2/68    Butler:      39/68
+Duke:        2/65    Butler:      39/65
 
 ELITE 8 RANK
-Duke:        2/68    Butler:      34/68
+Duke:        2/65    Butler:      34/65
 
 FINAL 4 RANK
-Duke:        2/68    Butler:      34/68
+Duke:        2/65    Butler:      34/65
 
 NATIONAL CHAMPION RANK
-Duke:        2/68    Butler:      41/68
+Duke:        2/65    Butler:      41/65
 
 PROJECTED TOURNAMENT WINS
 Duke:        3.88 (#2)    Butler:      0.73 (#35)

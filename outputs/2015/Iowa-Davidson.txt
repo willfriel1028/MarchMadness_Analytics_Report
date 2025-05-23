@@ -1,125 +1,125 @@
-                Kansas(1) vs. Memphis(1)
+                Iowa(7) vs. Davidson(10)
 
 STRENGTH OF SCHEDULE COMPARISON
 
 ELITE SOS
-Kansas:      30.29    Memphis:     20.888
+Iowa:        30.508    Davidson:    20.72
 
 WINS ABOVE BUBBLE
-Kansas:      9.9    Memphis:     8.9
+Iowa:        2.1    Davidson:    1.7
 
 
 
 TEMPO COMPARISON
 
 ADJUSTED TEMPO
-Kansas:      66.85    Memphis:     67.71
+Iowa:        63.31    Davidson:    66.52
 
 
 
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
-Kansas:      121.43    Memphis:     114.69
+Iowa:        113.36    Davidson:    120.48
 
 ADJUSTED DEFENSIVE EFFICIENCY
-Kansas:      87.47    Memphis:     85.32
+Iowa:        95.11    Davidson:    103.66
 
 OFFENSIVE EFFECTIVE FG%
-Kansas:      0.563    Memphis:     0.53
+Iowa:        0.478    Davidson:    0.56
 
 DEFENSIVE EFFECTIVE FG%
-Kansas:      0.448    Memphis:     0.425
+Iowa:        0.451    Davidson:    0.491
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.05    Memphis:     -0.07
+Iowa:        0.28    Davidson:    0.20
 
 
 
 TWO POINT COMPARISON
 
 NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
-Kansas:      8.09    Memphis:     3.49
+Iowa:        3.09    Davidson:    -2.26
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.41    Memphis:     -0.32
+Iowa:        0.38    Davidson:    -0.43
 
 
 
 THREE POINT COMPARISON
 
 NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
-Kansas:      -0.35    Memphis:     2.74
+Iowa:        -0.73    Davidson:    4.70
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      -0.33    Memphis:     0.37
+Iowa:        -0.20    Davidson:    0.72
 
 
 
 FREE THROW COMPARISON
 
 NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
-Kansas:      5.00    Memphis:     0.87
+Iowa:        5.08    Davidson:    -2.83
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.04    Memphis:     -0.50
+Iowa:        0.41    Davidson:    -0.51
 
 
 
 TURNOVER COMPARISON
 
 OFFENSIVE TURNOVER PERCENTAGE
-Kansas:      0.187    Memphis:     0.172
+Iowa:        0.174    Davidson:    0.143
 
 DEFENSIVE TURNOVER PERCENTAGE
-Kansas:      0.229    Memphis:     0.233
+Iowa:        0.193    Davidson:    0.173
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      -0.28    Memphis:     -0.09
+Iowa:        0.15    Davidson:    0.28
 
 
 
 REBOUNDING COMPARISON
 
 EFFECTIVE HEIGHT
-Kansas:      81.43    Memphis:     80.52
+Iowa:        82.25    Davidson:    79.30
 
 OFFENSIVE REBOUNDING PERCENTAGE
-Kansas:      0.38    Memphis:     0.378
+Iowa:        0.358    Davidson:    0.298
 
 DEFENSIVE REBOUND PERCENTAGE
-Kansas:      0.71    Memphis:     0.707
+Iowa:        0.695    Davidson:    0.699
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.17    Memphis:     0.14
+Iowa:        0.42    Davidson:    -0.01
 
 
 
 WIN PERCENTAGE
-Kansas:      56.4 %    Memphis:     43.6 %
+Iowa:        57.8 %    Davidson:    42.2 %
 
-KEEP IN MIND:  Kansas(1) is expected to rank between 1-4 .  Memphis(1) is expected to rank between 1-4
+KEEP IN MIND:  Iowa(7) is expected to rank between 25-28 .  Davidson(10) is expected to rank between 37-40
 
 ROUND OF 32 RANK
-Kansas:      1/65    Memphis:     5/65
+Iowa:        19/68    Davidson:    33/68
 
 SWEET 16 RANK
-Kansas:      1/65    Memphis:     7/65
+Iowa:        23/68    Davidson:    31/68
 
 ELITE 8 RANK
-Kansas:      2/65    Memphis:     7/65
+Iowa:        30/68    Davidson:    34/68
 
 FINAL 4 RANK
-Kansas:      1/65    Memphis:     5/65
+Iowa:        22/68    Davidson:    31/68
 
 NATIONAL CHAMPION RANK
-Kansas:      1/65    Memphis:     5/65
+Iowa:        20/68    Davidson:    27/68
 
 PROJECTED TOURNAMENT WINS
-Kansas:      4.50 (#1)    Memphis:     2.50 (#7)
+Iowa:        0.81 (#23)    Davidson:    0.65 (#33)

@@ -1,125 +1,125 @@
-                Kansas(1) vs. Memphis(1)
+                USC(6) vs. Kansas St.(11)
 
 STRENGTH OF SCHEDULE COMPARISON
 
 ELITE SOS
-Kansas:      30.29    Memphis:     20.888
+USC:         36.782    Kansas St.:  31.318
 
 WINS ABOVE BUBBLE
-Kansas:      9.9    Memphis:     8.9
+USC:         3.6    Kansas St.:  1.0
 
 
 
 TEMPO COMPARISON
 
 ADJUSTED TEMPO
-Kansas:      66.85    Memphis:     67.71
+USC:         64.60    Kansas St.:  69.21
 
 
 
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
-Kansas:      121.43    Memphis:     114.69
+USC:         110.66    Kansas St.:  113.38
 
 ADJUSTED DEFENSIVE EFFICIENCY
-Kansas:      87.47    Memphis:     85.32
+USC:         90.70    Kansas St.:  94.49
 
 OFFENSIVE EFFECTIVE FG%
-Kansas:      0.563    Memphis:     0.53
+USC:         0.535    Kansas St.:  0.497
 
 DEFENSIVE EFFECTIVE FG%
-Kansas:      0.448    Memphis:     0.425
+USC:         0.445    Kansas St.:  0.48
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.05    Memphis:     -0.07
+USC:         0.08    Kansas St.:  0.02
 
 
 
 TWO POINT COMPARISON
 
 NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
-Kansas:      8.09    Memphis:     3.49
+USC:         4.20    Kansas St.:  2.01
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.41    Memphis:     -0.32
+USC:         0.32    Kansas St.:  -0.01
 
 
 
 THREE POINT COMPARISON
 
 NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
-Kansas:      -0.35    Memphis:     2.74
+USC:         -0.07    Kansas St.:  -0.38
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      -0.33    Memphis:     0.37
+USC:         -0.09    Kansas St.:  -0.16
 
 
 
 FREE THROW COMPARISON
 
 NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
-Kansas:      5.00    Memphis:     0.87
+USC:         3.46    Kansas St.:  0.49
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.04    Memphis:     -0.50
+USC:         0.12    Kansas St.:  -0.27
 
 
 
 TURNOVER COMPARISON
 
 OFFENSIVE TURNOVER PERCENTAGE
-Kansas:      0.187    Memphis:     0.172
+USC:         0.22    Kansas St.:  0.208
 
 DEFENSIVE TURNOVER PERCENTAGE
-Kansas:      0.229    Memphis:     0.233
+USC:         0.2    Kansas St.:  0.225
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      -0.28    Memphis:     -0.09
+USC:         -0.52    Kansas St.:  -0.19
 
 
 
 REBOUNDING COMPARISON
 
 EFFECTIVE HEIGHT
-Kansas:      81.43    Memphis:     80.52
+USC:         80.62    Kansas St.:  80.59
 
 OFFENSIVE REBOUNDING PERCENTAGE
-Kansas:      0.38    Memphis:     0.378
+USC:         0.312    Kansas St.:  0.421
 
 DEFENSIVE REBOUND PERCENTAGE
-Kansas:      0.71    Memphis:     0.707
+USC:         0.656    Kansas St.:  0.692
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.17    Memphis:     0.14
+USC:         -0.41    Kansas St.:  0.76
 
 
 
 WIN PERCENTAGE
-Kansas:      56.4 %    Memphis:     43.6 %
+USC:         51.6 %    Kansas St.:  48.4 %
 
-KEEP IN MIND:  Kansas(1) is expected to rank between 1-4 .  Memphis(1) is expected to rank between 1-4
+KEEP IN MIND:  USC(6) is expected to rank between 21-24 .  Kansas St.(11) is expected to rank between 41-44
 
 ROUND OF 32 RANK
-Kansas:      1/65    Memphis:     5/65
+USC:         16/65    Kansas St.:  26/65
 
 SWEET 16 RANK
-Kansas:      1/65    Memphis:     7/65
+USC:         12/65    Kansas St.:  26/65
 
 ELITE 8 RANK
-Kansas:      2/65    Memphis:     7/65
+USC:         21/65    Kansas St.:  22/65
 
 FINAL 4 RANK
-Kansas:      1/65    Memphis:     5/65
+USC:         19/65    Kansas St.:  26/65
 
 NATIONAL CHAMPION RANK
-Kansas:      1/65    Memphis:     5/65
+USC:         19/65    Kansas St.:  22/65
 
 PROJECTED TOURNAMENT WINS
-Kansas:      4.50 (#1)    Memphis:     2.50 (#7)
+USC:         1.17 (#19)    Kansas St.:  0.98 (#25)

@@ -1,125 +1,125 @@
-                Kansas(1) vs. Memphis(1)
+                Alabama St.(16) vs. Saint Francis(16)
 
 STRENGTH OF SCHEDULE COMPARISON
 
 ELITE SOS
-Kansas:      30.29    Memphis:     20.888
+Alabama St.: 11.608    Saint Francis: 12.764
 
 WINS ABOVE BUBBLE
-Kansas:      9.9    Memphis:     8.9
+Alabama St.: -10.2    Saint Francis: -12.2
 
 
 
 TEMPO COMPARISON
 
 ADJUSTED TEMPO
-Kansas:      66.85    Memphis:     67.71
+Alabama St.: 67.82    Saint Francis: 67.00
 
 
 
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
-Kansas:      121.43    Memphis:     114.69
+Alabama St.: 101.45    Saint Francis: 99.72
 
 ADJUSTED DEFENSIVE EFFICIENCY
-Kansas:      87.47    Memphis:     85.32
+Alabama St.: 110.69    Saint Francis: 112.48
 
 OFFENSIVE EFFECTIVE FG%
-Kansas:      0.563    Memphis:     0.53
+Alabama St.: 0.471    Saint Francis: 0.516
 
 DEFENSIVE EFFECTIVE FG%
-Kansas:      0.448    Memphis:     0.425
+Alabama St.: 0.503    Saint Francis: 0.513
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.05    Memphis:     -0.07
+Alabama St.: 0.06    Saint Francis: -0.07
 
 
 
 TWO POINT COMPARISON
 
 NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
-Kansas:      8.09    Memphis:     3.49
+Alabama St.: -1.56    Saint Francis: -0.53
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.41    Memphis:     -0.32
+Alabama St.: -0.30    Saint Francis: -0.14
 
 
 
 THREE POINT COMPARISON
 
 NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
-Kansas:      -0.35    Memphis:     2.74
+Alabama St.: 1.02    Saint Francis: -0.28
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      -0.33    Memphis:     0.37
+Alabama St.: 0.38    Saint Francis: 0.13
 
 
 
 FREE THROW COMPARISON
 
 NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
-Kansas:      5.00    Memphis:     0.87
+Alabama St.: -3.18    Saint Francis: -1.94
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.04    Memphis:     -0.50
+Alabama St.: -0.07    Saint Francis: -0.02
 
 
 
 TURNOVER COMPARISON
 
 OFFENSIVE TURNOVER PERCENTAGE
-Kansas:      0.187    Memphis:     0.172
+Alabama St.: 0.132    Saint Francis: 0.196
 
 DEFENSIVE TURNOVER PERCENTAGE
-Kansas:      0.229    Memphis:     0.233
+Alabama St.: 0.186    Saint Francis: 0.164
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      -0.28    Memphis:     -0.09
+Alabama St.: 0.39    Saint Francis: -0.46
 
 
 
 REBOUNDING COMPARISON
 
 EFFECTIVE HEIGHT
-Kansas:      81.43    Memphis:     80.52
+Alabama St.: 79.67    Saint Francis: 78.64
 
 OFFENSIVE REBOUNDING PERCENTAGE
-Kansas:      0.38    Memphis:     0.378
+Alabama St.: 0.283    Saint Francis: 0.254
 
 DEFENSIVE REBOUND PERCENTAGE
-Kansas:      0.71    Memphis:     0.707
+Alabama St.: 0.689    Saint Francis: 0.7
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.17    Memphis:     0.14
+Alabama St.: 0.03    Saint Francis: -0.17
 
 
 
 WIN PERCENTAGE
-Kansas:      56.4 %    Memphis:     43.6 %
+Alabama St.: 63.2 %    Saint Francis: 36.8 %
 
-KEEP IN MIND:  Kansas(1) is expected to rank between 1-4 .  Memphis(1) is expected to rank between 1-4
+KEEP IN MIND:  Alabama St.(16) is expected to rank between 63-68 .  Saint Francis(16) is expected to rank between 63-68
 
 ROUND OF 32 RANK
-Kansas:      1/65    Memphis:     5/65
+Alabama St.: 65/68    Saint Francis: 68/68
 
 SWEET 16 RANK
-Kansas:      1/65    Memphis:     7/65
+Alabama St.: 67/68    Saint Francis: 68/68
 
 ELITE 8 RANK
-Kansas:      2/65    Memphis:     7/65
+Alabama St.: 67/68    Saint Francis: 68/68
 
 FINAL 4 RANK
-Kansas:      1/65    Memphis:     5/65
+Alabama St.: 67/68    Saint Francis: 68/68
 
 NATIONAL CHAMPION RANK
-Kansas:      1/65    Memphis:     5/65
+Alabama St.: 67/68    Saint Francis: 68/68
 
 PROJECTED TOURNAMENT WINS
-Kansas:      4.50 (#1)    Memphis:     2.50 (#7)
+Alabama St.: 0.06 (#66)    Saint Francis: 0.04 (#68)
