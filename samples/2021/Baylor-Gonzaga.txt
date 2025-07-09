@@ -1,0 +1,132 @@
+                Baylor(1) vs. Gonzaga(1)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Baylor:      27.876    Gonzaga:     24.19
+
+WINS ABOVE BUBBLE
+Baylor:      6.7    Gonzaga:     8.5
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Baylor:      68.39    Gonzaga:     74.77
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Baylor:      123.27    Gonzaga:     126.11
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Baylor:      93.77    Gonzaga:     89.49
+
+OFFENSIVE EFFECTIVE FG%
+Baylor:      0.575    Gonzaga:     0.61
+
+DEFENSIVE EFFECTIVE FG%
+Baylor:      0.491    Gonzaga:     0.475
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.17    Gonzaga:     0.45
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Baylor:      2.34    Gonzaga:     8.53
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.08    Gonzaga:     0.67
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Baylor:      3.37    Gonzaga:     0.68
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.40    Gonzaga:     -0.05
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Baylor:      -1.32    Gonzaga:     5.70
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      -0.61    Gonzaga:     0.23
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Baylor:      0.176    Gonzaga:     0.161
+
+DEFENSIVE TURNOVER PERCENTAGE
+Baylor:      0.246    Gonzaga:     0.203
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      -0.04    Gonzaga:     -0.22
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Baylor:      79.37    Gonzaga:     80.58
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Baylor:      0.375    Gonzaga:     0.304
+
+DEFENSIVE REBOUND PERCENTAGE
+Baylor:      0.691    Gonzaga:     0.766
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Baylor:      0.43    Gonzaga:     0.19
+
+
+
+WIN PERCENTAGE
+Baylor:      38.9 %    Gonzaga:     61.1 %
+
+==============================================================
+
+KEEP IN MIND:  Baylor(1) is expected to rank between 1-4 .  Gonzaga(1) is expected to rank between 1-4
+
+ROUND OF 32 RANK
+Baylor:      4/68    Gonzaga:     2/68
+
+SWEET 16 RANK
+Baylor:      4/68    Gonzaga:     2/68
+
+ELITE 8 RANK
+Baylor:      3/68    Gonzaga:     1/68
+
+FINAL 4 RANK
+Baylor:      6/68    Gonzaga:     2/68
+
+NATIONAL CHAMPION RANK
+Baylor:      2/68    Gonzaga:     3/68
+
+==============================================================
+
+PROJECTED TOURNAMENT WINS (SAFER MODEL)
+Baylor:      2.89 (#4)    Gonzaga:     3.41 (#1)
+
+PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
+Baylor:      3.95 (#1)    Gonzaga:     3.53 (#3)
