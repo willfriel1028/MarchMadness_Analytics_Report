@@ -1,0 +1,132 @@
+                Boise St.(8) vs. Memphis(9)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Boise St.:   21.555    Memphis:     26.062
+
+WINS ABOVE BUBBLE
+Boise St.:   3.5    Memphis:     1.4
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Boise St.:   64.62    Memphis:     70.30
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Boise St.:   108.44    Memphis:     110.37
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Boise St.:   92.03    Memphis:     94.15
+
+OFFENSIVE EFFECTIVE FG%
+Boise St.:   0.511    Memphis:     0.526
+
+DEFENSIVE EFFECTIVE FG%
+Boise St.:   0.482    Memphis:     0.465
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Boise St.:   -0.07    Memphis:     -0.09
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Boise St.:   -0.03    Memphis:     4.89
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Boise St.:   -0.44    Memphis:     0.31
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Boise St.:   1.44    Memphis:     -1.58
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Boise St.:   0.32    Memphis:     -0.48
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Boise St.:   2.96    Memphis:     2.41
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Boise St.:   0.04    Memphis:     -0.08
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Boise St.:   0.185    Memphis:     0.229
+
+DEFENSIVE TURNOVER PERCENTAGE
+Boise St.:   0.201    Memphis:     0.209
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Boise St.:   -0.31    Memphis:     -0.61
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Boise St.:   80.52    Memphis:     81.38
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Boise St.:   0.306    Memphis:     0.375
+
+DEFENSIVE REBOUND PERCENTAGE
+Boise St.:   0.781    Memphis:     0.69
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Boise St.:   0.38    Memphis:     0.60
+
+
+
+WIN PERCENTAGE
+Boise St.:   56.6 %    Memphis:     43.4 %
+
+==============================================================
+
+KEEP IN MIND:  Boise St.(8) is expected to rank between 29-32 .  Memphis(9) is expected to rank between 33-36
+
+ROUND OF 32 RANK
+Boise St.:   27/68    Memphis:     32/68
+
+SWEET 16 RANK
+Boise St.:   36/68    Memphis:     28/68
+
+ELITE 8 RANK
+Boise St.:   32/68    Memphis:     22/68
+
+FINAL 4 RANK
+Boise St.:   34/68    Memphis:     25/68
+
+NATIONAL CHAMPION RANK
+Boise St.:   37/68    Memphis:     24/68
+
+==============================================================
+
+PROJECTED TOURNAMENT WINS (SAFER MODEL)
+Boise St.:   0.81 (#31)    Memphis:     0.71 (#37)
+
+PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
+Boise St.:   0.81 (#28)    Memphis:     0.61 (#41)

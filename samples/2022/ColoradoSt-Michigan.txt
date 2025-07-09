@@ -1,0 +1,132 @@
+                Colorado St.(6) vs. Michigan(11)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Colorado St.: 22.01    Michigan:    34.033
+
+WINS ABOVE BUBBLE
+Colorado St.: 4.3    Michigan:    0.2
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Colorado St.: 65.08    Michigan:    66.28
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Colorado St.: 114.16    Michigan:    114.21
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Colorado St.: 98.30    Michigan:    98.56
+
+OFFENSIVE EFFECTIVE FG%
+Colorado St.: 0.552    Michigan:    0.523
+
+DEFENSIVE EFFECTIVE FG%
+Colorado St.: 0.499    Michigan:    0.503
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado St.: 0.35    Michigan:    0.34
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Colorado St.: 4.08    Michigan:    0.79
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado St.: 0.69    Michigan:    0.21
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Colorado St.: -0.00    Michigan:    -0.27
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado St.: 0.26    Michigan:    0.18
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Colorado St.: 3.13    Michigan:    0.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado St.: 0.20    Michigan:    -0.20
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Colorado St.: 0.151    Michigan:    0.171
+
+DEFENSIVE TURNOVER PERCENTAGE
+Colorado St.: 0.184    Michigan:    0.15
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado St.: 0.60    Michigan:    0.04
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Colorado St.: 78.68    Michigan:    82.78
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Colorado St.: 0.219    Michigan:    0.312
+
+DEFENSIVE REBOUND PERCENTAGE
+Colorado St.: 0.751    Michigan:    0.762
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Colorado St.: -0.82    Michigan:    0.20
+
+
+
+WIN PERCENTAGE
+Colorado St.: 55.2 %    Michigan:    44.8 %
+
+==============================================================
+
+KEEP IN MIND:  Colorado St.(6) is expected to rank between 21-24 .  Michigan(11) is expected to rank between 41-45
+
+ROUND OF 32 RANK
+Colorado St.: 33/68    Michigan:    41/68
+
+SWEET 16 RANK
+Colorado St.: 26/68    Michigan:    31/68
+
+ELITE 8 RANK
+Colorado St.: 28/68    Michigan:    33/68
+
+FINAL 4 RANK
+Colorado St.: 30/68    Michigan:    36/68
+
+NATIONAL CHAMPION RANK
+Colorado St.: 36/68    Michigan:    51/68
+
+==============================================================
+
+PROJECTED TOURNAMENT WINS (SAFER MODEL)
+Colorado St.: 0.63 (#42)    Michigan:    0.74 (#33)
+
+PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
+Colorado St.: 0.60 (#42)    Michigan:    0.70 (#34)
