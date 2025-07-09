@@ -1,0 +1,132 @@
+                UCLA(7) vs. Utah St.(10)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+UCLA:        34.636    Utah St.:    23.021
+
+WINS ABOVE BUBBLE
+UCLA:        3.3    Utah St.:    2.3
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+UCLA:        64.96    Utah St.:    67.62
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+UCLA:        116.83    Utah St.:    120.78
+
+ADJUSTED DEFENSIVE EFFICIENCY
+UCLA:        95.04    Utah St.:    105.56
+
+OFFENSIVE EFFECTIVE FG%
+UCLA:        0.53    Utah St.:    0.56
+
+DEFENSIVE EFFECTIVE FG%
+UCLA:        0.505    Utah St.:    0.518
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.37    Utah St.:    0.09
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+UCLA:        4.48    Utah St.:    3.07
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.08    Utah St.:    -0.14
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+UCLA:        -0.55    Utah St.:    0.49
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.21    Utah St.:    0.41
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+UCLA:        0.46    Utah St.:    1.24
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.27    Utah St.:    0.34
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+UCLA:        0.159    Utah St.:    0.16
+
+DEFENSIVE TURNOVER PERCENTAGE
+UCLA:        0.228    Utah St.:    0.202
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        -0.25    Utah St.:    -0.46
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+UCLA:        81.38    Utah St.:    80.47
+
+OFFENSIVE REBOUNDING PERCENTAGE
+UCLA:        0.328    Utah St.:    0.346
+
+DEFENSIVE REBOUND PERCENTAGE
+UCLA:        0.708    Utah St.:    0.697
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+UCLA:        0.36    Utah St.:    0.44
+
+
+
+WIN PERCENTAGE
+UCLA:        63.5 %    Utah St.:    36.5 %
+
+==============================================================
+
+KEEP IN MIND:  UCLA(7) is expected to rank between 25-28 .  Utah St.(10) is expected to rank between 37-40
+
+ROUND OF 32 RANK
+UCLA:        18/68    Utah St.:    41/68
+
+SWEET 16 RANK
+UCLA:        23/68    Utah St.:    40/68
+
+ELITE 8 RANK
+UCLA:        24/68    Utah St.:    35/68
+
+FINAL 4 RANK
+UCLA:        29/68    Utah St.:    36/68
+
+NATIONAL CHAMPION RANK
+UCLA:        26/68    Utah St.:    35/68
+
+==============================================================
+
+PROJECTED TOURNAMENT WINS (SAFER MODEL)
+UCLA:        1.05 (#27)    Utah St.:    0.55 (#43)
+
+PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
+UCLA:        1.11 (#23)    Utah St.:    0.50 (#47)

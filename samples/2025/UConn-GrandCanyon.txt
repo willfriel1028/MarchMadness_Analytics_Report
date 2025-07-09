@@ -1,0 +1,132 @@
+                Connecticut(8) vs. Grand Canyon(13)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Connecticut: 30.085    Grand Canyon: 10.398
+
+WINS ABOVE BUBBLE
+Connecticut: 2.2    Grand Canyon: -2.5
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Connecticut: 63.78    Grand Canyon: 71.52
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Connecticut: 121.97    Grand Canyon: 107.86
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Connecticut: 102.63    Grand Canyon: 100.64
+
+OFFENSIVE EFFECTIVE FG%
+Connecticut: 0.555    Grand Canyon: 0.512
+
+DEFENSIVE EFFECTIVE FG%
+Connecticut: 0.483    Grand Canyon: 0.47
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.35    Grand Canyon: -0.06
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Connecticut: 1.14    Grand Canyon: 3.15
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.05    Grand Canyon: 0.32
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Connecticut: 1.60    Grand Canyon: -0.07
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: -0.02    Grand Canyon: -0.35
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Connecticut: -3.23    Grand Canyon: 4.13
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.30    Grand Canyon: 0.92
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Connecticut: 0.171    Grand Canyon: 0.184
+
+DEFENSIVE TURNOVER PERCENTAGE
+Connecticut: 0.155    Grand Canyon: 0.206
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: -0.41    Grand Canyon: -0.06
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Connecticut: 80.84    Grand Canyon: 80.52
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Connecticut: 0.356    Grand Canyon: 0.325
+
+DEFENSIVE REBOUND PERCENTAGE
+Connecticut: 0.726    Grand Canyon: 0.714
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Connecticut: 0.48    Grand Canyon: 0.25
+
+
+
+WIN PERCENTAGE
+Connecticut: 65.8 %    Grand Canyon: 34.2 %
+
+==============================================================
+
+KEEP IN MIND:  Connecticut(8) is expected to rank between 29-32 .  Grand Canyon(13) is expected to rank between 51-54
+
+ROUND OF 32 RANK
+Connecticut: 39/68    Grand Canyon: 53/68
+
+SWEET 16 RANK
+Connecticut: 34/68    Grand Canyon: 54/68
+
+ELITE 8 RANK
+Connecticut: 33/68    Grand Canyon: 54/68
+
+FINAL 4 RANK
+Connecticut: 37/68    Grand Canyon: 56/68
+
+NATIONAL CHAMPION RANK
+Connecticut: 29/68    Grand Canyon: 55/68
+
+==============================================================
+
+PROJECTED TOURNAMENT WINS (SAFER MODEL)
+Connecticut: 0.85 (#32)    Grand Canyon: 0.27 (#54)
+
+PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
+Connecticut: 0.81 (#32)    Grand Canyon: 0.21 (#54)

@@ -50,7 +50,7 @@ def main():
 
     output_file = sys.argv[4] # READ IN OUTPUT FILE
     
-    #data.to_csv('test.csv', index=False)
+    data.to_csv('data/data_clean.csv', index=False)
     
     with open(output_file, "w") as f:     # PRINTS OUTPUT ONTO OUTPUT FILE
         sys.stdout = f
