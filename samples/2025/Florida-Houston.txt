@@ -1,0 +1,132 @@
+                Florida(1) vs. Houston(1)
+
+STRENGTH OF SCHEDULE COMPARISON
+
+ELITE SOS
+Florida:     37.75    Houston:     38.577
+
+WINS ABOVE BUBBLE
+Florida:     11.1    Houston:     11.6
+
+
+
+TEMPO COMPARISON
+
+ADJUSTED TEMPO
+Florida:     69.59    Houston:     61.50
+
+
+
+OFFENSE VS DEFENSE COMPARISON
+
+ADJUSTED OFFENSIVE EFFICIENCY
+Florida:     127.94    Houston:     123.27
+
+ADJUSTED DEFENSIVE EFFICIENCY
+Florida:     92.11    Houston:     87.83
+
+OFFENSIVE EFFECTIVE FG%
+Florida:     0.55    Houston:     0.527
+
+DEFENSIVE EFFECTIVE FG%
+Florida:     0.453    Houston:     0.449
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Florida:     0.00    Houston:     0.04
+
+
+
+TWO POINT COMPARISON
+
+NET 2-POINTERS (Shows expected 2pt margin for each team at this game's expected tempo)
+Florida:     2.07    Houston:     5.15
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Florida:     -0.49    Houston:     0.03
+
+
+
+THREE POINT COMPARISON
+
+NET 3-POINTERS (Shows expected 3pt margin for each team at this game's expected tempo)
+Florida:     2.62    Houston:     0.85
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Florida:     0.32    Houston:     -0.05
+
+
+
+FREE THROW COMPARISON
+
+NET FREE THROWS (Shows expected FT margin for each team at this game's expected tempo)
+Florida:     -0.26    Houston:     -0.87
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Florida:     0.22    Houston:     0.16
+
+
+
+TURNOVER COMPARISON
+
+OFFENSIVE TURNOVER PERCENTAGE
+Florida:     0.15    Houston:     0.146
+
+DEFENSIVE TURNOVER PERCENTAGE
+Florida:     0.17    Houston:     0.217
+
+HEAD TO HEAD MATCHUP
+OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Florida:     -0.28    Houston:     0.17
+
+
+
+REBOUNDING COMPARISON
+
+EFFECTIVE HEIGHT
+Florida:     82.10    Houston:     79.58
+
+OFFENSIVE REBOUNDING PERCENTAGE
+Florida:     0.381    Houston:     0.361
+
+DEFENSIVE REBOUND PERCENTAGE
+Florida:     0.712    Houston:     0.707
+
+HEAD TO HEAD MATCHUP
+OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
+Florida:     0.65    Houston:     0.52
+
+
+
+WIN PERCENTAGE
+Florida:     32.0 %    Houston:     68.0 %
+
+==============================================================
+
+KEEP IN MIND:  Florida(1) is expected to rank between 1-4 .  Houston(1) is expected to rank between 1-4
+
+ROUND OF 32 RANK
+Florida:     3/68    Houston:     1/68
+
+SWEET 16 RANK
+Florida:     3/68    Houston:     2/68
+
+ELITE 8 RANK
+Florida:     3/68    Houston:     1/68
+
+FINAL 4 RANK
+Florida:     3/68    Houston:     2/68
+
+NATIONAL CHAMPION RANK
+Florida:     2/68    Houston:     3/68
+
+==============================================================
+
+PROJECTED TOURNAMENT WINS (SAFER MODEL)
+Florida:     2.85 (#3)    Houston:     4.02 (#1)
+
+PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
+Florida:     2.74 (#4)    Houston:     4.40 (#1)
