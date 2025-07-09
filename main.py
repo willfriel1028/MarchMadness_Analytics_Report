@@ -43,12 +43,14 @@ def main():
     team2 = sys.argv[2] # READ IN TEAM2
 
     year = int(sys.argv[3]) # READ IN YEAR
-    data_train = data[data['Year'] != year]        # ASSIGN TRAINING DATA (THE REST OF THE DATASET ASIDE FROM THE CHOSEN YEAR)
+    data_train = data[data['Year'] < year]        # ASSIGN TRAINING DATA (THE DATA FROM BEFORE THE CHOSEN YEAR)
     data_test0 = data[data['Year'] == year].copy() # ASSIGN TESTINNG DATA (THE PART OF THE DATASET WITH CHOSEN YEAR)
 
     data_test = get_ranks(data_train, data_test0)  # UPDATES TESTING DATA WITH RESULTS FROM LOGISTIC AND POISSON REGRESSIONS
 
     output_file = sys.argv[4] # READ IN OUTPUT FILE
+    
+    #data.to_csv('test.csv', index=False)
     
     with open(output_file, "w") as f:     # PRINTS OUTPUT ONTO OUTPUT FILE
         sys.stdout = f
@@ -59,7 +61,8 @@ def get_ranks(data_train, data_test):
     '''
     This function collects the results from calling: 
         logreg_ridge (The logistic regression model)
-        get_proj_wins (The poisson regression model)
+        get_safe_wins (The poisson regression model for the safer wins predictions)
+        get_agg_wins (The poisson regression model for the aggressive wins predictions)
     Stores the results into a variable, and ranks each team in data_test based on the results
     Returns updated data_test
     '''
@@ -108,10 +111,20 @@ def get_ranks(data_train, data_test):
     data_test.loc[:, 'R32_Rank'] = data_test['R32_Prob'].rank(ascending=False, method='min').astype(int)     
                 # Ranks each team's chance to reach the Round of 32 and stores it as 'R32_Rank'
     
-    data_test.loc[:, 'Proj_Wins'] = get_proj_wins(x_train, x_test, data_train['Wins'])
-                # Stores each team's Projected wins as 'Proj_Wins'
-    data_test.loc[:, 'Wins_Rank'] = data_test['Proj_Wins'].rank(ascending=False, method='min').astype(int)
-                # Ranks each team's projected wins as 'Wins_Rank'
+    data_test.loc[:, 'Proj_Wins_s'] = get_safe_wins(data_train, data_test, data_train['Wins'])
+                # Stores each team's Safer Projected wins as 'Proj_Wins_s'
+    data_test.loc[:, 'Proj_Wins_a'] = get_agg_wins(data_train, data_test, data_train['Wins'])
+                # Stores each team's Aggressive Projected wins as 'Proj_Wins_a'
+    
+    data_test.loc[:, "Proj_Wins_Safer"] = 0.67 * data_test["Proj_Wins_s"] + 0.33 * data_test["Proj_Wins_a"]
+                # Blends the two models together with emphasis on the safer model
+    data_test.loc[:, 'Safer_Wins_Rank'] = data_test['Proj_Wins_Safer'].rank(ascending=False, method='min').astype(int)
+                # Ranks each team's safer projected wins as 'Safer_Wins_Rank'  
+    
+    data_test.loc[:, "Proj_Wins_Agg"] = 0.25 * data_test["Proj_Wins_s"] + 0.75 * data_test["Proj_Wins_a"]
+                # Blends the two models together with emphasis on the aggressive model
+    data_test.loc[:, 'Agg_Wins_Rank'] = data_test['Proj_Wins_Agg'].rank(ascending=False, method='min').astype(int)
+                # Ranks each team's aggressive projected wins as 'Safer_Wins_Rank' 
     
     return data_test    # Returns the updated data_test
 
@@ -138,24 +151,25 @@ def logreg_ridge(x_train, x_test, y_train, data_train):
         cv=5,                             # 5-fold cross-validation
         penalty='l2',                     # Ridge penalty - shrinks insignificant variables to near-zero
         solver='lbfgs',                   # LBFGS optimization algorithm
-        scoring='roc_auc',                # Evaluates model performance using the ROC AUC score (how well the model separates classes across thresholds)
+        scoring='average_precision',      # "Average precision" scoring method          
         class_weight = 'balanced',        # Automatically adjusts class weights to handle imbalanced classes
-        max_iter=10000                    # Sets the maximum number of iterations to 10,000 to ensure the model has enough time to converge
+        max_iter=10000,                   # Sets the maximum number of iterations to 10,000 to ensure the model has enough time to converge
+        Cs = [0.0001, 0.001, 0.01, 0.1, 0.25, 0.5, 1, 10, 100] # Assigns multiple C values for the model to loop through and see which performs best
     )
     ridge.fit(x_scaled, y_train)          # Fits the model on the training data
-
+    
     x_test_scaled = scaler.transform(x_test)                   # Uses the same scaling parameters from the training data to standardize the test data
     predicted_probs = ridge.predict_proba(x_test_scaled)[:, 1] # Runs the logistic regression model on the scaled test data and gets the probability that each sample belongs to class 1
     
     return predicted_probs    # Returns the probability that each sample belongs to class 1 for test variables
 
-def get_proj_wins(x_train, x_test, y_train_series):
+def get_safe_wins(data_train, data_test, y_train_series):
     '''
-    This function runs a poisson regression to caluclate the number of tournament wins each team in x_test will have based on their statistical profile
+    This function runs a poisson regression to safely calculate the number of tournament wins each team in x_test will have based on their statistical profile
     The function does the following:
         Reads in:
-            x_train (the training data)
-            x_test (the testing data)
+            data_train (the training data)
+            data_test (the testing data)
             y_train_series (a series, the 'Wins' column in the training data)
         Creates a Poisson regression model
         Fits the model on the training data
@@ -164,16 +178,62 @@ def get_proj_wins(x_train, x_test, y_train_series):
         Returns scaled outputs
     '''
 
-    model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=0.5, max_iter=10000)) # Creates poisson regression model as model
+    x_train = data_train[['WAB_z', 'AdjEM', 'Talent', 'Elite_SOS_z', 'W', 'Won_ConfT', 'OREB%_z', 'Height', '2pt_Off_Eff_z', 'TOV%_z', '2PT%D', 'FT_Def_Eff_z', 'Experience', '3PT%D', '3PT%']]
+    x_test = data_test[['WAB_z', 'AdjEM', 'Talent', 'Elite_SOS_z', 'W', 'Won_ConfT', 'OREB%_z', 'Height', '2pt_Off_Eff_z', 'TOV%_z', '2PT%D', 'FT_Def_Eff_z', 'Experience', '3PT%D', '3PT%']]
+    
+    model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=0.38, max_iter=10000)) # Creates poisson regression model as model
     model.fit(x_train, y_train_series) # Fits model to training data
     y_pred = model.predict(x_test)     # Predicts outcome of testing data based on model
     
-    power = 1.2
-    y_pred_transformed = np.power(y_pred, power)  # Adjusts the outcomes exponentially - ensures the best and worst teams are reflected in results
+    scale = 63 / y_pred.sum()         
     
-    scale = 63 / y_pred_transformed.sum()         
+    y_pred_scaled = y_pred * scale    # Scales the output so the sum is 63 (the number of wins in every tournament)
     
-    y_pred_scaled = y_pred_transformed * scale    # Scales the output so the sum is 63 (the number of wins in every tournament)
+    return y_pred_scaled # Returns the predicted wins for each team in test data
+
+def get_agg_wins(data_train, data_test, y_train_series):
+    '''
+    This function runs a poisson regression to aggressively caluclate the number of tournament wins each team in x_test will have based on their statistical profile
+    The function does the following:
+        Reads in:
+            data_train (the training data)
+            data_test (the testing data)
+            y_train_series (a series, the 'Wins' column in the training data)
+        Creates a Poisson regression model
+        Fits the model on the training data
+        Predicts the value for each team in the testing data
+        Scales the outputs to make them as realistic as possible
+        Returns scaled outputs
+    '''
+
+    x_train = data_train[['Won_ConfT', 'AdjO',
+       'AdjD', 'AdjEM', 'BARTHAG', 'EFG%', 'EFG%D', 'FT%', 'FTR', 'FTRD',
+       'TOV%', 'TOV%D', 'TOV%_Diff', 'OREB%', 'DREB%', '2PT%', '2PTR', '2PT%D',
+       '2PTRD', '3PT%', '3PTR', '3PT%D', '3PTRD', 'AST%', 'Height',
+       'Experience', 'Talent', 'AdjT', 'W', 'Elite_SOS', 'WAB', 'FT_Off_Eff',
+       'FT_Def_Eff', '2pt_Off_Eff', '2pt_Def_Eff', '3pt_Off_Eff',
+       '3pt_Def_Eff', 'AdjO_z', 'AdjD_z', 'BARTHAG_z', 'EFG%_z', 'EFG%D_z',
+       'FT_Off_Eff_z', 'FT_Def_Eff_z', 'TOV%_z', 'TOV%D_z', 'OREB%_z',
+       'DREB%_z', '2pt_Off_Eff_z', '2pt_Def_Eff_z', '3pt_Off_Eff_z',
+       '3pt_Def_Eff_z', 'AST%_z', 'Elite_SOS_z', 'WAB_z']]
+    x_test = data_test[['Won_ConfT', 'AdjO',
+       'AdjD', 'AdjEM', 'BARTHAG', 'EFG%', 'EFG%D', 'FT%', 'FTR', 'FTRD',
+       'TOV%', 'TOV%D', 'TOV%_Diff', 'OREB%', 'DREB%', '2PT%', '2PTR', '2PT%D',
+       '2PTRD', '3PT%', '3PTR', '3PT%D', '3PTRD', 'AST%', 'Height',
+       'Experience', 'Talent', 'AdjT', 'W', 'Elite_SOS', 'WAB', 'FT_Off_Eff',
+       'FT_Def_Eff', '2pt_Off_Eff', '2pt_Def_Eff', '3pt_Off_Eff',
+       '3pt_Def_Eff', 'AdjO_z', 'AdjD_z', 'BARTHAG_z', 'EFG%_z', 'EFG%D_z',
+       'FT_Off_Eff_z', 'FT_Def_Eff_z', 'TOV%_z', 'TOV%D_z', 'OREB%_z',
+       'DREB%_z', '2pt_Off_Eff_z', '2pt_Def_Eff_z', '3pt_Off_Eff_z',
+       '3pt_Def_Eff_z', 'AST%_z', 'Elite_SOS_z', 'WAB_z']]
+    
+    model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=0.001, max_iter=10000)) # Creates poisson regression model as model
+    model.fit(x_train, y_train_series) # Fits model to training data
+    y_pred = model.predict(x_test)     # Predicts outcome of testing data based on model
+    
+    scale = 63 / y_pred.sum()         
+    
+    y_pred_scaled = y_pred * scale    # Scales the output so the sum is 63 (the number of wins in every tournament)
     
     return y_pred_scaled # Returns the predicted wins for each team in test data
 
@@ -279,6 +339,8 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
     teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
     
+    count = len(data_test) # Get the number of teams in tournament
+    
     # Saving both team's ranks/proj wins into variables
     teamA_nat = teamA['Natty_Rank'].iloc[0]
     teamB_nat = teamB['Natty_Rank'].iloc[0]
@@ -292,10 +354,14 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     teamB_s16 = teamB['S16_Rank'].iloc[0]
     teamA_r32 = teamA['R32_Rank'].iloc[0]
     teamB_r32 = teamB['R32_Rank'].iloc[0]
-    teamA_pwins = teamA['Proj_Wins'].iloc[0]
-    teamB_pwins = teamB['Proj_Wins'].iloc[0]
-    teamA_winsrank = teamA['Wins_Rank'].iloc[0]
-    teamB_winsrank = teamB['Wins_Rank'].iloc[0]
+    teamA_s_pwins = teamA['Proj_Wins_Safer'].iloc[0]
+    teamB_s_pwins = teamB['Proj_Wins_Safer'].iloc[0]
+    teamA_s_winsrank = teamA['Safer_Wins_Rank'].iloc[0]
+    teamB_s_winsrank = teamB['Safer_Wins_Rank'].iloc[0]
+    teamA_a_pwins = teamA['Proj_Wins_Agg'].iloc[0]
+    teamB_a_pwins = teamB['Proj_Wins_Agg'].iloc[0]
+    teamA_a_winsrank = teamA['Agg_Wins_Rank'].iloc[0]
+    teamB_a_winsrank = teamB['Agg_Wins_Rank'].iloc[0]
     
     # Convertinng all matchup scores from a [-1,1] scale to a [0,1] scale
     odnet1 = (odnet1+1)/2
@@ -317,10 +383,21 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     wab_net1 = (wab1 - wab_min) / (wab_max - wab_min)
     wab_net2 = (wab2 - wab_min) / (wab_max - wab_min)
     
-    best = 30*1 + 5 + 6*1 + 5*1 + 6*1 + 4 + 10*(1)                      # Calculates best possible outcome for a team
-    worst = 30*(-1) + (-5) + 6*(-1) + 5*(-1) + 6*(-1) + (-4) + 10*(-1)  # Calculates worst possible outcome for a team
+    swins_max = data_test["Proj_Wins_Safer"].max()
+    swins_min = data_test["Proj_Wins_Safer"].min()
+    awins_max = data_test["Proj_Wins_Agg"].max()
+    awins_min = data_test["Proj_Wins_Agg"].min()
     
-    score = 30*(odnet1 - odnet2) + 5*(p2net1 - p2net2) + 6*(p3net1 - p3net2) + 5*(ftnet1 - ftnet2) + 6*(to1net - to2net) + 4*(rb1net - rb2net) + 10*(wab_net1 - wab_net2)
+    swins_net1 = (teamA_s_pwins - swins_min) / (swins_max - swins_min)
+    awins_net1 = (teamA_a_pwins - awins_min) / (awins_max - awins_min)
+    swins_net2 = (teamB_s_pwins - swins_min) / (swins_max - swins_min)
+    awins_net2 = (teamB_a_pwins - awins_min) / (awins_max - awins_min)
+    
+    
+    best = 30*1 + 5 + 6*1 + 5*1 + 6*1 + 4 + 10*(1) + 15*1 + 15*1                      # Calculates best possible outcome for a team
+    worst = 30*(-1) + (-5) + 6*(-1) + 5*(-1) + 6*(-1) + (-4) + 10*(-1) + 15*(-1) + 15*(-1)  # Calculates worst possible outcome for a team
+    
+    score = 30*(odnet1 - odnet2) + 5*(p2net1 - p2net2) + 6*(p3net1 - p3net2) + 5*(ftnet1 - ftnet2) + 6*(to1net - to2net) + 4*(rb1net - rb2net) + 10*(wab_net1 - wab_net2) + 15*(swins_net1 - swins_net2) + 15*(awins_net1 - awins_net2)
         # Calculates team1's score according to the formula
     
     normalized_score = (score - worst) / (best - worst)  # Normalizes team1's score to a [0,1] scale
@@ -334,30 +411,37 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     print("\n\n\nWIN PERCENTAGE")
     print(f"{team1 + ':':<12} {percentage1:.1f} {'%'}    {team2 + ':':<12} {percentage2:.1f} {'%'}") # Displays both teams' win percentages
     print()
+    print("==============================================================")
+    print()
     print("KEEP IN MIND: ", get_seed_bounds(team1, seedA, data_test), '. ', get_seed_bounds(team2, seedB, data_test)) 
         # Calls get_seed_bounds to give context to ranks
     print()
     print("ROUND OF 32 RANK")
-    print(f"{team1 + ':':<12} {teamA_r32}/68    {team2 + ':':<12} {teamB_r32}/68") # Displays both teams' R32 ranks
+    print(f"{team1 + ':':<12} {teamA_r32}/{count}    {team2 + ':':<12} {teamB_r32}/{count}") # Displays both teams' R32 ranks
     print()
     print("SWEET 16 RANK")
-    print(f"{team1 + ':':<12} {teamA_s16}/68    {team2 + ':':<12} {teamB_s16}/68") # Displays both teams' Sweet 16 ranks
+    print(f"{team1 + ':':<12} {teamA_s16}/{count}    {team2 + ':':<12} {teamB_s16}/{count}") # Displays both teams' Sweet 16 ranks
     print()
     print("ELITE 8 RANK")
-    print(f"{team1 + ':':<12} {teamA_e8}/68    {team2 + ':':<12} {teamB_e8}/68") # Displays both teams' Elite 8 ranks
+    print(f"{team1 + ':':<12} {teamA_e8}/{count}    {team2 + ':':<12} {teamB_e8}/{count}") # Displays both teams' Elite 8 ranks
     print()
     print("FINAL 4 RANK")
-    print(f"{team1 + ':':<12} {teamA_f4}/68    {team2 + ':':<12} {teamB_f4}/68") # Displays both teams' Final 4 ranks
+    print(f"{team1 + ':':<12} {teamA_f4}/{count}    {team2 + ':':<12} {teamB_f4}/{count}") # Displays both teams' Final 4 ranks
     print()
     #print("CHAMPIONSHIP GAME RANK")
-    #print(f"{team1 + ':':<12} {teamA_cg}/68\t{team2 + ':':<12} {teamB_cg}/68") # Displays both teams' championship game ranks
+    #print(f"{team1 + ':':<12} {teamA_cg}/{count}\t{team2 + ':':<12} {teamB_cg}/{count}") # Displays both teams' championship game ranks
     #print()
         # As of right now, championship rank is left out to prevent this section from being too crowded
     print("NATIONAL CHAMPION RANK")
-    print(f"{team1 + ':':<12} {teamA_nat}/68    {team2 + ':':<12} {teamB_nat}/68") # Displays both teams' National Champion ranks
+    print(f"{team1 + ':':<12} {teamA_nat}/{count}    {team2 + ':':<12} {teamB_nat}/{count}") # Displays both teams' National Champion ranks
     print()
-    print("PROJECTED TOURNAMENT WINS")
-    print(f"{team1 + ':':<12} {teamA_pwins:.2f} (#{teamA_winsrank})    {team2 + ':':<12} {teamB_pwins:.2f} (#{teamB_winsrank})") 
+    print("==============================================================")
+    print()
+    print("PROJECTED TOURNAMENT WINS (SAFER MODEL)")
+    print(f"{team1 + ':':<12} {teamA_s_pwins:.2f} (#{teamA_s_winsrank})    {team2 + ':':<12} {teamB_s_pwins:.2f} (#{teamB_s_winsrank})") 
+    print()
+    print("PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)")
+    print(f"{team1 + ':':<12} {teamA_a_pwins:.2f} (#{teamA_a_winsrank})    {team2 + ':':<12} {teamB_a_pwins:.2f} (#{teamB_a_winsrank})")
         # Displays both teams' projected tournament wins
     
 def sos_matchup(team1, team2, data_test):

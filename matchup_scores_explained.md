@@ -116,7 +116,7 @@ Each statistic plays out slightly differently, but from what I have seen the num
 
 ![test](images/better_curve.png)
 
-I find that most of the time, scores will fall into the [-0.5,0.5] range, which makes sense because it is pretty rarre that the best team at something will play the worst, especially after the first round. Most of the extreme scores you will see (> 0.8 or < -0.8) will usually come when it is a very unevenly matched game, such as a 1 vs 16 or 2 vs 15.
+I find that most of the time, scores will fall into the [-0.5,0.5] range, which makes sense because it is pretty rare that the best team at something will play the worst, especially after the first round. Most of the extreme scores you will see (> 0.8 or < -0.8) will usually come when it is a very unevenly matched game, such as a 1 vs 16 or 2 vs 15.
 
 My general rule of thumb is for something to be truly significant in a head-to-head matchup score, there should be a difference of ~0.2 or more between the 2 teams' scores, however it is always up for different interpretations. Sure, if there is a 0.12 difference then one team might have a slight edge inn that category, but most likely not enough to change the outcome of the game.
     

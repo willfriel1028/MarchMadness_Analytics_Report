@@ -2,7 +2,7 @@
 
 ## Description
 
-This program provides a full, analytically-driven, head-to-head scouting report for any two teams that have participated in the NCAA Division 1 Men's College Basketball Tournament in a given year since the 2007-2008 season. 
+This program provides a full, analytically-driven, head-to-head scouting report for any two teams that have participated in the NCAA Division 1 Men's College Basketball Tournament in a given year since the 2012-13 season. 
 
 It is designed to help users optimize their bracket selections by providing in-depth statistical analysis of head-to-head matchups.
 
@@ -24,36 +24,57 @@ It is designed to help users optimize their bracket selections by providing in-d
   - Elite 8
   - Final Four
   - National Champion
-- A Poisson regression model that projects each team’s expected number of tournament wins
+- Two Poisson regression models that project each team’s expected number of tournament wins, one of the models being "safer" and the other more "aggressive"
 
 ## Repository
 
 ```
 march_analytics_report/
-|- data/                                 # Folder containing any datasets for this program
-|    |- march_data.csv                   # The dataset used for this program
+|- data/                                          # Folder containing any datasets for this program
+|    |- march_data.csv                            # The dataset used for this program
+|    |- ...
 |
-|- outputs/                              # Folder where you can find some example matchup outputs
-|      |- 2025/                          # Each year's folder contains some matchups from that year
-|      |    |- Florida-Houston.txt       # Output for Florida vs. Houston (2025)
+|- images/                                        # Folder containing various images shown in this repo
+|     |- ...
+|
+|- model_tuning/                                  # Folder containg files used to tune and test the poisson regression models
+|       |- combined_sim_opts/                     # Contains notebooks simulating blended versions of the safe and aggressive models
+|       |          |- aggressive(sim3).ipynb      # The most accurate "aggressive"-minded model
+|       |          |- safer(sim5).ipynb           # The most accurate "safe"-minded model
+|       |          |- ...
+|       |- model_opt/                             # Contains notebooks simulating different versions of the poisson regression model
+|       |       |- aggressive(opt9).ipynb         # The most accurate "aggressive" model
+|       |       |- safer(opt23).ipynb             # The most accurate "safe" model
+|       |       |- corr_test.ipynb                # Contains multiple correlation tests, used to decide variables in the "safe" models
+|       |       |- ...
+|       |- bracket_simulation.ipynb               # Notebook used to create bracket simulation program
+|       |- sim_brackets_check.ipynb               # Checks accuracies of all simmed brackets
+|       |- ...
+|       
+|
+|- samples/                                       # Folder where you can find some sample matchup outputs
+|      |- 2025/                                   # Each year's folder contains some matchups from that year
+|      |    |- Florida-Houston.txt                # Output for Florida vs. Houston (2025)
 |      |- 2024/
-|      |- ...                            # Other years
+|      |- ...                                     # Other years
 |
-|- team_names/                           # Folder containing team names specifics
-|      |- team_names.py                  # Script to generate list of each team in the dataset alphabetically
-|      |- team_names.txt                 # Alphabetical list of all valid team names
+|- team_names/                                    # Folder containing team names specifics
+|      |- team_names.py                           # Script to generate list of each team in the dataset alphabetically
+|      |- team_names.txt                          # Alphabetical list of all valid team names
 |
-|- .gitignore                            # Specifies files and folders to ignore in version control
+|- .gitignore                                     # Specifies files and folders to ignore in version control
 |
-|- main.py                               # The script for this program
+|- main.py                                        # The script for this program
 |
-|- matchup_scores_explained              # Explains the [-1,1] matchup scores
+|- matchup_scores_explained                       # Explains the [-1,1] matchup scores
 |
-|- output_walkthrough.md                 # Walks through an example output, explaining each section
+|- model_tuning_walkthrough.md                    # Explains the tuning and testing process for the poisson regression models
 |
-|- README.md                             # The README for this program
+|- output_walkthrough.md                          # Walks through an example output, explaining each section
 |
-|- requirements.txt                      # Required Python libraries
+|- README.md                                      # The README for this program
+|
+|- requirements.txt                               # Required Python libraries
 
 ```
 ## Set Up and Installation
