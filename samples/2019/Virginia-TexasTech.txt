@@ -109,19 +109,19 @@ Virginia:    81.6 %    Texas Tech:  18.4 %
 KEEP IN MIND:  Virginia(1) is expected to rank between 1-4 .  Texas Tech(3) is expected to rank between 9-12
 
 ROUND OF 32 RANK
-Virginia:    2/68    Texas Tech:  9/68
+Virginia:    2/68    Texas Tech:  11/68
 
 SWEET 16 RANK
-Virginia:    3/68    Texas Tech:  11/68
+Virginia:    2/68    Texas Tech:  21/68
 
 ELITE 8 RANK
-Virginia:    2/68    Texas Tech:  13/68
+Virginia:    2/68    Texas Tech:  15/68
 
 FINAL 4 RANK
-Virginia:    3/68    Texas Tech:  10/68
+Virginia:    3/68    Texas Tech:  18/68
 
 NATIONAL CHAMPION RANK
-Virginia:    3/68    Texas Tech:  13/68
+Virginia:    3/68    Texas Tech:  12/68
 
 ==============================================================
 

@@ -115,13 +115,13 @@ SWEET 16 RANK
 Florida:     3/68    Houston:     2/68
 
 ELITE 8 RANK
-Florida:     3/68    Houston:     1/68
+Florida:     3/68    Houston:     2/68
 
 FINAL 4 RANK
 Florida:     3/68    Houston:     2/68
 
 NATIONAL CHAMPION RANK
-Florida:     2/68    Houston:     3/68
+Florida:     3/68    Houston:     2/68
 
 ==============================================================
 

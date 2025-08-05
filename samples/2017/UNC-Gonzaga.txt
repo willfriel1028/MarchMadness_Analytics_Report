@@ -109,19 +109,19 @@ North Carolina: 50.9 %    Gonzaga:     49.1 %
 KEEP IN MIND:  North Carolina(1) is expected to rank between 1-4 .  Gonzaga(1) is expected to rank between 1-4
 
 ROUND OF 32 RANK
-North Carolina: 4/68    Gonzaga:     2/68
+North Carolina: 5/68    Gonzaga:     4/68
 
 SWEET 16 RANK
-North Carolina: 7/68    Gonzaga:     3/68
+North Carolina: 6/68    Gonzaga:     1/68
 
 ELITE 8 RANK
-North Carolina: 3/68    Gonzaga:     15/68
+North Carolina: 3/68    Gonzaga:     5/68
 
 FINAL 4 RANK
-North Carolina: 6/68    Gonzaga:     3/68
+North Carolina: 1/68    Gonzaga:     15/68
 
 NATIONAL CHAMPION RANK
-North Carolina: 11/68    Gonzaga:     3/68
+North Carolina: 6/68    Gonzaga:     4/68
 
 ==============================================================
 

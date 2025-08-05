@@ -109,19 +109,19 @@ Kansas:      86.6 %    North Carolina: 13.4 %
 KEEP IN MIND:  Kansas(1) is expected to rank between 1-4 .  North Carolina(8) is expected to rank between 29-32
 
 ROUND OF 32 RANK
-Kansas:      2/68    North Carolina: 30/68
+Kansas:      1/68    North Carolina: 26/68
 
 SWEET 16 RANK
-Kansas:      3/68    North Carolina: 22/68
+Kansas:      4/68    North Carolina: 17/68
 
 ELITE 8 RANK
-Kansas:      2/68    North Carolina: 25/68
+Kansas:      3/68    North Carolina: 18/68
 
 FINAL 4 RANK
-Kansas:      3/68    North Carolina: 27/68
+Kansas:      2/68    North Carolina: 14/68
 
 NATIONAL CHAMPION RANK
-Kansas:      4/68    North Carolina: 32/68
+Kansas:      2/68    North Carolina: 22/68
 
 ==============================================================
 

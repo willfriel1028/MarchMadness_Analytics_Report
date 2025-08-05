@@ -109,19 +109,19 @@ Louisville:  84.1 %    Michigan:    15.9 %
 KEEP IN MIND:  Louisville(1) is expected to rank between 1-4 .  Michigan(4) is expected to rank between 13-16
 
 ROUND OF 32 RANK
-Louisville:  1/68    Michigan:    8/68
+Louisville:  1/68    Michigan:    11/68
 
 SWEET 16 RANK
-Louisville:  1/68    Michigan:    6/68
-
-ELITE 8 RANK
-Louisville:  1/68    Michigan:    6/68
-
-FINAL 4 RANK
 Louisville:  1/68    Michigan:    9/68
 
+ELITE 8 RANK
+Louisville:  1/68    Michigan:    8/68
+
+FINAL 4 RANK
+Louisville:  1/68    Michigan:    12/68
+
 NATIONAL CHAMPION RANK
-Louisville:  1/68    Michigan:    6/68
+Louisville:  1/68    Michigan:    20/68
 
 ==============================================================
 

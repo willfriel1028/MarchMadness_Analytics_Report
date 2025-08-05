@@ -112,16 +112,16 @@ ROUND OF 32 RANK
 Duke:        6/68    Wisconsin:   2/68
 
 SWEET 16 RANK
-Duke:        7/68    Wisconsin:   2/68
+Duke:        5/68    Wisconsin:   2/68
 
 ELITE 8 RANK
-Duke:        6/68    Wisconsin:   2/68
+Duke:        4/68    Wisconsin:   2/68
 
 FINAL 4 RANK
-Duke:        6/68    Wisconsin:   3/68
+Duke:        5/68    Wisconsin:   2/68
 
 NATIONAL CHAMPION RANK
-Duke:        7/68    Wisconsin:   3/68
+Duke:        7/68    Wisconsin:   4/68
 
 ==============================================================
 

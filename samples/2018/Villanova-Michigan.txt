@@ -109,16 +109,16 @@ Villanova:   79.9 %    Michigan:    20.1 %
 KEEP IN MIND:  Villanova(1) is expected to rank between 1-4 .  Michigan(3) is expected to rank between 9-12
 
 ROUND OF 32 RANK
-Villanova:   2/68    Michigan:    3/68
+Villanova:   2/68    Michigan:    6/68
 
 SWEET 16 RANK
-Villanova:   2/68    Michigan:    5/68
-
-ELITE 8 RANK
 Villanova:   2/68    Michigan:    8/68
 
+ELITE 8 RANK
+Villanova:   2/68    Michigan:    12/68
+
 FINAL 4 RANK
-Villanova:   2/68    Michigan:    9/68
+Villanova:   5/68    Michigan:    12/68
 
 NATIONAL CHAMPION RANK
 Villanova:   2/68    Michigan:    10/68
