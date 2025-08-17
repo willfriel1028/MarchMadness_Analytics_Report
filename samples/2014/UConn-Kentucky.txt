@@ -17,6 +17,13 @@ Connecticut: 63.41    Kentucky:    64.62
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Connecticut: 2.06    Kentucky:    0.32
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Connecticut: 0.439    Kentucky:    0.45
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: -0.07    Kentucky:    -0.03
+Connecticut: 0.10    Kentucky:    0.14
 
 
 
@@ -44,7 +51,7 @@ Connecticut: 2.17    Kentucky:    2.23
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: -0.22    Kentucky:    -0.25
+Connecticut: -0.01    Kentucky:    -0.04
 
 
 
@@ -55,7 +62,7 @@ Connecticut: 1.54    Kentucky:    -0.22
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.07    Kentucky:    -0.29
+Connecticut: 0.07    Kentucky:    -0.22
 
 
 
@@ -66,7 +73,7 @@ Connecticut: 3.02    Kentucky:    3.82
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.20    Kentucky:    0.21
+Connecticut: 0.46    Kentucky:    0.47
 
 
 
@@ -80,7 +87,7 @@ Connecticut: 0.195    Kentucky:    0.163
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.16    Kentucky:    -0.17
+Connecticut: 0.27    Kentucky:    -0.03
 
 
 
@@ -97,36 +104,33 @@ Connecticut: 0.666    Kentucky:    0.701
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: -0.05    Kentucky:    0.89
+Connecticut: -0.13    Kentucky:    0.64
 
-
+==============================================================
 
 WIN PERCENTAGE
-Connecticut: 43.4 %    Kentucky:    56.6 %
+Connecticut: 24.1 %    Kentucky:    75.9 %
 
 ==============================================================
 
 KEEP IN MIND:  Connecticut(7) is expected to rank between 25-28 .  Kentucky(8) is expected to rank between 29-32
 
 ROUND OF 32 RANK
-Connecticut: 24/68    Kentucky:    17/68
+Connecticut: 22/68    Kentucky:    11/68
 
 SWEET 16 RANK
-Connecticut: 23/68    Kentucky:    8/68
+Connecticut: 24/68    Kentucky:    12/68
 
 ELITE 8 RANK
-Connecticut: 24/68    Kentucky:    15/68
+Connecticut: 39/68    Kentucky:    11/68
 
 FINAL 4 RANK
-Connecticut: 27/68    Kentucky:    7/68
+Connecticut: 24/68    Kentucky:    7/68
 
 NATIONAL CHAMPION RANK
-Connecticut: 28/68    Kentucky:    5/68
+Connecticut: 23/68    Kentucky:    3/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Connecticut: 0.99 (#26)    Kentucky:    1.57 (#11)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Connecticut: 0.97 (#27)    Kentucky:    1.36 (#19)
+PROJECTED TOURNAMENT WINS
+Connecticut: 1.01 (#29)    Kentucky:    2.05 (#8)

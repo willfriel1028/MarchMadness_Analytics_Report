@@ -17,6 +17,13 @@ Villanova:   68.28    Michigan:    64.36
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Villanova:   1.31    Michigan:    1.63
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Villanova:   0.492    Michigan:    0.484
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.29    Michigan:    0.07
+Villanova:   0.38    Michigan:    0.20
 
 
 
@@ -44,7 +51,7 @@ Villanova:   0.87    Michigan:    0.11
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.41    Michigan:    0.30
+Villanova:   0.15    Michigan:    0.07
 
 
 
@@ -55,7 +62,7 @@ Villanova:   4.21    Michigan:    3.42
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.26    Michigan:    0.21
+Villanova:   0.47    Michigan:    0.44
 
 
 
@@ -66,7 +73,7 @@ Villanova:   3.43    Michigan:    -1.08
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   -0.08    Michigan:    -0.71
+Villanova:   -0.07    Michigan:    -0.52
 
 
 
@@ -80,7 +87,7 @@ Villanova:   0.185    Michigan:    0.194
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.29    Michigan:    0.48
+Villanova:   0.28    Michigan:    0.41
 
 
 
@@ -97,12 +104,12 @@ Villanova:   0.733    Michigan:    0.756
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   -0.17    Michigan:    -0.37
+Villanova:   -0.13    Michigan:    -0.25
 
-
+==============================================================
 
 WIN PERCENTAGE
-Villanova:   79.9 %    Michigan:    20.1 %
+Villanova:   66.4 %    Michigan:    33.6 %
 
 ==============================================================
 
@@ -112,21 +119,18 @@ ROUND OF 32 RANK
 Villanova:   2/68    Michigan:    6/68
 
 SWEET 16 RANK
-Villanova:   2/68    Michigan:    8/68
+Villanova:   3/68    Michigan:    5/68
 
 ELITE 8 RANK
 Villanova:   2/68    Michigan:    12/68
 
 FINAL 4 RANK
-Villanova:   5/68    Michigan:    12/68
+Villanova:   6/68    Michigan:    10/68
 
 NATIONAL CHAMPION RANK
-Villanova:   2/68    Michigan:    10/68
+Villanova:   5/68    Michigan:    17/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Villanova:   3.76 (#2)    Michigan:    1.92 (#10)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Villanova:   4.20 (#1)    Michigan:    1.87 (#10)
+PROJECTED TOURNAMENT WINS
+Villanova:   2.68 (#3)    Michigan:    1.62 (#8)

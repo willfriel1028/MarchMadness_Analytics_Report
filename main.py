@@ -22,40 +22,72 @@ def main():
     Calls team_matchup and prints results onto output file
     '''
     
-    data = pd.read_csv("data/march_data.csv") # READ DATASET
+    data = pd.read_csv("data/data_official.csv") # READ DATASET
     
-    # Save teams' offensive/defensive efficiencies into variables (fixed tempo to be ~average - 66.5)
-    data['FT_Off_Eff'] = data['FT%'] * data['FTR'] * 66.5 * (1 - data['TOV%'])
-    data['FT_Def_Eff'] = 0.715 * data['FTRD'] * 66.5 * (1 - data['TOV%D'])
-    data['2pt_Off_Eff'] = data['2PT%'] * data ['2PTR'] * 66.5 * (1 - data['TOV%'])
-    data['2pt_Def_Eff'] = data['2PT%D'] * data ['2PTRD'] * 66.5 * (1 - data['TOV%D'])
-    data['3pt_Off_Eff'] = data['3PT%'] * data ['3PTR'] * 66.5 * (1 - data['TOV%'])
-    data['3pt_Def_Eff'] = data['3PT%D'] * data ['3PTRD'] * 66.5 * (1 - data['TOV%D'])                                                              
+    data['R32'] = [0 for _ in range(len(data))]
+    data['S16'] = [0 for _ in range(len(data))]
+    data['E8'] = [0 for _ in range(len(data))]
+    data['F4'] = [0 for _ in range(len(data))]
+    data['CHAMP'] = [0 for _ in range(len(data))]
+    
+    data.loc[data['Wins'] > 0, 'R32'] = 1
+    data.loc[data['Wins'] > 1, 'S16'] = 1
+    data.loc[data['Wins'] > 2, 'E8'] = 1
+    data.loc[data['Wins'] > 3, 'F4'] = 1
+    data.loc[data['Wins'] > 5, 'CHAMP'] = 1
+    
+    data['2PT%']  = data['2PT%'].div(100).round(3)
+    data['2PT%D'] = data['2PT%D'].div(100).round(3)
+    data['2PTR']  = data['2PTR'].div(100).round(3)
+    data['2PTRD'] = data['2PTRD'].div(100).round(3)
+    data['3PT%']  = data['3PT%'].div(100).round(3)
+    data['3PT%D'] = data['3PT%D'].div(100).round(3)
+    data['3PTR']  = data['3PTR'].div(100).round(3)
+    data['3PTRD'] = data['3PTRD'].div(100).round(3)
+    data['FT%']   = data['FT%'].div(100).round(3)
+    data['FTR']   = data['FTR'].div(100).round(3)
+    data['FTRD']  = data['FTRD'].div(100).round(3)
+    data['TOV%']  = data['TOV%'].div(100).round(3)
+    data['TOV%D'] = data['TOV%D'].div(100).round(3)
+    data['OREB%'] = data['OREB%'].div(100).round(3)
+    data['DREB%'] = data['DREB%'].div(100).round(3)
+    data['EFG%']  = data['EFG%'].div(100).round(3)
+    data['EFG%D'] = data['EFG%D'].div(100).round(3)
+    data['AST%']  = data['AST%'].div(100).round(3)
 
-    features = ['AdjO', 'AdjD', 'BARTHAG', 'EFG%', 'EFG%D', 'FT_Off_Eff', 'FT_Def_Eff', 'TOV%', 'TOV%D', 'OREB%', 'DREB%', '2pt_Off_Eff', '2pt_Def_Eff', '3pt_Off_Eff', '3pt_Def_Eff', 'AST%', 'Elite_SOS', 'WAB'] # FEATURES TO BE USED IN LOGISTIC AND POISSON REGRESSIONS
-
-    for col in features:
-        mean_col = data.groupby('Year')[col].transform('mean')     # CONVERTING FEATURES FROM RAW STATS INTO Z-SCORES
-        std_col = data.groupby('Year')[col].transform('std')       # Z-SCORES ALLOWS FOR MORE ACCURATE YEAR-TO-YEAR MODELS
-        data[col + '_z'] = (data[col] - mean_col) / std_col  
-
+    
     team1 = sys.argv[1] # READ IN TEAM1
     team2 = sys.argv[2] # READ IN TEAM2
 
     year = int(sys.argv[3]) # READ IN YEAR
-    data_train = data[data['Year'] < year]        # ASSIGN TRAINING DATA (THE DATA FROM BEFORE THE CHOSEN YEAR)
-    data_test0 = data[data['Year'] == year].copy() # ASSIGN TESTINNG DATA (THE PART OF THE DATASET WITH CHOSEN YEAR)
-
-    data_test = get_ranks(data_train, data_test0)  # UPDATES TESTING DATA WITH RESULTS FROM LOGISTIC AND POISSON REGRESSIONS
-
-    output_file = sys.argv[4] # READ IN OUTPUT FILE
     
-    data.to_csv('data/data_clean.csv', index=False)
+    years = list(range(2013, year+1))
+    if 2020 in years:
+        years.remove(2020)
+        
+    dats = []
+    
+    pre = data[data["YEAR"] < 2013]
+        
+    for y in years:
+    
+        data_train = data[data['YEAR'] < y]        
+        data_test0 = data[data['YEAR'] == y].copy() 
+
+        data_test = get_ranks(data_train, data_test0)  
+        
+        dats.append(data_test)
+        
+    post_model = pd.concat(dats)
+    full_data = pd.concat([pre, post_model])
+    full_data.to_csv('data/data_clean.csv', index=False) 
+    
+    output_file = sys.argv[4] # READ IN OUTPUT FILE
     
     with open(output_file, "w") as f:     # PRINTS OUTPUT ONTO OUTPUT FILE
         sys.stdout = f
     
-        team_matchup(team1, team2, data_test)
+        team_matchup(team1, team2, full_data, year)
 
 def get_ranks(data_train, data_test):
     '''
@@ -67,64 +99,47 @@ def get_ranks(data_train, data_test):
     Returns updated data_test
     '''
     
-    x_train = data_train[['Won_ConfT', 'Experience',                                 # Training features
-                      'AdjO_z', 'AdjD_z', 'BARTHAG_z', 'EFG%_z', 'EFG%D_z',
-                      'FT_Off_Eff_z', 'FT_Def_Eff_z', 'TOV%_z', 'TOV%D_z',
-                      'OREB%_z', 'DREB%_z', '2pt_Off_Eff_z', '2pt_Def_Eff_z',
-                      '3pt_Off_Eff_z', '3pt_Def_Eff_z', 'AST%_z',
-                      'Elite_SOS_z', 'WAB_z']]
+    # BEST FEATURES FOR EACH ROUND
+    r32 = ['WAB', 'KADJ D', 'KADJ O', 'EFF HGT', 'OREB%', '2PT%D', 'TOV%', '2PT%', 'EXP', 'FTRD', '3PT%D', 'AST%', '3PT%']
+    s16 = ['WAB', 'KADJ O', 'KADJ D', 'EFF HGT', 'OREB%', '2PT%', '2PT%D', 'TOV%', 'FTRD', 'EXP', '3PT%D', '3PT%']
+    e8 = ['WAB', 'KADJ O', 'KADJ D', 'OREB%', 'EFF HGT', '2PT%', '2PT%D', 'TOV%', 'EXP', 'FTRD', '3PT%D']
+    f4 = ['WAB', 'KADJ O', 'KADJ D', 'OREB%', 'EFG%D', 'EFG%', 'EFF HGT', 'TOV%', 'FTRD']    
+    natty = ['WAB', 'KADJ O', 'KADJ D', 'OREB%', 'EFG%D', 'EFG%']
 
-    x_test = data_test[['Won_ConfT', 'Experience',                                   # Testing features
-                    'AdjO_z', 'AdjD_z', 'BARTHAG_z', 'EFG%_z', 'EFG%D_z',
-                    'FT_Off_Eff_z', 'FT_Def_Eff_z', 'TOV%_z', 'TOV%D_z',
-                    'OREB%_z', 'DREB%_z', '2pt_Off_Eff_z', '2pt_Def_Eff_z',
-                    '3pt_Off_Eff_z', '3pt_Def_Eff_z', 'AST%_z',
-                    'Elite_SOS_z', 'WAB_z']]
-
-    data_test.loc[:, 'Win_Prob'] = logreg_ridge(x_train, x_test, 'Won_Natty', data_train)                    
+    data_test.loc[:, 'Win_Prob'] = logreg_ridge(data_train[natty], data_test[natty], 'CHAMP', data_train)                    
                 # Stores each team's chance to win Championship into 'Win_Prob'
     data_test.loc[:, 'Natty_Rank'] = data_test['Win_Prob'].rank(ascending=False, method='min').astype(int)   
                 # Ranks each team's chance to win Championnship and stores it as 'Natty_Rank'
     
-    data_test.loc[:, 'CG_Prob'] = logreg_ridge(x_train, x_test, 'Champ_Game', data_train)                    
+    #data_test.loc[:, 'CG_Prob'] = logreg_ridge(x_train, x_test, 'Champ_Game', data_train)                    
                 # Stores each team's chance to reach championship game into 'CG_Prob'
-    data_test.loc[:, 'CG_Rank'] = data_test['CG_Prob'].rank(ascending=False, method='min').astype(int)       
+    #data_test.loc[:, 'CG_Rank'] = data_test['CG_Prob'].rank(ascending=False, method='min').astype(int)       
                 # Ranks each team's chance to reach championship game and stores it as 'CG_Rank'
     
-    data_test.loc[:, 'F4_Prob'] = logreg_ridge(x_train, x_test, 'Final_4', data_train)                       
+    data_test.loc[:, 'F4_Prob'] = logreg_ridge(data_train[f4], data_test[f4], 'F4', data_train)                       
                 # Stores each team's chance to reach Final 4 into 'F4_Prob'
     data_test.loc[:, 'F4_Rank'] = data_test['F4_Prob'].rank(ascending=False, method='min').astype(int)       
                 # Ranks each team's chance to reach Final 4 and stores it as 'F4_Rank'
     
-    data_test.loc[:, 'E8_Prob'] = logreg_ridge(x_train, x_test, 'Elite_8', data_train)                       
+    data_test.loc[:, 'E8_Prob'] = logreg_ridge(data_train[e8], data_test[e8], 'E8', data_train)                       
                 # Stores each team's chance to reach Elite 8 into 'E8_Prob'
     data_test.loc[:, 'E8_Rank'] = data_test['E8_Prob'].rank(ascending=False, method='min').astype(int)       
                 # Ranks each team's chance to reach Elite 8 and stores it as 'E8_Rank'
     
-    data_test.loc[:, 'S16_Prob'] = logreg_ridge(x_train, x_test, 'Sweet_16', data_train)                     
+    data_test.loc[:, 'S16_Prob'] = logreg_ridge(data_train[s16], data_test[s16], 'S16', data_train)                     
                 # Stores each team's chance to reach Sweet 16 into 'S16_Prob'
     data_test.loc[:, 'S16_Rank'] = data_test['S16_Prob'].rank(ascending=False, method='min').astype(int)     
                 # Ranks each team's chance to reach Sweet 16 and stores it as 'S16_Rank'
     
-    data_test.loc[:, 'R32_Prob'] = logreg_ridge(x_train, x_test, 'Round_32', data_train)                     
+    data_test.loc[:, 'R32_Prob'] = logreg_ridge(data_train[r32], data_test[r32], 'R32', data_train)                     
                 # Stores each team's chance to reach the Round of 32 into 'R32_Prob'
     data_test.loc[:, 'R32_Rank'] = data_test['R32_Prob'].rank(ascending=False, method='min').astype(int)     
                 # Ranks each team's chance to reach the Round of 32 and stores it as 'R32_Rank'
     
-    data_test.loc[:, 'Proj_Wins_s'] = get_safe_wins(data_train, data_test, data_train['Wins'])
-                # Stores each team's Safer Projected wins as 'Proj_Wins_s'
-    data_test.loc[:, 'Proj_Wins_a'] = get_agg_wins(data_train, data_test, data_train['Wins'])
-                # Stores each team's Aggressive Projected wins as 'Proj_Wins_a'
-    
-    data_test.loc[:, "Proj_Wins_Safer"] = 0.67 * data_test["Proj_Wins_s"] + 0.33 * data_test["Proj_Wins_a"]
-                # Blends the two models together with emphasis on the safer model
-    data_test.loc[:, 'Safer_Wins_Rank'] = data_test['Proj_Wins_Safer'].rank(ascending=False, method='min').astype(int)
-                # Ranks each team's safer projected wins as 'Safer_Wins_Rank'  
-    
-    data_test.loc[:, "Proj_Wins_Agg"] = 0.25 * data_test["Proj_Wins_s"] + 0.75 * data_test["Proj_Wins_a"]
-                # Blends the two models together with emphasis on the aggressive model
-    data_test.loc[:, 'Agg_Wins_Rank'] = data_test['Proj_Wins_Agg'].rank(ascending=False, method='min').astype(int)
-                # Ranks each team's aggressive projected wins as 'Safer_Wins_Rank' 
+    data_test.loc[:, 'Proj_Wins'] = get_proj_wins(data_train, data_test, data_train['Wins'])
+                # Stores each team's projected wins as 'Proj_Wins'
+    data_test.loc[:, 'Proj_Wins_Rank'] = data_test['Proj_Wins'].rank(ascending=False, method='min').astype(int)
+                # Ranks each team's projected wins as 'Proj_Wins_Rank'  
     
     return data_test    # Returns the updated data_test
 
@@ -163,9 +178,9 @@ def logreg_ridge(x_train, x_test, y_train, data_train):
     
     return predicted_probs    # Returns the probability that each sample belongs to class 1 for test variables
 
-def get_safe_wins(data_train, data_test, y_train_series):
+def get_proj_wins(data_train, data_test, y_train_series):
     '''
-    This function runs a poisson regression to safely calculate the number of tournament wins each team in x_test will have based on their statistical profile
+    This function runs a poisson regression to calculate the number of tournament wins each team in x_test will have based on their statistical profile
     The function does the following:
         Reads in:
             data_train (the training data)
@@ -174,70 +189,21 @@ def get_safe_wins(data_train, data_test, y_train_series):
         Creates a Poisson regression model
         Fits the model on the training data
         Predicts the value for each team in the testing data
-        Scales the outputs to make them as realistic as possible
-        Returns scaled outputs
+        Returns output
     '''
-
-    x_train = data_train[['WAB_z', 'AdjEM', 'Talent', 'Elite_SOS_z', 'W', 'Won_ConfT', 'OREB%_z', 'Height', '2pt_Off_Eff_z', 'TOV%_z', '2PT%D', 'FT_Def_Eff_z', 'Experience', '3PT%D', '3PT%']]
-    x_test = data_test[['WAB_z', 'AdjEM', 'Talent', 'Elite_SOS_z', 'W', 'Won_ConfT', 'OREB%_z', 'Height', '2pt_Off_Eff_z', 'TOV%_z', '2PT%D', 'FT_Def_Eff_z', 'Experience', '3PT%D', '3PT%']]
     
-    model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=0.38, max_iter=10000)) # Creates poisson regression model as model
+    optimal = ['WAB','KADJ O', 'KADJ D', 'EFF HGT', 'OREB%', '2PT%D', 'TOV%', 'FTRD', 'EXP', '3PT%D', '3PT%']
+    
+    x_train = data_train[optimal]
+    x_test = data_test[optimal]
+    
+    model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=0.3, max_iter=10000)) # Creates poisson regression model as model
     model.fit(x_train, y_train_series) # Fits model to training data
     y_pred = model.predict(x_test)     # Predicts outcome of testing data based on model
     
-    scale = 63 / y_pred.sum()         
-    
-    y_pred_scaled = y_pred * scale    # Scales the output so the sum is 63 (the number of wins in every tournament)
-    
-    return y_pred_scaled # Returns the predicted wins for each team in test data
+    return y_pred # Returns the predicted wins for each team in test data
 
-def get_agg_wins(data_train, data_test, y_train_series):
-    '''
-    This function runs a poisson regression to aggressively caluclate the number of tournament wins each team in x_test will have based on their statistical profile
-    The function does the following:
-        Reads in:
-            data_train (the training data)
-            data_test (the testing data)
-            y_train_series (a series, the 'Wins' column in the training data)
-        Creates a Poisson regression model
-        Fits the model on the training data
-        Predicts the value for each team in the testing data
-        Scales the outputs to make them as realistic as possible
-        Returns scaled outputs
-    '''
-
-    x_train = data_train[['Won_ConfT', 'AdjO',
-       'AdjD', 'AdjEM', 'BARTHAG', 'EFG%', 'EFG%D', 'FT%', 'FTR', 'FTRD',
-       'TOV%', 'TOV%D', 'TOV%_Diff', 'OREB%', 'DREB%', '2PT%', '2PTR', '2PT%D',
-       '2PTRD', '3PT%', '3PTR', '3PT%D', '3PTRD', 'AST%', 'Height',
-       'Experience', 'Talent', 'AdjT', 'W', 'Elite_SOS', 'WAB', 'FT_Off_Eff',
-       'FT_Def_Eff', '2pt_Off_Eff', '2pt_Def_Eff', '3pt_Off_Eff',
-       '3pt_Def_Eff', 'AdjO_z', 'AdjD_z', 'BARTHAG_z', 'EFG%_z', 'EFG%D_z',
-       'FT_Off_Eff_z', 'FT_Def_Eff_z', 'TOV%_z', 'TOV%D_z', 'OREB%_z',
-       'DREB%_z', '2pt_Off_Eff_z', '2pt_Def_Eff_z', '3pt_Off_Eff_z',
-       '3pt_Def_Eff_z', 'AST%_z', 'Elite_SOS_z', 'WAB_z']]
-    x_test = data_test[['Won_ConfT', 'AdjO',
-       'AdjD', 'AdjEM', 'BARTHAG', 'EFG%', 'EFG%D', 'FT%', 'FTR', 'FTRD',
-       'TOV%', 'TOV%D', 'TOV%_Diff', 'OREB%', 'DREB%', '2PT%', '2PTR', '2PT%D',
-       '2PTRD', '3PT%', '3PTR', '3PT%D', '3PTRD', 'AST%', 'Height',
-       'Experience', 'Talent', 'AdjT', 'W', 'Elite_SOS', 'WAB', 'FT_Off_Eff',
-       'FT_Def_Eff', '2pt_Off_Eff', '2pt_Def_Eff', '3pt_Off_Eff',
-       '3pt_Def_Eff', 'AdjO_z', 'AdjD_z', 'BARTHAG_z', 'EFG%_z', 'EFG%D_z',
-       'FT_Off_Eff_z', 'FT_Def_Eff_z', 'TOV%_z', 'TOV%D_z', 'OREB%_z',
-       'DREB%_z', '2pt_Off_Eff_z', '2pt_Def_Eff_z', '3pt_Off_Eff_z',
-       '3pt_Def_Eff_z', 'AST%_z', 'Elite_SOS_z', 'WAB_z']]
-    
-    model = make_pipeline(StandardScaler(), PoissonRegressor(alpha=0.001, max_iter=10000)) # Creates poisson regression model as model
-    model.fit(x_train, y_train_series) # Fits model to training data
-    y_pred = model.predict(x_test)     # Predicts outcome of testing data based on model
-    
-    scale = 63 / y_pred.sum()         
-    
-    y_pred_scaled = y_pred * scale    # Scales the output so the sum is 63 (the number of wins in every tournament)
-    
-    return y_pred_scaled # Returns the predicted wins for each team in test data
-
-def team_matchup(team1, team2, data_test):
+def team_matchup(team1, team2, data, year):
     '''
     This function calls all of the other matchup-related functions in this program
     The function reads in:
@@ -256,34 +222,36 @@ def team_matchup(team1, team2, data_test):
         get_win_percentages - the function that calculates win percentage for each team
     '''
         
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
-    
-    seedA = teamA['Seed'].iloc[0] # Saves team1's seed as seedA
-    seedB = teamB['Seed'].iloc[0] # Saves team2's seed as seedB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
+        
+    seedA = teamA['SEED'].iloc[0] # Saves team1's seed as seedA
+    seedB = teamB['SEED'].iloc[0] # Saves team2's seed as seedB
     
     print("    " * 4 + f"{team1}({seedA}) vs. {team2}({seedB})\n") # Prints the two teams and their respective seeds
     
-    wab1, wab2 = sos_matchup(team1, team2, data_test)    
+    wab1, wab2 = sos_matchup(team1, team2, data, year)    
         # Calls sos_matchup and saves the returns into variables
-    tempo1, tempo2, tempo = tempo_matchup(team1, team2, data_test)   
+    tempo1, tempo2, tempo = tempo_matchup(team1, team2, data, year)   
         # Calls tempo_matchup and saves the returns into variables
-    odnet1, odnet2 = off_def_matchup(team1, team2, data_test)   
+    experience_matchup(team1, team2, data, year)
+        # Calls experience_matchup
+    odnet1, odnet2 = off_def_matchup(team1, team2, data, year)   
         # Calls off_def_matchup and saves the returns into variables
-    p2net1, p2net2 = twopt_matchup(team1, team2, tempo, data_test)
+    p2net1, p2net2 = twopt_matchup(team1, team2, tempo, data, year)
         # Calls twopt_matchup and saves the returns into variables
-    p3net1, p3net2 = threept_matchup(team1, team2, tempo, data_test)
+    p3net1, p3net2 = threept_matchup(team1, team2, tempo, data, year)
         # Calls threept_matchup and saves the returns into variables
-    ftnet1, ftnet2 = ft_matchup(team1, team2, tempo, data_test)
+    ftnet1, ftnet2 = ft_matchup(team1, team2, tempo, data, year)
         # Calls ft_matchup and saves the returns into variables
-    to1net, to2net = to_matchup(team1, team2, data_test)
+    to1net, to2net = to_matchup(team1, team2, data, year)
         # Calls to_matchup and saves the returns into variables
-    rb1net, rb2net = reb_matchup(team1, team2, data_test)
+    rb1net, rb2net = reb_matchup(team1, team2, data, year)
         # Calls reb_matchup and saves the returns into variables
     
-    get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2, p3net1, p3net2, ftnet1, ftnet2, to1net, to2net, rb1net, rb2net, seedA, seedB, data_test) # Calls get_win_percetages
+    get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2, p3net1, p3net2, ftnet1, ftnet2, to1net, to2net, rb1net, rb2net, seedA, seedB, data, year) # Calls get_win_percetages
         
-def get_seed_bounds(team, seed, data_test):
+def get_seed_bounds(team, seed, data, year):
     '''
     This function calculates the range each seed falls into if each team were to be ranked by seed
     The function reads:
@@ -296,7 +264,9 @@ def get_seed_bounds(team, seed, data_test):
     Returns a statement stating the teams expected rank based on results
     '''
     
-    seed_counts = data_test['Seed'].value_counts().sort_index() # Counts how many times each seed appears in the 'Seed' column, sorts it by seed
+    df = data[data['YEAR'] == year]
+    
+    seed_counts = df['SEED'].value_counts().sort_index() # Counts how many times each seed appears in the 'Seed' column, sorts it by seed
     
     lower = 1
     for s in range(1, 17):  # seeds 1 through 16
@@ -308,7 +278,7 @@ def get_seed_bounds(team, seed, data_test):
         
         lower = upper + 1 # Change the lower bound to the next seed group
         
-def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2, p3net1, p3net2, ftnet1, ftnet2, to1net, to2net, rb1net, rb2net, seedA, seedB, data_test):
+def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2, p3net1, p3net2, ftnet1, ftnet2, to1net, to2net, rb1net, rb2net, seedA, seedB, data, year):
     '''
     This function calculates the % chance of winning each of 2 teams have in a head-to-head game
     It displays these percentages as well as the ranks calculated by the logistic and poisson regressions
@@ -336,32 +306,31 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     Displays each team's win percentage, as well as their ranks to reach each round in the tournament
     '''
     
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
     
-    count = len(data_test) # Get the number of teams in tournament
+    df = data[data['YEAR'] <= year]
+    projdf = data[(data['YEAR'] > 2012) & (data['YEAR'] <= year)]
+    
+    count = len(data[data['YEAR'] == year]) # Get the number of teams in tournament
     
     # Saving both team's ranks/proj wins into variables
-    teamA_nat = teamA['Natty_Rank'].iloc[0]
-    teamB_nat = teamB['Natty_Rank'].iloc[0]
-    teamA_cg = teamA['CG_Rank'].iloc[0]
-    teamB_cg = teamB['CG_Rank'].iloc[0]
-    teamA_f4 = teamA['F4_Rank'].iloc[0]
-    teamB_f4 = teamB['F4_Rank'].iloc[0]
-    teamA_e8 = teamA['E8_Rank'].iloc[0]
-    teamB_e8 = teamB['E8_Rank'].iloc[0]
-    teamA_s16 = teamA['S16_Rank'].iloc[0]
-    teamB_s16 = teamB['S16_Rank'].iloc[0]
-    teamA_r32 = teamA['R32_Rank'].iloc[0]
-    teamB_r32 = teamB['R32_Rank'].iloc[0]
-    teamA_s_pwins = teamA['Proj_Wins_Safer'].iloc[0]
-    teamB_s_pwins = teamB['Proj_Wins_Safer'].iloc[0]
-    teamA_s_winsrank = teamA['Safer_Wins_Rank'].iloc[0]
-    teamB_s_winsrank = teamB['Safer_Wins_Rank'].iloc[0]
-    teamA_a_pwins = teamA['Proj_Wins_Agg'].iloc[0]
-    teamB_a_pwins = teamB['Proj_Wins_Agg'].iloc[0]
-    teamA_a_winsrank = teamA['Agg_Wins_Rank'].iloc[0]
-    teamB_a_winsrank = teamB['Agg_Wins_Rank'].iloc[0]
+    teamA_nat = int(teamA['Natty_Rank'].iloc[0])
+    teamB_nat = int(teamB['Natty_Rank'].iloc[0])
+    #teamA_cg = teamA['CG_Rank'].iloc[0]
+    #teamB_cg = teamB['CG_Rank'].iloc[0]
+    teamA_f4 = int(teamA['F4_Rank'].iloc[0])
+    teamB_f4 = int(teamB['F4_Rank'].iloc[0])
+    teamA_e8 = int(teamA['E8_Rank'].iloc[0])
+    teamB_e8 = int(teamB['E8_Rank'].iloc[0])
+    teamA_s16 = int(teamA['S16_Rank'].iloc[0])
+    teamB_s16 = int(teamB['S16_Rank'].iloc[0])
+    teamA_r32 = int(teamA['R32_Rank'].iloc[0])
+    teamB_r32 = int(teamB['R32_Rank'].iloc[0])
+    teamA_pwins = (teamA['Proj_Wins'].iloc[0])
+    teamB_pwins = (teamB['Proj_Wins'].iloc[0])
+    teamA_winsrank = int(teamA['Proj_Wins_Rank'].iloc[0])
+    teamB_winsrank = int(teamB['Proj_Wins_Rank'].iloc[0])
     
     # Convertinng all matchup scores from a [-1,1] scale to a [0,1] scale
     odnet1 = (odnet1+1)/2
@@ -377,43 +346,51 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     rb1net = (rb1net+1)/2
     rb2net = (rb2net+1)/2
     
-    wab_max = data_test['WAB'].max()
-    wab_min = data_test['WAB'].min()
+    wab_max = df['WAB'].max()
+    wab_min = df['WAB'].min()
     
     wab_net1 = (wab1 - wab_min) / (wab_max - wab_min)
     wab_net2 = (wab2 - wab_min) / (wab_max - wab_min)
     
-    swins_max = data_test["Proj_Wins_Safer"].max()
-    swins_min = data_test["Proj_Wins_Safer"].min()
-    awins_max = data_test["Proj_Wins_Agg"].max()
-    awins_min = data_test["Proj_Wins_Agg"].min()
+    pwins_max = projdf["Proj_Wins"].max()
+    pwins_min = projdf["Proj_Wins"].min()
     
-    swins_net1 = (teamA_s_pwins - swins_min) / (swins_max - swins_min)
-    awins_net1 = (teamA_a_pwins - awins_min) / (awins_max - awins_min)
-    swins_net2 = (teamB_s_pwins - swins_min) / (swins_max - swins_min)
-    awins_net2 = (teamB_a_pwins - awins_min) / (awins_max - awins_min)
+    pwins_net1 = (teamA_pwins - pwins_min) / (pwins_max - pwins_min)
+    pwins_net2 = (teamB_pwins - pwins_min) / (pwins_max - pwins_min)
+    
+    advancement = find_round(team1, team2, data, year)
+        
+    teamA_adv = teamA[advancement].iloc[0]
+    teamB_adv = teamB[advancement].iloc[0]
+    
+    adv_max = projdf[advancement].max()
+    adv_min = projdf[advancement].min()
+    
+    advnet1 = (teamA_adv - adv_min) / (adv_max - adv_min)
+    advnet2 = (teamB_adv - adv_min) / (adv_max - adv_min)
     
     
-    best = 30*1 + 5 + 6*1 + 5*1 + 6*1 + 4 + 10*(1) + 15*1 + 15*1                      # Calculates best possible outcome for a team
-    worst = 30*(-1) + (-5) + 6*(-1) + 5*(-1) + 6*(-1) + (-4) + 10*(-1) + 15*(-1) + 15*(-1)  # Calculates worst possible outcome for a team
+    best = 30*1 + 5 + 6*1 + 5*1 + 6*1 + 4 + 10*(1) + 17*1 + 17*1                      # Calculates best possible outcome for a team
+    worst = 30*(-1) + (-5) + 6*(-1) + 5*(-1) + 6*(-1) + (-4) + 10*(-1) + 17*(-1) + 17*(-1)  # Calculates worst possible outcome for a team
     
-    score = 30*(odnet1 - odnet2) + 5*(p2net1 - p2net2) + 6*(p3net1 - p3net2) + 5*(ftnet1 - ftnet2) + 6*(to1net - to2net) + 4*(rb1net - rb2net) + 10*(wab_net1 - wab_net2) + 15*(swins_net1 - swins_net2) + 15*(awins_net1 - awins_net2)
+    score = 30*(odnet1 - odnet2) + 5*(p2net1 - p2net2) + 6*(p3net1 - p3net2) + 5*(ftnet1 - ftnet2) + 6*(to1net - to2net) + 4*(rb1net - rb2net) + 10*(wab_net1 - wab_net2) + 17*(pwins_net1 - pwins_net2) + 17*(advnet1 - advnet2)
         # Calculates team1's score according to the formula
     
     normalized_score = (score - worst) / (best - worst)  # Normalizes team1's score to a [0,1] scale
     
-    scaled_score = 12 * (normalized_score - 0.5)  # Centers the normalized score around 0        
+    scaled_score = 15 * (normalized_score - 0.5)  # Centers the normalized score around 0        
 
     percentage1 = 100 / (1 + math.exp(-scaled_score)) # Applies sigmoid function to scaled score and multiplying by 100, giving team1's win percentage
     percentage2 = 100 - percentage1                   # Calculates team2's win percentage
     
     # DISPLAYS OF WIN PERCENTAGE, RANKS, AND PROJ. WINS
-    print("\n\n\nWIN PERCENTAGE")
+    print("\n==============================================================")
+    print("\nWIN PERCENTAGE")
     print(f"{team1 + ':':<12} {percentage1:.1f} {'%'}    {team2 + ':':<12} {percentage2:.1f} {'%'}") # Displays both teams' win percentages
     print()
     print("==============================================================")
     print()
-    print("KEEP IN MIND: ", get_seed_bounds(team1, seedA, data_test), '. ', get_seed_bounds(team2, seedB, data_test)) 
+    print("KEEP IN MIND: ", get_seed_bounds(team1, seedA, data, year), '. ', get_seed_bounds(team2, seedB, data, year)) 
         # Calls get_seed_bounds to give context to ranks
     print()
     print("ROUND OF 32 RANK")
@@ -437,14 +414,79 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     print()
     print("==============================================================")
     print()
-    print("PROJECTED TOURNAMENT WINS (SAFER MODEL)")
-    print(f"{team1 + ':':<12} {teamA_s_pwins:.2f} (#{teamA_s_winsrank})    {team2 + ':':<12} {teamB_s_pwins:.2f} (#{teamB_s_winsrank})") 
-    print()
-    print("PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)")
-    print(f"{team1 + ':':<12} {teamA_a_pwins:.2f} (#{teamA_a_winsrank})    {team2 + ':':<12} {teamB_a_pwins:.2f} (#{teamB_a_winsrank})")
+    print("PROJECTED TOURNAMENT WINS")
+    print(f"{team1 + ':':<12} {teamA_pwins:.2f} (#{teamA_winsrank})    {team2 + ':':<12} {teamB_pwins:.2f} (#{teamB_winsrank})") 
         # Displays both teams' projected tournament wins
+        
+def find_round(team1, team2, data, year):
     
-def sos_matchup(team1, team2, data_test):
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
+    
+    df = data[data['YEAR'] <= year]
+    
+    seedA = teamA['SEED'].iloc[0]
+    seedB = teamB['SEED'].iloc[0]
+    
+    quadA = teamA['QUAD ID'].iloc[0]
+    quadB = teamB['QUAD ID'].iloc[0]
+    
+    if quadA == quadB:
+        if (
+            (seedA in [1,4,5,8,9,12,13,16] and seedB in [2,3,6,7,10,11,14,15]) or 
+            (seedA in [2,3,6,7,10,11,14,15] and seedB in [1,4,5,8,9,12,13,16])
+        ):
+            use = "F4_Prob"
+            
+        elif (
+            (seedA in [1,8,9,16] and seedB in [4,5,12,13]) or 
+            (seedB in [1,8,9,16] and seedA in [4,5,12,13]) or 
+            (seedA in [2,7,10,15] and seedB in [3,6,11,14]) or 
+            (seedB in [2,7,10,15] and seedA in [3,6,11,14])
+        ):
+            use = "E8_Prob"
+            
+        elif (
+            (seedA in [1,16] and seedB in [8,9]) or
+            (seedB in [1,16] and seedA in [8,9]) or
+            (seedA in [2,15] and seedB in [7,10]) or
+            (seedB in [2,15] and seedA in [7,10]) or
+            (seedA in [3,14] and seedB in [6,11]) or
+            (seedB in [3,14] and seedA in [6,11]) or
+            (seedA in [4,13] and seedB in [5,12]) or
+            (seedB in [4,13] and seedA in [5,12])
+        ):
+            use = "S16_Prob"
+            
+        elif (
+            (seedA == 1 and seedB == 16) or
+            (seedB == 1 and seedA == 16) or
+            (seedA == 2 and seedB == 15) or
+            (seedB == 2 and seedA == 15) or
+            (seedA == 3 and seedB == 14) or
+            (seedB == 3 and seedA == 14) or
+            (seedA == 4 and seedB == 13) or
+            (seedB == 4 and seedA == 13) or
+            (seedA == 5 and seedB == 12) or
+            (seedB == 5 and seedA == 12) or
+            (seedA == 6 and seedB == 11) or
+            (seedB == 6 and seedA == 11) or
+            (seedA == 7 and seedB == 10) or
+            (seedB == 7 and seedA == 10) or
+            (seedA == 8 and seedB == 9) or
+            (seedB == 8 and seedA == 9)
+        ):
+            use = "R32_Prob"
+            
+        else:
+            use = "R32_Prob"                  # Only possible if they are the same seed - First Four
+             
+    else:
+        use = "Win_Prob"
+        
+    return use
+    
+def sos_matchup(team1, team2, data, year):
     '''
     This function displays both team's respective strength of schedule analyses
     The function reads in:
@@ -454,13 +496,13 @@ def sos_matchup(team1, team2, data_test):
     Displays and returns each team's Elite SOS and WAB
     '''
     
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
     
     teamA_wab = teamA['WAB'].iloc[0] # Stores team1's WAB
     teamB_wab = teamB['WAB'].iloc[0] # Stores team2's WAB
-    teamA_esos = teamA['Elite_SOS'].iloc[0] # Stores team1's Elite SOS
-    teamB_esos = teamB['Elite_SOS'].iloc[0] # Stores team2's Elite SOS
+    teamA_esos = teamA['ELITE SOS'].iloc[0] # Stores team1's Elite SOS
+    teamB_esos = teamB['ELITE SOS'].iloc[0] # Stores team2's Elite SOS
     
     # DISPLAYS OF ELITE SOS AND WAB
     print("STRENGTH OF SCHEDULE COMPARISON")
@@ -473,7 +515,7 @@ def sos_matchup(team1, team2, data_test):
     
     return teamA_wab, teamB_wab # Returns each team's WAB
     
-def tempo_matchup(team1, team2, data_test):
+def tempo_matchup(team1, team2, data, year):
     '''
     This function displays the Tempo matchup between both teams
     The function reads in:
@@ -484,11 +526,11 @@ def tempo_matchup(team1, team2, data_test):
     Returns each team's tempo and the mean tempo
     '''
     
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
     
-    teamA_tempo = teamA['AdjT'].iloc[0] # Stores team1's tempo
-    teamB_tempo = teamB['AdjT'].iloc[0] # Stores team2's tempo
+    teamA_tempo = teamA['KADJ T'].iloc[0] # Stores team1's tempo
+    teamB_tempo = teamB['KADJ T'].iloc[0] # Stores team2's tempo
     
     # Calculates mean tempo (expected # of possessions in specific matchup)
     tempo = (teamA_tempo + teamB_tempo) / 2
@@ -500,9 +542,22 @@ def tempo_matchup(team1, team2, data_test):
     print(f"{team1 + ':':<12} {teamA_tempo:.2f}    {team2 + ':':<12} {teamB_tempo:.2f}") # Displays each teams' tempo
         
     return teamA_tempo, teamB_tempo, tempo # Returns tempos and mean tempo
+
+def experience_matchup(team1, team2, data, year):
     
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
     
-def off_def_matchup(team1, team2, data_test):
+    teamA_exp = teamA['EXP'].iloc[0] # Stores team1's experience
+    teamB_exp = teamB['EXP'].iloc[0] # Stores team2's experience
+    
+    # DISPLAYS EACH TEAMS' EXPERIENCE
+    print("\n\n\nEXPERIENCE COMPARISON")
+    print()
+    print("EXPERIENCE")
+    print(f"{team1 + ':':<12} {teamA_exp:.2f}    {team2 + ':':<12} {teamB_exp:.2f}") # Displays each teams' experience
+    
+def off_def_matchup(team1, team2, data, year):
     '''
     This function analyzes and displays how both team's offenses fare against the other's defense
     The function reads in:
@@ -514,24 +569,26 @@ def off_def_matchup(team1, team2, data_test):
     Displays and returns each team's offense and defensive efficiency, offensive and defensive efg%, and how they match up on a [-1,1] scale
     '''
     
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
     
-    min_OE = data_test['AdjO'].min() # Min Adjusted Offense efficiency
-    max_OE = data_test['AdjO'].max() # Max Adjusted Offense efficiency
-    min_DE = data_test['AdjD'].min() # Min Adjusted Defense efficiency
-    max_DE = data_test['AdjD'].max() # Max Adjusted Defense efficiency
+    df = data[data['YEAR'] <= year]
+    
+    min_OE = df['KADJ O'].min() # Min Adjusted Offense efficiency
+    max_OE = df['KADJ O'].max() # Max Adjusted Offense efficiency
+    min_DE = df['KADJ D'].min() # Min Adjusted Defense efficiency
+    max_DE = df['KADJ D'].max() # Max Adjusted Defense efficiency
     
     min_matchup = np.log(min_OE * min_DE) # Worst possible matchup for an offense (Worst offense vs best defense)
     max_matchup = np.log(max_OE * max_DE) # Best possible matchup for an offense (Best offense vs worst defense)
     
     # Store each team's statistics into variables
-    teamA_OE = teamA['AdjO'].iloc[0]
-    teamA_DE = teamA['AdjD'].iloc[0]
+    teamA_OE = teamA['KADJ O'].iloc[0]
+    teamA_DE = teamA['KADJ D'].iloc[0]
     teamA_efgO = teamA['EFG%'].iloc[0]
     teamA_efgD = teamA['EFG%D'].iloc[0]   
-    teamB_OE = teamB['AdjO'].iloc[0]
-    teamB_DE = teamB['AdjD'].iloc[0]
+    teamB_OE = teamB['KADJ O'].iloc[0]
+    teamB_DE = teamB['KADJ D'].iloc[0]
     teamB_efgO = teamB['EFG%'].iloc[0]
     teamB_efgD = teamB['EFG%D'].iloc[0]
     
@@ -561,7 +618,7 @@ def off_def_matchup(team1, team2, data_test):
     
     return AB_net, BA_net # Returns everything
     
-def twopt_matchup(team1, team2, tempo, data_test):
+def twopt_matchup(team1, team2, tempo, data, year):
     '''
     This function analyzes and displays how both teams perform in 2-point scoring.
     The function reads in:
@@ -576,8 +633,10 @@ def twopt_matchup(team1, team2, tempo, data_test):
     Displays and returns each team's net 2pt scores and the head-to-head matchup results.
     '''
     
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
+    
+    df = data[data['YEAR'] <= year]
     
     # Calculate each team's expected off, def, and net 2pt given the tempo
     teamA_o2 = (teamA['2PT%'].iloc[0] * teamA['2PTR'].iloc[0] * tempo * (1 - teamA['TOV%'].iloc[0]))
@@ -588,10 +647,10 @@ def twopt_matchup(team1, team2, tempo, data_test):
     teamB_net2 = teamB_o2 - teamB_d2
     
     # Find the min and max values for offense and defense
-    min_o2 = (data_test['2PT%'] * data_test['2PTR'] * (1 - data_test['TOV%'])).min() * tempo
-    max_o2 = (data_test['2PT%'] * data_test['2PTR'] * (1 - data_test['TOV%'])).max() * tempo
-    min_d2 = (data_test['2PT%D'] * data_test['2PTRD'] * (1 - data_test['TOV%D'])).min() * tempo
-    max_d2 = (data_test['2PT%D'] * data_test['2PTRD'] * (1 - data_test['TOV%D'])).max() * tempo
+    min_o2 = (df['2PT%'] * df['2PTR'] * (1 - df['TOV%'])).min() * tempo
+    max_o2 = (df['2PT%'] * df['2PTR'] * (1 - df['TOV%'])).max() * tempo
+    min_d2 = (df['2PT%D'] * df['2PTRD'] * (1 - df['TOV%D'])).min() * tempo
+    max_d2 = (df['2PT%D'] * df['2PTRD'] * (1 - df['TOV%D'])).max() * tempo
     
     # Calculate best and worst possible matchups using log(offense × defense)
     min_matchup = np.log(min_o2 * min_d2) # Worst matchup (worst offense vs best defense)
@@ -616,7 +675,7 @@ def twopt_matchup(team1, team2, tempo, data_test):
     # RETURN EVERYTHING
     return AB_scaled, BA_scaled
     
-def threept_matchup(team1, team2, tempo, data_test):
+def threept_matchup(team1, team2, tempo, data, year):
     '''
     This function analyzes and displays how both teams perform in 3-point scoring.
     The function reads in:
@@ -631,8 +690,10 @@ def threept_matchup(team1, team2, tempo, data_test):
     Displays and returns each team's net 3pt scores and the head-to-head matchup results.
     '''
     
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
+    
+    df = data[data['YEAR'] <= year]
     
     # Calculate each team's expected off, def, and net 3pt given the tempo
     teamA_o3 = (teamA['3PT%'].iloc[0] * teamA['3PTR'].iloc[0] * tempo * (1 - teamA['TOV%'].iloc[0]))
@@ -643,10 +704,10 @@ def threept_matchup(team1, team2, tempo, data_test):
     teamB_net3 = teamB_o3 - teamB_d3
     
     # Find the min and max values for offense and defense
-    min_o3 = (data_test['3PT%'] * data_test['3PTR'] * (1 - data_test['TOV%'])).min() * tempo
-    max_o3 = (data_test['3PT%'] * data_test['3PTR'] * (1 - data_test['TOV%'])).max() * tempo
-    min_d3 = (data_test['3PT%D'] * data_test['3PTRD'] * (1 - data_test['TOV%D'])).min() * tempo
-    max_d3 = (data_test['3PT%D'] * data_test['3PTRD'] * (1 - data_test['TOV%D'])).max() * tempo
+    min_o3 = (df['3PT%'] * df['3PTR'] * (1 - df['TOV%'])).min() * tempo
+    max_o3 = (df['3PT%'] * df['3PTR'] * (1 - df['TOV%'])).max() * tempo
+    min_d3 = (df['3PT%D'] * df['3PTRD'] * (1 - df['TOV%D'])).min() * tempo
+    max_d3 = (df['3PT%D'] * df['3PTRD'] * (1 - df['TOV%D'])).max() * tempo
     
     # Calculate best and worst possible matchups using log(offense × defense)
     min_matchup = np.log(min_o3 * min_d3) # Worst matchup (worst offense vs best defense)
@@ -671,7 +732,7 @@ def threept_matchup(team1, team2, tempo, data_test):
     # RETURN EVERYTHING
     return AB_scaled, BA_scaled
 
-def ft_matchup(team1, team2, tempo, data_test):
+def ft_matchup(team1, team2, tempo, data, year):
     '''
     This function analyzes and displays how both teams perform in free throw scoring.
     The function reads in:
@@ -686,9 +747,11 @@ def ft_matchup(team1, team2, tempo, data_test):
     Displays and returns each team's net FT scores and the head-to-head matchup results.
     '''
     
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
-
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
+    
+    df = data[data['YEAR'] <= year]
+    
     # Calculate each team's expected off, def, and net 3pt given the tempo
     # For defense, it is calculated using the opponent's FT%
     teamA_of = (teamA['FT%'].iloc[0] * teamA['FTR'].iloc[0] * tempo * (1 - teamA['TOV%'].iloc[0]))
@@ -699,10 +762,10 @@ def ft_matchup(team1, team2, tempo, data_test):
     teamB_netf = teamB_of - teamB_df
     
     # Find the min and max values for offense and defense
-    min_of = (data_test['FT%'] * data_test['FTR'] * (1 - data_test['TOV%'])).min() * tempo
-    max_of = (data_test['FT%'] * data_test['FTR'] * (1 - data_test['TOV%'])).max() * tempo
-    min_df = (0.715 * data_test['FTRD'] * (1 - data_test['TOV%D'])).min() * tempo
-    max_df = (0.715 * data_test['FTRD'] * (1 - data_test['TOV%D'])).max() * tempo
+    min_of = (df['FT%'] * df['FTR'] * (1 - df['TOV%'])).min() * tempo
+    max_of = (df['FT%'] * df['FTR'] * (1 - df['TOV%'])).max() * tempo
+    min_df = (0.715 * df['FTRD'] * (1 - df['TOV%D'])).min() * tempo
+    max_df = (0.715 * df['FTRD'] * (1 - df['TOV%D'])).max() * tempo
     
     # Calculate best and worst possible matchups using log(offense × defense)
     min_matchup = np.log(min_of * min_df) # Worst matchup (worst offense vs best defense)
@@ -727,7 +790,7 @@ def ft_matchup(team1, team2, tempo, data_test):
     # RETURN EVERYTHING
     return AB_scaled, BA_scaled
     
-def to_matchup(team1, team2, data_test):
+def to_matchup(team1, team2, data, year):
     '''
     This function analyzes and displays how each team's offense handles turnovers and how effective each team's defense is at forcing turnovers.
     The function reads in:
@@ -740,14 +803,16 @@ def to_matchup(team1, team2, data_test):
     The results are displayed in a clearly formatted head-to-head comparison.
     '''
 
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB 
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
+    
+    df = data[data['YEAR'] <= year]
 
     # Get the minimum and maximum values for offensive and defensive turnover percentages in the dataset
-    min_tov = data_test['TOV%'].min()   # Lowest offensive turnover rate
-    max_tov = data_test['TOV%'].max()   # Highest offensive turnover rate
-    min_tovd = data_test['TOV%D'].min() # Lowest defensive turnover rate (least turnovers forced)
-    max_tovd = data_test['TOV%D'].max() # Highest defensive turnover rate (most turnovers forced)
+    min_tov = df['TOV%'].min()   # Lowest offensive turnover rate
+    max_tov = df['TOV%'].max()   # Highest offensive turnover rate
+    min_tovd = df['TOV%D'].min() # Lowest defensive turnover rate (least turnovers forced)
+    max_tovd = df['TOV%D'].max() # Highest defensive turnover rate (most turnovers forced)
 
     # Calculate worst (high TOV × high TOVD) and best (low TOV × low TOVD) matchups using logs
     worst = np.log(max_tov * max_tovd) # Worst-case turnover matchup (bad offense vs great defense)
@@ -756,10 +821,8 @@ def to_matchup(team1, team2, data_test):
     # Retrieve each team’s turnover stats
     teamA_tov = teamA['TOV%'].iloc[0]        # team1's offensive turnover percentage
     teamA_tovd = teamA['TOV%D'].iloc[0]      # team1's defensive turnover percentage
-    teamA_diff = teamA['TOV%_Diff'].iloc[0]  # team1's net turnover margin
     teamB_tov = teamB['TOV%'].iloc[0]        # team2's offensive turnover percentage
     teamB_tovd = teamB['TOV%D'].iloc[0]      # team2's defensive turnover percentage
-    teamB_diff = teamB['TOV%_Diff'].iloc[0]  # team2's net turnover margin
 
     # Compute head-to-head log-scaled matchup strength
     AB = np.log(teamA_tov * teamB_tovd) # team1’s offense vs team2’s defense
@@ -783,7 +846,7 @@ def to_matchup(team1, team2, data_test):
     # RETURN key turnover metrics and head-to-head scores
     return AB_net, BA_net
 
-def reb_matchup(team1, team2, data_test):
+def reb_matchup(team1, team2, data, year):
     '''
     This function analyzes and displays how well each team rebounds on both ends of the floor.
     The function reads in:
@@ -797,14 +860,16 @@ def reb_matchup(team1, team2, data_test):
     The results are then displayed in a clear side-by-side comparison.
     '''
 
-    teamA = data_test[data_test['Team'] == team1] # Saves the data for team1 as teamA
-    teamB = data_test[data_test['Team'] == team2] # Saves the data for team2 as teamB
+    teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] # Saves the data for team1 as teamA
+    teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] # Saves the data for team1 as teamA
+    
+    df = data[data['YEAR'] <= year]
 
     # Get min and max rebounding stats in the dataset
-    min_dreb = data_test['DREB%'].min() # Lowest defensive rebound %
-    max_dreb = data_test['DREB%'].max() # Highest defensive rebound %
-    min_oreb = data_test['OREB%'].min() # Lowest offensive rebound %
-    max_oreb = data_test['OREB%'].max() # Highest offensive rebound %
+    min_dreb = df['DREB%'].min() # Lowest defensive rebound %
+    max_dreb = df['DREB%'].max() # Highest defensive rebound %
+    min_oreb = df['OREB%'].min() # Lowest offensive rebound %
+    max_oreb = df['OREB%'].max() # Highest offensive rebound %
 
     # Calculate matchup bounds using logs
     min_matchup = np.log(min_oreb / max_dreb) # Worst matchup: weak offensive rebounding vs strong defensive rebounding
@@ -815,8 +880,8 @@ def reb_matchup(team1, team2, data_test):
     teamA_oreb = teamA['OREB%'].iloc[0]     # team1's offensive rebound %
     teamB_dreb = teamB['DREB%'].iloc[0]     # team2's defensive rebound %
     teamB_oreb = teamB['OREB%'].iloc[0]     # team2's offensive rebound %
-    teamA_height = teamA['Height'].iloc[0]  # team1's average height
-    teamB_height = teamB['Height'].iloc[0]  # team2's average height
+    teamA_height = teamA['EFF HGT'].iloc[0]  # team1's average height
+    teamB_height = teamB['EFF HGT'].iloc[0]  # team2's average height
 
     # Calculate head-to-head rebounding matchup scores
     AB = np.log(teamA_oreb / teamB_dreb) # team1's offense vs team2's defense

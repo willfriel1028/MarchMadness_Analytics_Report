@@ -17,6 +17,13 @@ Connecticut: 64.45    Purdue:      67.38
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Connecticut: 1.71    Purdue:      1.86
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Connecticut: 0.451    Purdue:      0.477
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.36    Purdue:      0.26
+Connecticut: 0.39    Purdue:      0.31
 
 
 
@@ -44,7 +51,7 @@ Connecticut: 3.27    Purdue:      1.91
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.37    Purdue:      0.20
+Connecticut: 0.21    Purdue:      0.08
 
 
 
@@ -55,7 +62,7 @@ Connecticut: 2.57    Purdue:      1.24
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.25    Purdue:      -0.05
+Connecticut: 0.44    Purdue:      0.26
 
 
 
@@ -66,7 +73,7 @@ Connecticut: 0.92    Purdue:      7.31
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: -0.02    Purdue:      0.61
+Connecticut: -0.16    Purdue:      0.35
 
 
 
@@ -80,7 +87,7 @@ Connecticut: 0.162    Purdue:      0.14
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.48    Purdue:      0.10
+Connecticut: 0.50    Purdue:      0.19
 
 
 
@@ -97,36 +104,33 @@ Connecticut: 0.732    Purdue:      0.753
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.41    Purdue:      0.54
+Connecticut: 0.30    Purdue:      0.38
 
-
+==============================================================
 
 WIN PERCENTAGE
-Connecticut: 62.4 %    Purdue:      37.6 %
+Connecticut: 55.4 %    Purdue:      44.6 %
 
 ==============================================================
 
 KEEP IN MIND:  Connecticut(1) is expected to rank between 1-4 .  Purdue(1) is expected to rank between 1-4
 
 ROUND OF 32 RANK
-Connecticut: 2/68    Purdue:      4/68
+Connecticut: 2/68    Purdue:      3/68
 
 SWEET 16 RANK
-Connecticut: 1/68    Purdue:      3/68
+Connecticut: 1/68    Purdue:      2/68
 
 ELITE 8 RANK
-Connecticut: 1/68    Purdue:      4/68
+Connecticut: 1/68    Purdue:      2/68
 
 FINAL 4 RANK
 Connecticut: 2/68    Purdue:      3/68
 
 NATIONAL CHAMPION RANK
-Connecticut: 1/68    Purdue:      6/68
+Connecticut: 1/68    Purdue:      3/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Connecticut: 3.69 (#1)    Purdue:      2.99 (#3)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Connecticut: 3.53 (#1)    Purdue:      2.87 (#3)
+PROJECTED TOURNAMENT WINS
+Connecticut: 3.96 (#1)    Purdue:      3.59 (#2)

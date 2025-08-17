@@ -17,6 +17,13 @@ Villanova:   66.56    North Carolina: 71.07
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Villanova:   1.71    North Carolina: 1.85
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Villanova:   0.463    North Carolina: 0.474
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   -0.04    North Carolina: -0.01
+Villanova:   0.18    North Carolina: 0.20
 
 
 
@@ -44,7 +51,7 @@ Villanova:   3.21    North Carolina: 7.24
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   -0.19    North Carolina: 0.29
+Villanova:   -0.21    North Carolina: 0.14
 
 
 
@@ -55,7 +62,7 @@ Villanova:   1.79    North Carolina: -2.30
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.52    North Carolina: -0.51
+Villanova:   0.51    North Carolina: -0.10
 
 
 
@@ -66,7 +73,7 @@ Villanova:   2.64    North Carolina: 0.91
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.02    North Carolina: -0.16
+Villanova:   0.11    North Carolina: -0.02
 
 
 
@@ -80,7 +87,7 @@ Villanova:   0.204    North Carolina: 0.186
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.07    North Carolina: 0.01
+Villanova:   0.17    North Carolina: 0.13
 
 
 
@@ -97,36 +104,33 @@ Villanova:   0.713    North Carolina: 0.701
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Villanova:   0.09    North Carolina: 0.69
+Villanova:   -0.02    North Carolina: 0.51
 
-
+==============================================================
 
 WIN PERCENTAGE
-Villanova:   31.9 %    North Carolina: 68.1 %
+Villanova:   43.5 %    North Carolina: 56.5 %
 
 ==============================================================
 
 KEEP IN MIND:  Villanova(2) is expected to rank between 5-8 .  North Carolina(1) is expected to rank between 1-4
 
 ROUND OF 32 RANK
-Villanova:   7/68    North Carolina: 1/68
+Villanova:   7/68    North Carolina: 2/68
 
 SWEET 16 RANK
-Villanova:   7/68    North Carolina: 1/68
+Villanova:   8/68    North Carolina: 1/68
 
 ELITE 8 RANK
-Villanova:   8/68    North Carolina: 1/68
+Villanova:   6/68    North Carolina: 1/68
 
 FINAL 4 RANK
 Villanova:   10/68    North Carolina: 1/68
 
 NATIONAL CHAMPION RANK
-Villanova:   9/68    North Carolina: 2/68
+Villanova:   8/68    North Carolina: 3/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Villanova:   2.27 (#5)    North Carolina: 4.06 (#1)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Villanova:   2.44 (#4)    North Carolina: 4.25 (#1)
+PROJECTED TOURNAMENT WINS
+Villanova:   1.77 (#7)    North Carolina: 3.11 (#1)

@@ -17,6 +17,13 @@ Kansas:      69.10    North Carolina: 70.15
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Kansas:      2.08    North Carolina: 1.74
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Kansas:      0.469    North Carolina: 0.498
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.48    North Carolina: 0.10
+Kansas:      0.32    North Carolina: 0.06
 
 
 
@@ -44,7 +51,7 @@ Kansas:      2.74    North Carolina: 0.22
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.52    North Carolina: 0.20
+Kansas:      0.24    North Carolina: 0.02
 
 
 
@@ -55,7 +62,7 @@ Kansas:      1.02    North Carolina: 0.17
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.21    North Carolina: -0.04
+Kansas:      0.28    North Carolina: 0.15
 
 
 
@@ -66,7 +73,7 @@ Kansas:      1.40    North Carolina: 3.98
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      -0.27    North Carolina: 0.13
+Kansas:      -0.40    North Carolina: -0.13
 
 
 
@@ -80,7 +87,7 @@ Kansas:      0.184    North Carolina: 0.141
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.42    North Carolina: 0.10
+Kansas:      0.44    North Carolina: 0.18
 
 
 
@@ -97,36 +104,33 @@ Kansas:      0.711    North Carolina: 0.792
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Kansas:      0.24    North Carolina: 0.28
+Kansas:      0.07    North Carolina: 0.09
 
-
+==============================================================
 
 WIN PERCENTAGE
-Kansas:      86.6 %    North Carolina: 13.4 %
+Kansas:      79.5 %    North Carolina: 20.5 %
 
 ==============================================================
 
 KEEP IN MIND:  Kansas(1) is expected to rank between 1-4 .  North Carolina(8) is expected to rank between 29-32
 
 ROUND OF 32 RANK
-Kansas:      1/68    North Carolina: 26/68
+Kansas:      2/68    North Carolina: 25/68
 
 SWEET 16 RANK
-Kansas:      4/68    North Carolina: 17/68
+Kansas:      8/68    North Carolina: 18/68
 
 ELITE 8 RANK
-Kansas:      3/68    North Carolina: 18/68
+Kansas:      5/68    North Carolina: 21/68
 
 FINAL 4 RANK
-Kansas:      2/68    North Carolina: 14/68
+Kansas:      7/68    North Carolina: 20/68
 
 NATIONAL CHAMPION RANK
-Kansas:      2/68    North Carolina: 22/68
+Kansas:      3/68    North Carolina: 28/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Kansas:      3.06 (#1)    North Carolina: 1.17 (#17)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Kansas:      3.12 (#1)    North Carolina: 1.08 (#21)
+PROJECTED TOURNAMENT WINS
+Kansas:      2.15 (#5)    North Carolina: 0.98 (#18)

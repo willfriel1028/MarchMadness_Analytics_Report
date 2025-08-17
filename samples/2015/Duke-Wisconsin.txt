@@ -17,6 +17,13 @@ Duke:        65.64    Wisconsin:   58.08
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Duke:        1.06    Wisconsin:   2.08
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Duke:        0.474    Wisconsin:   0.467
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Duke:        0.24    Wisconsin:   0.37
+Duke:        0.33    Wisconsin:   0.45
 
 
 
@@ -44,7 +51,7 @@ Duke:        1.85    Wisconsin:   2.19
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Duke:        0.57    Wisconsin:   0.63
+Duke:        0.37    Wisconsin:   0.41
 
 
 
@@ -55,7 +62,7 @@ Duke:        2.40    Wisconsin:   2.20
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Duke:        0.11    Wisconsin:   0.04
+Duke:        0.12    Wisconsin:   0.06
 
 
 
@@ -66,7 +73,7 @@ Duke:        4.74    Wisconsin:   7.21
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Duke:        -0.55    Wisconsin:   -0.15
+Duke:        -0.32    Wisconsin:   -0.03
 
 
 
@@ -80,7 +87,7 @@ Duke:        0.187    Wisconsin:   0.167
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Duke:        0.26    Wisconsin:   0.56
+Duke:        0.29    Wisconsin:   0.56
 
 
 
@@ -97,36 +104,33 @@ Duke:        0.699    Wisconsin:   0.763
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Duke:        0.31    Wisconsin:   0.14
+Duke:        0.13    Wisconsin:   -0.02
 
-
+==============================================================
 
 WIN PERCENTAGE
-Duke:        27.5 %    Wisconsin:   72.5 %
+Duke:        41.3 %    Wisconsin:   58.7 %
 
 ==============================================================
 
 KEEP IN MIND:  Duke(1) is expected to rank between 1-4 .  Wisconsin(1) is expected to rank between 1-4
 
 ROUND OF 32 RANK
-Duke:        6/68    Wisconsin:   2/68
+Duke:        4/68    Wisconsin:   3/68
 
 SWEET 16 RANK
-Duke:        5/68    Wisconsin:   2/68
+Duke:        3/68    Wisconsin:   2/68
 
 ELITE 8 RANK
-Duke:        4/68    Wisconsin:   2/68
+Duke:        2/68    Wisconsin:   3/68
 
 FINAL 4 RANK
 Duke:        5/68    Wisconsin:   2/68
 
 NATIONAL CHAMPION RANK
-Duke:        7/68    Wisconsin:   4/68
+Duke:        5/68    Wisconsin:   6/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Duke:        2.67 (#6)    Wisconsin:   4.64 (#2)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Duke:        2.37 (#6)    Wisconsin:   5.13 (#2)
+PROJECTED TOURNAMENT WINS
+Duke:        3.54 (#3)    Wisconsin:   4.37 (#2)

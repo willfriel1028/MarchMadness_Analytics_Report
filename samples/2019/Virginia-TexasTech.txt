@@ -17,6 +17,13 @@ Virginia:    59.27    Texas Tech:  66.54
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Virginia:    1.55    Texas Tech:  1.87
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Virginia:    0.435    Texas Tech:  0.428
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Virginia:    -0.03    Texas Tech:  -0.31
+Virginia:    0.07    Texas Tech:  -0.14
 
 
 
@@ -44,7 +51,7 @@ Virginia:    3.27    Texas Tech:  5.49
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Virginia:    -0.37    Texas Tech:  -0.03
+Virginia:    -0.42    Texas Tech:  -0.13
 
 
 
@@ -55,7 +62,7 @@ Virginia:    2.74    Texas Tech:  0.93
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Virginia:    0.27    Texas Tech:  -0.08
+Virginia:    0.41    Texas Tech:  0.18
 
 
 
@@ -66,7 +73,7 @@ Virginia:    1.63    Texas Tech:  -1.04
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Virginia:    0.21    Texas Tech:  -0.18
+Virginia:    0.10    Texas Tech:  -0.14
 
 
 
@@ -80,7 +87,7 @@ Virginia:    0.178    Texas Tech:  0.23
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Virginia:    -0.02    Texas Tech:  0.06
+Virginia:    0.03    Texas Tech:  0.09
 
 
 
@@ -97,36 +104,33 @@ Virginia:    0.741    Texas Tech:  0.714
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Virginia:    0.18    Texas Tech:  -0.04
+Virginia:    0.04    Texas Tech:  -0.11
 
-
+==============================================================
 
 WIN PERCENTAGE
-Virginia:    81.6 %    Texas Tech:  18.4 %
+Virginia:    76.7 %    Texas Tech:  23.3 %
 
 ==============================================================
 
 KEEP IN MIND:  Virginia(1) is expected to rank between 1-4 .  Texas Tech(3) is expected to rank between 9-12
 
 ROUND OF 32 RANK
-Virginia:    2/68    Texas Tech:  11/68
+Virginia:    2/68    Texas Tech:  8/68
 
 SWEET 16 RANK
-Virginia:    2/68    Texas Tech:  21/68
+Virginia:    2/68    Texas Tech:  18/68
 
 ELITE 8 RANK
-Virginia:    2/68    Texas Tech:  15/68
+Virginia:    2/68    Texas Tech:  14/68
 
 FINAL 4 RANK
-Virginia:    3/68    Texas Tech:  18/68
+Virginia:    1/68    Texas Tech:  10/68
 
 NATIONAL CHAMPION RANK
-Virginia:    3/68    Texas Tech:  12/68
+Virginia:    1/68    Texas Tech:  10/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Virginia:    3.25 (#2)    Texas Tech:  1.27 (#19)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Virginia:    3.42 (#2)    Texas Tech:  1.43 (#17)
+PROJECTED TOURNAMENT WINS
+Virginia:    3.94 (#2)    Texas Tech:  1.45 (#15)

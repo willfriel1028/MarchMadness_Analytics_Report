@@ -17,6 +17,13 @@ Connecticut: 66.69    San Diego St.: 66.01
 
 
 
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Connecticut: 1.72    San Diego St.: 2.72
+
+
+
 OFFENSE VS DEFENSE COMPARISON
 
 ADJUSTED OFFENSIVE EFFICIENCY
@@ -33,7 +40,7 @@ Connecticut: 0.455    San Diego St.: 0.475
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: -0.06    San Diego St.: -0.20
+Connecticut: 0.10    San Diego St.: -0.01
 
 
 
@@ -44,7 +51,7 @@ Connecticut: -0.41    San Diego St.: 1.64
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: -0.18    San Diego St.: 0.11
+Connecticut: -0.19    San Diego St.: 0.02
 
 
 
@@ -55,7 +62,7 @@ Connecticut: 3.21    San Diego St.: 0.32
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.30    San Diego St.: -0.36
+Connecticut: 0.33    San Diego St.: -0.11
 
 
 
@@ -66,7 +73,7 @@ Connecticut: -2.49    San Diego St.: 1.98
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.02    San Diego St.: 0.46
+Connecticut: -0.10    San Diego St.: 0.25
 
 
 
@@ -80,7 +87,7 @@ Connecticut: 0.194    San Diego St.: 0.196
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: -0.27    San Diego St.: -0.14
+Connecticut: -0.12    San Diego St.: -0.01
 
 
 
@@ -97,36 +104,33 @@ Connecticut: 0.738    San Diego St.: 0.742
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Connecticut: 0.65    San Diego St.: 0.21
+Connecticut: 0.44    San Diego St.: 0.10
 
-
+==============================================================
 
 WIN PERCENTAGE
-Connecticut: 56.3 %    San Diego St.: 43.7 %
+Connecticut: 64.4 %    San Diego St.: 35.6 %
 
 ==============================================================
 
 KEEP IN MIND:  Connecticut(4) is expected to rank between 13-16 .  San Diego St.(5) is expected to rank between 17-20
 
 ROUND OF 32 RANK
-Connecticut: 12/68    San Diego St.: 18/68
+Connecticut: 9/68    San Diego St.: 10/68
 
 SWEET 16 RANK
-Connecticut: 12/68    San Diego St.: 28/68
+Connecticut: 8/68    San Diego St.: 17/68
 
 ELITE 8 RANK
-Connecticut: 11/68    San Diego St.: 24/68
+Connecticut: 7/68    San Diego St.: 16/68
 
 FINAL 4 RANK
-Connecticut: 11/68    San Diego St.: 13/68
+Connecticut: 7/68    San Diego St.: 13/68
 
 NATIONAL CHAMPION RANK
-Connecticut: 8/68    San Diego St.: 14/68
+Connecticut: 4/68    San Diego St.: 17/68
 
 ==============================================================
 
-PROJECTED TOURNAMENT WINS (SAFER MODEL)
-Connecticut: 1.62 (#11)    San Diego St.: 1.35 (#13)
-
-PROJECTED TOURNAMENT WINS (MORE AGGRESSIVE MODEL)
-Connecticut: 1.67 (#10)    San Diego St.: 1.56 (#12)
+PROJECTED TOURNAMENT WINS
+Connecticut: 1.60 (#8)    San Diego St.: 1.18 (#15)
