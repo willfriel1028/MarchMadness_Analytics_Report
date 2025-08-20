@@ -50,6 +50,27 @@ Both teams play at a similar pace - tempo will likely not be a major factor in t
 
 Tempo alone will not tell you too much generally unless there is a significant gap between tempos (think >10 difference). It is then up to the user to determine which team, if any, will dominate the tempo in that matchup.
 
+
+
+```
+_______________________________________________
+
+EXPERIENCE COMPARISON
+
+EXPERIENCE
+Arizona:     1.92    Oregon:      2.45
+_______________________________________________
+```
+This section displays each team's experience. This metric is calculated by how many prior seasons of D1 basketball each player has played on a team weighed by how many minutes they play.
+
+**Matchup-specific insights**
+
+Both teams are relatively experienced, with Oregon having a slightly significant edge.
+
+**Overall insights**
+
+Difference in experience can be a good tell in deciding an upset pick or in a close 50-50 matchup. Teams with more experience tend to make less mental errors in hgh stakes situations such as the March Madness tournament.
+
 ```
 _______________________________________________
 
@@ -69,7 +90,7 @@ Arizona:     0.486    Oregon:      0.491
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.20    Oregon:      0.02
+Arizona:     0.30    Oregon:      0.17
 _______________________________________________
 ```
 This is one of the most telling sections of the output. It displays each teams Adjusted Offensive/Defensive Efficiency, their Offensive/Defensive Effective FG%, and their Offense vs Defense head-to-head matchup score.
@@ -84,12 +105,12 @@ Both teams are very similar in terms of defensive efficiency
 Both offensive/defensive EFG% are very similar as well.
 
 The head-to-head matchup scores tell us that Arizona's offense has a slight advantage compared to Oregon's offense. 
-It is important to keep in mind that the .18 difference is not as big as it may seem, considering this is a [-1,1] scale.
+It is important to keep in mind that the .13 difference is not as big as it may seem, considering this is a [-1,1] scale.
 
-Arizona’s score of 0.20 suggests they hold a slight offensive advantage when matched up against Oregon’s defense
-Oregon’s score of 0.02 is very close to 0, which suggests that their offense and Arizona’s defense are roughly evenly matched
+Arizona’s score of 0.30 suggests they hold a decent offensive advantage when matched up against Oregon’s defense
+Oregon’s score of 0.17 is still >0, which suggests that their offense has a slight advantage against Arizona's defense
 
-We can conclude that Arizona's offense has a VERY slight advantage over Oregon's offense from this.
+We can conclude that Arizona's offense has a VERY slight advantage over Oregon's offense from this. Also, this game could be decently high-scoring, with both offenses having an advantage.
 
 **Overall insights**
 
@@ -118,7 +139,7 @@ Arizona:     5.04    Oregon:      1.02
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.46    Oregon:      -0.08
+Arizona:     0.24    Oregon:      -0.13
 _______________________________________________
 ```
 This section displays each team's expected net 2pt margin and 2pt offense vs defense score.
@@ -132,11 +153,11 @@ This head-to-head matchup score gives you an idea of how well each team should b
 Arizona is expected to score 5.04 more 2-pointers than their opponent in a game at this expected pace, a significant margin.
 Oregon is expected to score 1.02 more 2-pointer than their opponent at this expected pace, a very slight edge.
 
-The head-to-head matchup scores show us that Arizona's offense should have a significant advantage in generating 2pt shots compared to Oregon's offense.
-The 0.54 difference in score is pretty significant on a [-1,1] scale.
+The head-to-head matchup scores show us that Arizona's offense should have a decent advantage in generating 2pt shots compared to Oregon's offense.
+The 0.37 difference in score is pretty significant on a [-1,1] scale.
 
-Arizona's score of 0.46 suggests that they have an advantage in scoring 2-pointers against Oregon's 2-point defense.
-Oregon's score of -0.08 means that their offense has a very slight disadvantage scoring 2-pointers against Arizona's 2-point defense.
+Arizona's score of 0.24 suggests that they have a nice advantage in scoring 2-pointers against Oregon's 2-point defense.
+Oregon's score of -0.13 means that their offense has a very slight disadvantage scoring 2-pointers against Arizona's 2-point defense.
 
 We can conclude that Arizona is expected to have an advantage at scoring 2-pointers over Oregon.
 
@@ -159,7 +180,7 @@ Arizona:     -1.61    Oregon:      0.85
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     -0.28    Oregon:      0.23
+Arizona:     0.12    Oregon:      0.45
 _______________________________________________
 ```
 This section displays each team's expected net 3pt margin and 3pt offense vs defense score.
@@ -174,10 +195,10 @@ Arizona is expected to score 1.61 less 3-pointers than their opponent in a game 
 Oregon is expected to score 0.85 more 3-pointers than their opponent in a game at this expected pace, which is pretty even.
 
 The head-to-head matchup scores shows us that Oregon should have a significant advantage in scoring 3pt shots compared to Arizona's offense.
-The 0.51 difference in score is pretty significant.
+The 0.33 difference in score is pretty significant.
 
-Arizona's score of -0.28 suggests that their offense has a decent disadvantage at generating 3-pointers against Oregon's defense.
-Oregon's score of 0.23 suggests their offense has a slight advantage at generating 3-pointers against Arizona.
+Arizona's score of 0.12 suggests that their offense has only a slight advantage at generating 3-pointers against Oregon's defense.
+Oregon's score of 0.45 suggests their offense has a sizable advantage at generating 3-pointers against Arizona.
 
 We can conclude that Oregon is expected to have an advantage at scoring 3-pointers over Arizona.
 
@@ -200,7 +221,7 @@ Arizona:     3.76    Oregon:      2.38
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.38    Oregon:      0.27
+Arizona:     0.18    Oregon:      0.10
 _______________________________________________
 ```
 This section displays each team's expected net free throw margin and FT offense vs defense score.
@@ -215,10 +236,10 @@ Arizona is expected to score 3.76 more free throws than their opponent in a game
 Oregon is expected to score 2.38 more free throws than their opponent in a game at this expected pace, which is also pretty solid
 
 The head-to-head matchup scores show us that both teams are pretty even in terms of scoring free throws aginst one another.
-The 0.11 difference in matchup scores is not super telling on a [-1,1] scale. 
+The 0.08 difference in matchup scores is not super telling on a [-1,1] scale. 
 
-Arizona's score of 0.38 suggests their offense has a slight advantage at generating free throws against Oregon's defense
-Oregon's score of 0.27 suggests their offense has a slight advantage at generating free throws against Arizona's defense
+Arizona's score of 0.18 suggests their offense has a slight advantage at generating free throws against Oregon's defense
+Oregon's score of 0.10 suggests their offense also has a slight advantage at generating free throws against Arizona's defense
 
 We can not confidently conclude who will score more free throws from this, however we see that Arizona may have a slight edge.
 
@@ -228,7 +249,7 @@ The statistics this section is calculated with do not particularly take strength
 
 This section largely represents how well each team gets to the free throw line while not allowing their opponent to get to the free throw line. This is something that could translate for a weaker team playing a stronger team, it is up for the user to interpret this.
 
-It is important to look at free throw comparisons in a matchup because they allow teams to generate points without attempting a shot, which is why they are so efficient.
+It is important to look at free throw comparisons in a matchup because they allow teams to generate points without attempting a field goal, which is why they are so efficient.
 
 
 ```
@@ -244,7 +265,7 @@ Arizona:     0.166    Oregon:      0.176
 
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     -0.06    Oregon:      0.04
+Arizona:     0.12    Oregon:      0.19
 _______________________________________________
 ```
 This section displays each teams offensive/defensive turnover percentage, as well as their TO Offense vs Defense score.
@@ -257,10 +278,10 @@ Both teams have the same offensive turnover percentage
 Oregon has the slightly better defensive turnover percentage
 
 The head-to-head matchup scores suggests that both teams are relatively even in terms of turning the ball over.
-Even though Arizona is in the negative and Oregon is positive, the 0.1 difference is relatively insignificant on a [-1,1] scale. 
+The 0.07 difference is relatively insignificant on a [-1,1] scale. 
 
-Arizona's score of -0.06 suggests their offense does not have an advantage or disadvantage in terms of turnovers against Oregon's defense.
-Oregon's score of 0.04 suggests their offense does not have an advantage or disadvantage in terms of turnovers against Arizona's defense.
+Arizona's score of 0.12 suggests their offense has a very slight advantage in terms of turnovers against Oregon's defense.
+Oregon's score of 0.19 suggests their offense has slightly more of an advantage in terms of turnovers against Arizona's defense.
 
 We can not confidently conclude who will turn the ball over less from this.
 
@@ -289,7 +310,7 @@ Arizona:     0.715    Oregon:      0.708
 
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Arizona:     0.52    Oregon:      0.15
+Arizona:     0.37    Oregon:      0.09
 _______________________________________________
 ```
 This section displays each team's effective height, offensive/defensive rebounding percentage, and their Rebounding Offense vs Defense score.
@@ -306,10 +327,10 @@ Arizona is a significantly better team at offensive rebounding than Oregon.
 Both teams are relatively similar in terms of defensive rebounding.
 
 The head-to-head matchup score suggests that Arizona should have an easier time grabbing offensive rebounds than Oregon.
-The score difference of 0.37 is pretty significant.
+The score difference of 0.28 is pretty significant.
 
-Arizona's score of 0.52 suggests they have an advantage at grabbing offensive rebounds against Oregon's defense.
-Oregon's score of 0.15  suggests they have a very slight advantage at grabbing offensive rebounds against Arizona's defense.
+Arizona's score of 0.37 suggests they have an advantage at grabbing offensive rebounds against Oregon's defense.
+Oregon's score of 0.09  suggests they have a very slight advantage at grabbing offensive rebounds against Arizona's defense.
 
 We can conclude that Arizona is likely to grab more offensive rebounds from this.
 
@@ -326,7 +347,7 @@ Rebounding is a very overlooked aspect when analyzing a matchup. Each offensive 
 _______________________________________________
 
 WIN PERCENTAGE
-Arizona:     57.5 %    Oregon:      42.5 %
+Arizona:     59.8 %    Oregon:      40.2 %
 _______________________________________________
 ```
 This section displays each team's win percentage. (Their chance to win the game)
@@ -335,14 +356,14 @@ This section displays each team's win percentage. (Their chance to win the game)
 
 According to the algorithm,
      
-   Arizona has a 57.5% chance to win this game.
-   Oregon has a 42.5% chance to win this game.
+   Arizona has a 59.8% chance to win this game.
+   Oregon has a 40.2% chance to win this game.
    
-This matchup appears to be very close, which we would expect to see in a 4 vs 5 matchup. Overall, Arizona has a slight advantage, but according to the algorithm this appears to be a toss-up game.
+This matchup appears to be very close, which we would expect to see in a 4 vs 5 matchup. Overall, Arizona has a slight advantage, but according to the algorithm this appears to be a toss-up game favoring Arizona.
 
 **Overall insights**
 
-This is a statistically-driven algorithm which takes all previously mentioned factors into account. It uses all of the head-to-head scores as well as strength of schedule and tempo to calculate this win percentage.
+This is a statistically-driven algorithm which takes all previously mentioned factors into account. It uses all of the head-to-head scores as well as strength of schedule and tempo to calculate this win percentage. It also heavily involves the predictive modeling outputs which will be analyzed next.
 
 Strength of schedule is adequately measured in this algorithm, with its two biggest factors being Offense vs Defense matchup score and Wins above Bubble. Both of these have a lot to do with strength of opponents.
 
@@ -370,71 +391,52 @@ _______________________________________________
 KEEP IN MIND:  Arizona(4) is expected to rank between 13-16 .  Oregon(5) is expected to rank between 17-20
 
 ROUND OF 32 RANK
-Arizona:     11/68    Oregon:      31/68
+Arizona:     12/68    Oregon:      26/68
 
 SWEET 16 RANK
-Arizona:     11/68    Oregon:      29/68
+Arizona:     18/68    Oregon:      26/68
 
 ELITE 8 RANK
-Arizona:     12/68    Oregon:      30/68
+Arizona:     10/68    Oregon:      27/68
 
 FINAL 4 RANK
-Arizona:     13/68    Oregon:      31/68
+Arizona:     17/68    Oregon:      28/68
 
 NATIONAL CHAMPION RANK
-Arizona:     12/68    Oregon:      32/68
+Arizona:     10/68    Oregon:      30/68
+
+==============================================================
 
 PROJECTED TOURNAMENT WINS
-Arizona:     1.38 (#11)    Oregon:      0.81 (#32)
+Arizona:     1.78 (#10)    Oregon:      1.25 (#26)
 _______________________________________________
 ```
-This section has a lot to unpack.
+This section lays out how each team stacks up, both round-by-round and in terms of projected tournament wins.
 
-It displays where we would expect each team to rank based on their seed, their overall rank to advance to each round of the tournament, and their projected tournament wins (and rank).
+Round advancement ranks (Round of 32, Sweet 16, etc.) are based on a logistic regression model that uses historical team data to estimate the probability of advancing to each stage of the tournament. Teams are then ranked relative to all others in the field for that round.
 
-Each rank was callculated using a logistic regression with ridge penalty. It uses historic data to analyze each team's chance of advancing to a certain round of the tournament and ranks them based on how they statistically compare with other teams that have reached that round.
-
-The projected wins was calculated using a poisson regression. It uses historical data to estimate how many wins we expect each team to have in the tournament (so the theoretical min and max should be 0 and 6 respectively).
+Projected wins come from a Poisson regression model that estimates the average number of wins we expect each team to achieve in this year’s tournament, based on historical patterns. Because this model is not scaled to force totals across teams to equal exactly 63 wins, each year’s projections can vary slightly in aggregate. This means the absolute projected win values should be interpreted cautiously when comparing across different tournament years.
 
 **Matchup-specific insights**
 
-Since this output analyzes a second round matchup, we should analyze the *Sweet 16 Rank*, since we are trying to decide what team will advance to that round.
+Since this output is meant to analyze a second-round matchup, the most relevant advancement rank to focus on is the Sweet 16 Rank, since the winner of this game would move on to that round.
 
-Arizona is the 11th ranked team to reach the Sweet 16. This is slightly better than we would expect for them as a 4 seed (13-16)
-Oregon is the 29th ranked team to reach the Sweet 16. This is much worse than we would expect for them as a 5 seed (17-20)
+Arizona ranks 18th in likelihood to reach the Sweet 16. As a 4 seed, their expected placement should be in the 13–16 range, so ranking 18th is slightly worse than expectation. However, their other advancement ranks tell a fuller story: they rate very highly in the Elite 8 (10th overall) and National Champion rank (10th overall). This suggests that while they may not be quite as strong in the 4-seed range for simply getting to the Sweet 16, they have a higher ceiling profile if they do advance.
 
-Arizona is projected to win 1.38 games in the tournament. This ranks them at 11.
-Oregon is projected to win 0.81 games in the tournament. This ranks them at 32.
+Oregon comes in at 26th, while a 5 seed is expected to be in the 17–20 range. This puts them well below expectation for a 5 seed. Their later-round ranks (27th, 28th, 30th) confirm a pattern of consistent underperformance relative to historical expectations for this seed line.
 
-Since Arizona consistently ranks in the 11-13 range, and they are expected to rank 13-16, we can assume that they are very good, and perhaps even slightly underseeded, for a 4 seed.
-Since Oregon consistently ranks in the 29-32 range, and they are expected to rank 17-20, we can assume that they are not very good, and probably overseeded, for a 5 seed.
-
-This is one of my favorite parts about this program. Even though these teams seemed evenly matched according to the statistics, it is clear now that Arizona much better matches the mold of a team that would advance in the tournament according to historical data.
+Arizona is forecasted at 1.78 wins (#10 overall). This is quite strong for a 4 seed, and their rank (10th overall) suggests they’re closer to the profile of a borderline 3 seed.
+Oregon is forecasted at 1.25 wins (#26 overall). This aligns closely with a mid-tier 6 or 7 seed, indicating they are likely overseeded as a 5.
 
 **Overall insights**
 
-It is important to keep in mind that these ranks base teams based on how well they fit the mold of teams that advance in the tournament according to historical data.
+These models do not use seed as a feature. Instead, teams are evaluated solely on raw statistical performance. This allows us to see how well a team’s actual profile matches those of past teams that advanced to each round, independent of what the committee assigned them.
 
-Seeds were not included in the features, so each team is ranked purely based on their performance, and not enhanced by what a committee may think of them.
+Looking at advancement ranks across multiple rounds gives us a detailed picture of a team’s ceiling and floor. For example, some teams fit the mold of those that reliably win one or two games but rarely make deep runs. Others may rank only average for the early rounds but show disproportionately higher ranks for the later rounds — suggesting a higher upside if they advance.
 
-Ranks and projected win models use statistical z-scores for their features, not raw statistics, to ensure that the model works similarly on a year-to-year basis. This is useful because, for example, teams will not be given an unfair advantage in more recent years where every team makes more threes than they were back in 2010.
+While round ranks show round-specific “fit,” projected wins tend to be the best holistic indicator of a team’s expected performance. This is because wins are much more numerous than spots in specific rounds (63 total wins vs. only 1 champion, 4 Final Four teams, etc.), which gives the model more historical data to work with.
 
-While looking where team rank across all different rounds can give you a better overall picture of where teams rank, I like to hone in on what round the winner would be advancing to. 
-This is because for each round the models rank teams based on how well they fit previous teams to advance to that specific round, so there could be an instance, for example, that a team fits an archetype where they should be a lock to win 1 or 2 tournament games and not make it any further. 
-A scenario like this would have said team ranking very highly to advance in the first 2 ranks, then they would have a steep drop-off from there on out.
-
-I think that looking at projected wins is the best way to get an overall feel for how each team should perform. 
-This is because there is much more wins each year than teams that advance to certain rounds of the tournament
-   For example, each season in the dataset there are 63 allotted wins. There is only 1 team that wins the championship, 4 that make the Final 4, etc.
-More data allows for more accurate modelling.
-
-If teams' projected wins seem low, remember that the model has to allocate 63 wins across 68 teams, so usually the best teams will be projected 4-5.5 wins.
-
-If there is a year where the best 4-5 teams are projected, for example, in the 4+ range, this would mean the tournament is very top-heavy. (2025)
-
-If there is a year where the best 4-5 teams are projected more towards the 3-4 range, this would mean the tournament is very balanced. Perhaps pick more unexpected teams to go far (2023)
-
-If there is a year where there is a clear cut 1-3 teams that are projected to win much more than the rest of the field, I would for sure pick one of those to win the tournament. (2019)
+Since projected wins are not scaled year-to-year, totals may not always equal 63 across the field. This means absolute values can’t be directly compared between seasons — but within a given year, the ranks (like Arizona #10 vs. Oregon #26) still provide a strong sense of relative strength.
 
 ## CONCLUSION
 
