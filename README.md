@@ -32,26 +32,8 @@ It is designed to help users optimize their bracket selections by providing in-d
 ```
 march_analytics_report/
 |- data/                                          # Folder containing any datasets for this program
-|    |- march_data.csv                            # The dataset used for this program
+|    |- data_official.csv                            # The dataset used for this program
 |    |- ...
-|
-|- images/                                        # Folder containing various images shown in this repo
-|     |- ...
-|
-|- model_tuning/                                  # Folder containg files used to tune and test the poisson regression models
-|       |- combined_sim_opts/                     # Contains notebooks simulating blended versions of the safe and aggressive models
-|       |          |- aggressive(sim3).ipynb      # The most accurate "aggressive"-minded model
-|       |          |- safer(sim5).ipynb           # The most accurate "safe"-minded model
-|       |          |- ...
-|       |- model_opt/                             # Contains notebooks simulating different versions of the poisson regression model
-|       |       |- aggressive(opt9).ipynb         # The most accurate "aggressive" model
-|       |       |- safer(opt23).ipynb             # The most accurate "safe" model
-|       |       |- corr_test.ipynb                # Contains multiple correlation tests, used to decide variables in the "safe" models
-|       |       |- ...
-|       |- bracket_simulation.ipynb               # Notebook used to create bracket simulation program
-|       |- sim_brackets_check.ipynb               # Checks accuracies of all simmed brackets
-|       |- ...
-|       
 |
 |- samples/                                       # Folder where you can find some sample matchup outputs
 |      |- 2025/                                   # Each year's folder contains some matchups from that year
@@ -65,15 +47,17 @@ march_analytics_report/
 |
 |- .gitignore                                     # Specifies files and folders to ignore in version control
 |
+|- README.md                                      # The README for this program
+|
 |- main.py                                        # The script for this program
 |
 |- matchup_scores_explained                       # Explains the [-1,1] matchup scores
 |
+|- model_creation.ipynb                           # Goes through the creating/tuning/testing of predictive models
+|
 |- model_tuning_walkthrough.md                    # Explains the tuning and testing process for the poisson regression models
 |
 |- output_walkthrough.md                          # Walks through an example output, explaining each section
-|
-|- README.md                                      # The README for this program
 |
 |- requirements.txt                               # Required Python libraries
 
