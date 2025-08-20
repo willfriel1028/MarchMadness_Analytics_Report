@@ -11,25 +11,25 @@ Here are some examples of where offense vs defense head-to-head matchup scores a
 ```
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Houston:     0.61    SIU Edwardsville: -0.90
+Houston:     0.58    SIU Edwardsville: -0.47
 ```
 
 ```
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Duke:        0.80    Mississippi St.: -0.03
+Duke:        0.81    Mississippi St.: 0.28
 ```
 
 ```
 HEAD TO HEAD MATCHUP
 OFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Memphis:     -0.25    Colorado St.: -0.31
+Memphis:     -0.03    Colorado St.: -0.07
 ```
 
 ```
 HEAD TO HEAD MATCHUP
 OFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)
-Florida:     0.65    Houston:     0.52
+Florida:     0.47    Houston:     0.37
 ```
 
 All of these scores represent how well that team's OFFENSE fares against the opposing team's DEFENSE (So if you were wondering how a team's defense matched up with the opposing offense, you could look at the opponent's score to get an idea).
@@ -80,7 +80,7 @@ Next, we normalize the original number we got from measuring Team A's offense ag
     
 This will give us a number on a [0,1] scale that represents where our particular matchup compares to the rest of the possible matchups.
 
-The last step is to scale this number to a [-1,1] scale, to better give an idea if teams have an advantage or disadvantage. To do this, we simply:
+The last step is to scale this number to a [-1,1] scale, to better give an idea if teams have an advantage, a disadvantage, or are evenly matched. To do this, we simply:
 
     matchup_scaled = 2 * matchup_normalized - 1
     
