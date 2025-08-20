@@ -2,7 +2,7 @@
 
 ## Description
 
-This program provides a full, analytically-driven, head-to-head scouting report for any two teams that have participated in the NCAA Division 1 Men's College Basketball Tournament in a given year. This program uses publicly available data dating back to the 2007-2008 season, and can generate a report for any two teams to qualify for the tournament since the 2012-13 season. 
+This program provides a full, analytically-driven, head-to-head scouting report for any two teams that have participated in the NCAA Division 1 Men's College Basketball Tournament in a given year. This program uses publicly available data dating back to the 2007-2008 season, and can generate a report for any two teams to qualify for the tournament in the same year since the 2012-13 season. 
 
 It is designed to help users optimize their bracket selections by providing in-depth statistical analysis of head-to-head matchups.
 
@@ -10,6 +10,7 @@ It is designed to help users optimize their bracket selections by providing in-d
 
 - Strength of Schedule
 - Tempo and Pace
+- Experience
 - Offensive Efficiency vs. Defensive Efficiency
 - 2-Point, 3-Point, and Free Throw Analysis
 - Turnover Matchups
@@ -24,7 +25,7 @@ It is designed to help users optimize their bracket selections by providing in-d
   - Elite 8
   - Final Four
   - National Champion
-- Two Poisson regression models that project each team’s expected number of tournament wins, one of the models being "safer" and the other more "aggressive"
+- Poisson regression model that projects each team’s expected number of tournament wins
 
 ## Repository
 
