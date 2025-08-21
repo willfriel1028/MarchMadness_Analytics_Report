@@ -347,7 +347,7 @@ Rebounding is a very overlooked aspect when analyzing a matchup. Each offensive 
 _______________________________________________
 
 WIN PERCENTAGE
-Arizona:     59.8 %    Oregon:      40.2 %
+Arizona:     58.7 %    Oregon:      41.3 %
 _______________________________________________
 ```
 This section displays each team's win percentage. (Their chance to win the game)
@@ -356,8 +356,8 @@ This section displays each team's win percentage. (Their chance to win the game)
 
 According to the algorithm,
      
-   Arizona has a 59.8% chance to win this game.
-   Oregon has a 40.2% chance to win this game.
+   Arizona has a 58.7% chance to win this game.
+   Oregon has a 41.3% chance to win this game.
    
 This matchup appears to be very close, which we would expect to see in a 4 vs 5 matchup. Overall, Arizona has a slight advantage, but according to the algorithm this appears to be a toss-up game favoring Arizona.
 
@@ -394,16 +394,16 @@ ROUND OF 32 RANK
 Arizona:     12/68    Oregon:      26/68
 
 SWEET 16 RANK
-Arizona:     18/68    Oregon:      26/68
+Arizona:     14/68    Oregon:      27/68
 
 ELITE 8 RANK
 Arizona:     10/68    Oregon:      27/68
 
 FINAL 4 RANK
-Arizona:     17/68    Oregon:      28/68
+Arizona:     10/68    Oregon:      25/68
 
 NATIONAL CHAMPION RANK
-Arizona:     10/68    Oregon:      30/68
+Arizona:     9/68    Oregon:      32/68
 
 ==============================================================
 
@@ -421,9 +421,9 @@ Projected wins come from a Poisson regression model that estimates the average n
 
 Since this output is meant to analyze a second-round matchup, the most relevant advancement rank to focus on is the Sweet 16 Rank, since the winner of this game would move on to that round.
 
-Arizona ranks 18th in likelihood to reach the Sweet 16. As a 4 seed, their expected placement should be in the 13–16 range, so ranking 18th is slightly worse than expectation. However, their other advancement ranks tell a fuller story: they rate very highly in the Elite 8 (10th overall) and National Champion rank (10th overall). This suggests that while they may not be quite as strong in the 4-seed range for simply getting to the Sweet 16, they have a higher ceiling profile if they do advance.
+Arizona ranks 14th in likelihood to reach the Sweet 16. As a 4 seed, their expected placement should be in the 13–16 range, so ranking 14th is the expectation. However, their other advancement ranks tell a fuller story: they rate very highly in the Elite 8 (10th overall) and National Champion rank (9th overall). This suggests that while they are where you expect in the 4-seed range for simply getting to the Sweet 16, they have a higher ceiling profile if they do advance.
 
-Oregon comes in at 26th, while a 5 seed is expected to be in the 17–20 range. This puts them well below expectation for a 5 seed. Their later-round ranks (27th, 28th, 30th) confirm a pattern of consistent underperformance relative to historical expectations for this seed line.
+Oregon comes in at 27th, while a 5 seed is expected to be in the 17–20 range. This puts them well below expectation for a 5 seed. Their later-round ranks (27th, 25th, 32nd) confirm a pattern of consistent underperformance relative to historical expectations for this seed line.
 
 Arizona is forecasted at 1.78 wins (#10 overall). This is quite strong for a 4 seed, and their rank (10th overall) suggests they’re closer to the profile of a borderline 3 seed.
 Oregon is forecasted at 1.25 wins (#26 overall). This aligns closely with a mid-tier 6 or 7 seed, indicating they are likely overseeded as a 5.
