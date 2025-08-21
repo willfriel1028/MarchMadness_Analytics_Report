@@ -109,23 +109,23 @@ Florida:     0.47    Houston:     0.37
 ==============================================================
 
 WIN PERCENTAGE
-Florida:     50.3 %    Houston:     49.7 %
+Florida:     57.0 %    Houston:     43.0 %
 
 ==============================================================
 
 KEEP IN MIND:  Florida(1) is expected to rank between 1-4 .  Houston(1) is expected to rank between 1-4
 
 ROUND OF 32 RANK
-Florida:     4/68    Houston:     1/68
+Florida:     3/68    Houston:     1/68
 
 SWEET 16 RANK
 Florida:     2/68    Houston:     4/68
 
 ELITE 8 RANK
-Florida:     2/68    Houston:     5/68
+Florida:     1/68    Houston:     5/68
 
 FINAL 4 RANK
-Florida:     2/68    Houston:     4/68
+Florida:     2/68    Houston:     1/68
 
 NATIONAL CHAMPION RANK
 Florida:     1/68    Houston:     4/68

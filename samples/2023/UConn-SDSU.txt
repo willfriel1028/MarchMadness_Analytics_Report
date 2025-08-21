@@ -109,7 +109,7 @@ Connecticut: 0.44    San Diego St.: 0.10
 ==============================================================
 
 WIN PERCENTAGE
-Connecticut: 64.4 %    San Diego St.: 35.6 %
+Connecticut: 56.9 %    San Diego St.: 43.1 %
 
 ==============================================================
 
@@ -119,16 +119,16 @@ ROUND OF 32 RANK
 Connecticut: 9/68    San Diego St.: 10/68
 
 SWEET 16 RANK
-Connecticut: 8/68    San Diego St.: 17/68
+Connecticut: 10/68    San Diego St.: 16/68
 
 ELITE 8 RANK
-Connecticut: 7/68    San Diego St.: 16/68
+Connecticut: 9/68    San Diego St.: 16/68
 
 FINAL 4 RANK
-Connecticut: 7/68    San Diego St.: 13/68
+Connecticut: 8/68    San Diego St.: 11/68
 
 NATIONAL CHAMPION RANK
-Connecticut: 4/68    San Diego St.: 17/68
+Connecticut: 4/68    San Diego St.: 18/68
 
 ==============================================================
 

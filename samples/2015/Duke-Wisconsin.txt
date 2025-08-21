@@ -109,14 +109,14 @@ Duke:        0.13    Wisconsin:   -0.02
 ==============================================================
 
 WIN PERCENTAGE
-Duke:        41.3 %    Wisconsin:   58.7 %
+Duke:        42.1 %    Wisconsin:   57.9 %
 
 ==============================================================
 
 KEEP IN MIND:  Duke(1) is expected to rank between 1-4 .  Wisconsin(1) is expected to rank between 1-4
 
 ROUND OF 32 RANK
-Duke:        4/68    Wisconsin:   3/68
+Duke:        5/68    Wisconsin:   3/68
 
 SWEET 16 RANK
 Duke:        3/68    Wisconsin:   2/68
@@ -125,10 +125,10 @@ ELITE 8 RANK
 Duke:        2/68    Wisconsin:   3/68
 
 FINAL 4 RANK
-Duke:        5/68    Wisconsin:   2/68
+Duke:        4/68    Wisconsin:   2/68
 
 NATIONAL CHAMPION RANK
-Duke:        5/68    Wisconsin:   6/68
+Duke:        6/68    Wisconsin:   4/68
 
 ==============================================================
 

@@ -109,26 +109,26 @@ Baylor:      0.30    Gonzaga:     0.12
 ==============================================================
 
 WIN PERCENTAGE
-Baylor:      33.1 %    Gonzaga:     66.9 %
+Baylor:      36.0 %    Gonzaga:     64.0 %
 
 ==============================================================
 
 KEEP IN MIND:  Baylor(1) is expected to rank between 1-4 .  Gonzaga(1) is expected to rank between 1-4
 
 ROUND OF 32 RANK
-Baylor:      5/68    Gonzaga:     1/68
+Baylor:      3/68    Gonzaga:     1/68
 
 SWEET 16 RANK
 Baylor:      5/68    Gonzaga:     1/68
 
 ELITE 8 RANK
-Baylor:      4/68    Gonzaga:     1/68
+Baylor:      3/68    Gonzaga:     1/68
 
 FINAL 4 RANK
-Baylor:      6/68    Gonzaga:     1/68
+Baylor:      4/68    Gonzaga:     1/68
 
 NATIONAL CHAMPION RANK
-Baylor:      4/68    Gonzaga:     1/68
+Baylor:      3/68    Gonzaga:     1/68
 
 ==============================================================
 

@@ -4,7 +4,8 @@
 import pandas as pd
 import numpy as np
 import math
-from sklearn.linear_model import LogisticRegressionCV
+from sklearn.linear_model import LogisticRegression
+from sklearn.calibration import CalibratedClassifierCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import PoissonRegressor
 from sklearn.pipeline import make_pipeline
@@ -80,7 +81,8 @@ def main():
         
     post_model = pd.concat(dats)
     full_data = pd.concat([pre, post_model])
-    full_data.to_csv('data/data_clean.csv', index=False) 
+    full_data = full_data.sort_values(["YEAR"], ascending=False)
+    full_data.to_csv('data/data_clean' + str(year) + '.csv', index=False) 
     
     output_file = sys.argv[4] # READ IN OUTPUT FILE
     
@@ -109,7 +111,7 @@ def get_ranks(data_train, data_test):
     data_test.loc[:, 'Win_Prob'] = logreg_ridge(data_train[natty], data_test[natty], 'CHAMP', data_train)                    
                 # Stores each team's chance to win Championship into 'Win_Prob'
     data_test.loc[:, 'Natty_Rank'] = data_test['Win_Prob'].rank(ascending=False, method='min').astype(int)   
-                # Ranks each team's chance to win Championnship and stores it as 'Natty_Rank'
+                # Ranks each team's chance to win Championship and stores it as 'Natty_Rank'
     
     #data_test.loc[:, 'CG_Prob'] = logreg_ridge(x_train, x_test, 'Champ_Game', data_train)                    
                 # Stores each team's chance to reach championship game into 'CG_Prob'
@@ -143,7 +145,7 @@ def get_ranks(data_train, data_test):
     
     return data_test    # Returns the updated data_test
 
-def logreg_ridge(x_train, x_test, y_train, data_train):
+def logreg_ridge(x_train, x_test, y_tr, data_train):
     '''
     This function runs a logistic regression with ridge penalty to calculate the probability that each team in x_test will reach a certain round of the tournament (y) given their statistical profile.
     The function does the following:
@@ -157,24 +159,29 @@ def logreg_ridge(x_train, x_test, y_train, data_train):
         Predicts and returns the probability for each team in the testing data based on the training model
     '''
     
-    y_train = data_train[y_train] # Saves the training outcome variable
+    y_train = data_train[y_tr] # Saves the training outcome variable
     
     scaler = StandardScaler()                 # Creates a standardization tool that will scale features to have mean = 0 and standard deviation = 1
     x_scaled = scaler.fit_transform(x_train)  # Computes the mean and standard deviation of x_train, then scales all its features accordingly
+    
+    x_test_scaled = scaler.transform(x_test)
 
-    ridge = LogisticRegressionCV(         # Creates model, saves it as ridge
-        cv=5,                             # 5-fold cross-validation
+    ridge = LogisticRegression(         # Creates model, saves it as ridge
         penalty='l2',                     # Ridge penalty - shrinks insignificant variables to near-zero
         solver='lbfgs',                   # LBFGS optimization algorithm
-        scoring='average_precision',      # "Average precision" scoring method          
-        class_weight = 'balanced',        # Automatically adjusts class weights to handle imbalanced classes
+        class_weight = None,        # Automatically adjusts class weights to handle imbalanced classes
         max_iter=10000,                   # Sets the maximum number of iterations to 10,000 to ensure the model has enough time to converge
-        Cs = [0.0001, 0.001, 0.01, 0.1, 0.25, 0.5, 1, 10, 100] # Assigns multiple C values for the model to loop through and see which performs best
+        C = 0.25 # Assigns multiple C values for the model to loop through and see which performs best
     )
-    ridge.fit(x_scaled, y_train)          # Fits the model on the training data
-    
-    x_test_scaled = scaler.transform(x_test)                   # Uses the same scaling parameters from the training data to standardize the test data
-    predicted_probs = ridge.predict_proba(x_test_scaled)[:, 1] # Runs the logistic regression model on the scaled test data and gets the probability that each sample belongs to class 1
+    calibrated = CalibratedClassifierCV(
+        estimator=ridge,
+        method='sigmoid',
+        cv=5                   
+    )
+
+    calibrated.fit(x_scaled, y_train)
+
+    predicted_probs = calibrated.predict_proba(x_test_scaled)[:, 1]
     
     return predicted_probs    # Returns the probability that each sample belongs to class 1 for test variables
 
@@ -370,15 +377,15 @@ def get_win_percentages(team1, team2, wab1, wab2, odnet1, odnet2, p2net1, p2net2
     advnet2 = (teamB_adv - adv_min) / (adv_max - adv_min)
     
     
-    best = 30*1 + 5 + 6*1 + 5*1 + 6*1 + 4 + 10*(1) + 17*1 + 17*1                      # Calculates best possible outcome for a team
-    worst = 30*(-1) + (-5) + 6*(-1) + 5*(-1) + 6*(-1) + (-4) + 10*(-1) + 17*(-1) + 17*(-1)  # Calculates worst possible outcome for a team
+    best = 30*1 + 5 + 6*1 + 5*1 + 6*1 + 4 + 10*(1) + 15*1 + 15*1                      # Calculates best possible outcome for a team
+    worst = 30*(-1) + (-5) + 6*(-1) + 5*(-1) + 6*(-1) + (-4) + 10*(-1) + 15*(-1) + 15*(-1)  # Calculates worst possible outcome for a team
     
-    score = 30*(odnet1 - odnet2) + 5*(p2net1 - p2net2) + 6*(p3net1 - p3net2) + 5*(ftnet1 - ftnet2) + 6*(to1net - to2net) + 4*(rb1net - rb2net) + 10*(wab_net1 - wab_net2) + 17*(pwins_net1 - pwins_net2) + 17*(advnet1 - advnet2)
+    score = 30*(odnet1 - odnet2) + 5*(p2net1 - p2net2) + 6*(p3net1 - p3net2) + 5*(ftnet1 - ftnet2) + 6*(to1net - to2net) + 4*(rb1net - rb2net) + 10*(wab_net1 - wab_net2) + 15*(pwins_net1 - pwins_net2) + 15*(advnet1 - advnet2)
         # Calculates team1's score according to the formula
     
     normalized_score = (score - worst) / (best - worst)  # Normalizes team1's score to a [0,1] scale
     
-    scaled_score = 15 * (normalized_score - 0.5)  # Centers the normalized score around 0        
+    scaled_score = 12.5 * (normalized_score - 0.5)  # Centers the normalized score around 0        
 
     percentage1 = 100 / (1 + math.exp(-scaled_score)) # Applies sigmoid function to scaled score and multiplying by 100, giving team1's win percentage
     percentage2 = 100 - percentage1                   # Calculates team2's win percentage

@@ -109,7 +109,7 @@ Virginia:    0.04    Texas Tech:  -0.11
 ==============================================================
 
 WIN PERCENTAGE
-Virginia:    76.7 %    Texas Tech:  23.3 %
+Virginia:    71.3 %    Texas Tech:  28.7 %
 
 ==============================================================
 
@@ -119,16 +119,16 @@ ROUND OF 32 RANK
 Virginia:    2/68    Texas Tech:  8/68
 
 SWEET 16 RANK
-Virginia:    2/68    Texas Tech:  18/68
+Virginia:    2/68    Texas Tech:  19/68
 
 ELITE 8 RANK
-Virginia:    2/68    Texas Tech:  14/68
+Virginia:    2/68    Texas Tech:  13/68
 
 FINAL 4 RANK
-Virginia:    1/68    Texas Tech:  10/68
+Virginia:    2/68    Texas Tech:  16/68
 
 NATIONAL CHAMPION RANK
-Virginia:    1/68    Texas Tech:  10/68
+Virginia:    1/68    Texas Tech:  12/68
 
 ==============================================================
 

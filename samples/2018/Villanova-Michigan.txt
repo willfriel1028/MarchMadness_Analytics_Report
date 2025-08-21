@@ -109,7 +109,7 @@ Villanova:   -0.13    Michigan:    -0.25
 ==============================================================
 
 WIN PERCENTAGE
-Villanova:   66.4 %    Michigan:    33.6 %
+Villanova:   64.9 %    Michigan:    35.1 %
 
 ==============================================================
 
@@ -119,16 +119,16 @@ ROUND OF 32 RANK
 Villanova:   2/68    Michigan:    6/68
 
 SWEET 16 RANK
-Villanova:   3/68    Michigan:    5/68
+Villanova:   3/68    Michigan:    6/68
 
 ELITE 8 RANK
-Villanova:   2/68    Michigan:    12/68
+Villanova:   1/68    Michigan:    11/68
 
 FINAL 4 RANK
-Villanova:   6/68    Michigan:    10/68
+Villanova:   5/68    Michigan:    10/68
 
 NATIONAL CHAMPION RANK
-Villanova:   5/68    Michigan:    17/68
+Villanova:   3/68    Michigan:    19/68
 
 ==============================================================
 

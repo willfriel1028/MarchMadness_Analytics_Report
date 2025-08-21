@@ -109,26 +109,26 @@ Louisville:  0.24    Michigan:    -0.01
 ==============================================================
 
 WIN PERCENTAGE
-Louisville:  89.9 %    Michigan:    10.1 %
+Louisville:  80.0 %    Michigan:    20.0 %
 
 ==============================================================
 
 KEEP IN MIND:  Louisville(1) is expected to rank between 1-4 .  Michigan(4) is expected to rank between 13-16
 
 ROUND OF 32 RANK
-Louisville:  1/68    Michigan:    6/68
+Louisville:  1/68    Michigan:    7/68
 
 SWEET 16 RANK
-Louisville:  3/68    Michigan:    8/68
+Louisville:  1/68    Michigan:    9/68
 
 ELITE 8 RANK
-Louisville:  2/68    Michigan:    6/68
+Louisville:  3/68    Michigan:    6/68
 
 FINAL 4 RANK
-Louisville:  2/68    Michigan:    13/68
+Louisville:  1/68    Michigan:    15/68
 
 NATIONAL CHAMPION RANK
-Louisville:  4/68    Michigan:    10/68
+Louisville:  2/68    Michigan:    16/68
 
 ==============================================================
 
