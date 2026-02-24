@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-import plotly.graph_objects as go
 import math
 import random
 import pickle
@@ -216,11 +215,14 @@ def experience_matchup(team1, team2, data, year):
     st.text(f"EXPERIENCE\n{team1 + ':':<12} {teamA_exp:.2f}\t\t\t{team2 + ':':<12} {teamB_exp:.2f}")
 
 def off_def_matchup(team1, team2, data, year):
+
+    data['EFG%']  = data['EFG%'].div(100).round(3)
+    data['EFG%D'] = data['EFG%D'].div(100).round(3)
     
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[data['YEAR'] <= year]
     
     min_OE = df['KADJ O'].min() 
     max_OE = df['KADJ O'].max() 
@@ -251,67 +253,28 @@ def off_def_matchup(team1, team2, data, year):
     st.write()
     st.text(f"ADJUSTED DEFENSIVE EFFICIENCY\n{team1 + ':':<12} {teamA_DE:.2f}\t\t\t{team2 + ':':<12} {teamB_DE:.2f}")
     st.write()
-    st.text(f"OFFENSIVE EFFECTIVE FG%\n{team1 + ':':<12} {teamA_efgO}%\t\t\t{team2 + ':':<12} {teamB_efgO}%")
+    st.text(f"OFFENSIVE EFFECTIVE FG%\n{team1 + ':':<12} {teamA_efgO}\t\t\t{team2 + ':':<12} {teamB_efgO}")
     st.write()
-    st.text(f"DEFENSIVE EFFECTIVE FG%\n{team1 + ':':<12} {teamA_efgD}%\t\t\t{team2 + ':':<12} {teamB_efgD}%")
+    st.text(f"DEFENSIVE EFFECTIVE FG%\n{team1 + ':':<12} {teamA_efgD}\t\t\t{team2 + ':':<12} {teamB_efgD}")
     st.write()
-    
-    fig = go.Figure()
-    
-    fig.add_trace(go.Bar(
-        x=[float(BA_net)],
-        y=[team2],
-        orientation='h',
-        name=team2,
-        marker_color='green' if float(BA_net) > 0 else 'red'
-    ))
-    
-    fig.add_trace(go.Bar(
-        x=[float(AB_net)],
-        y=[team1],
-        orientation='h',
-        name=team1,
-        marker_color='green' if float(AB_net) > 0 else 'red'
-    ))
-    
-    fig.update_layout(
-        title="Predicted Offensive Scoring Advantage In This Game",
-        xaxis=dict(
-            range=[-1.1, 1.1], 
-            zeroline=True, 
-            zerolinewidth=2, 
-            zerolinecolor='black'
-        ),
-        showlegend=False,
-        yaxis=dict(tickfont=dict(size=14, color='black'))
-    )
-
-    col1, col2 = st.columns([1,1])
-    with col1:
-        st.plotly_chart(fig)
+    st.text(f"HEAD TO HEAD MATCHUP\nOFFENSE VS DEFENSE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)\n{team1 + ':':<12} {AB_net:.2f}\t\t\t{team2 + ':':<12} {BA_net:.2f}")
 
 def twopt_matchup(team1, team2, data, year):
+
+    data['2PT%']  = data['2PT%'].div(100).round(3)
+    data['2PT%D'] = data['2PT%D'].div(100).round(3)
+    data['2PTR']  = data['2PTR'].div(100).round(3)
+    data['2PTRD'] = data['2PTRD'].div(100).round(3)
     
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
-
-    teamA_perc = teamA['2PT%'].iloc[0]
-    teamA_rate = teamA['2PTR'].iloc[0]
-    teamB_perc = teamB['2PT%'].iloc[0]
-    teamB_rate = teamB['2PTR'].iloc[0]
+    df = data[data['YEAR'] <= year]
     
-    teamA_o2 = teamA_perc * teamA_rate
-    teamB_o2 = teamB_perc * teamB_rate
-    
-    teamA_dperc = teamA['2PT%D'].iloc[0]
-    teamA_drate = teamA['2PTRD'].iloc[0]
-    teamB_dperc = teamB['2PT%D'].iloc[0]
-    teamB_drate = teamB['2PTRD'].iloc[0]
-    
-    teamA_d2 = teamA_dperc * teamA_drate
-    teamB_d2 = teamB_dperc * teamB_drate
+    teamA_o2 = teamA['2PT%'].iloc[0] * teamA['2PTR'].iloc[0]
+    teamB_o2 = teamB['2PT%'].iloc[0] * teamB['2PTR'].iloc[0]
+    teamA_d2 = teamA['2PT%D'].iloc[0] * teamA['2PTRD'].iloc[0]
+    teamB_d2 = teamB['2PT%D'].iloc[0] * teamB['2PTRD'].iloc[0]
     teamA_net2 = teamA_o2 - teamA_d2
     teamB_net2 = teamB_o2 - teamB_d2
     
@@ -328,74 +291,27 @@ def twopt_matchup(team1, team2, data, year):
     BA_net = np.log(teamB_o2 * teamA_d2) 
     BA_scaled = 2 * ((BA_net - min_matchup) / (max_matchup - min_matchup)) - 1 
     
-    fig = go.Figure()
-    
-    fig.add_trace(go.Bar(
-        x=[float(BA_scaled)],
-        y=[team2],
-        orientation='h',
-        name=team2,
-        marker_color='green' if float(BA_scaled) > 0 else 'red'
-    ))
-    
-    fig.add_trace(go.Bar(
-        x=[float(AB_scaled)],
-        y=[team1],
-        orientation='h',
-        name=team1,
-        marker_color='green' if float(AB_scaled) > 0 else 'red'
-    ))
-    
-    fig.update_layout(
-        title="Predicted Offensive 2PT Scoring Advantage In This Game",
-        xaxis=dict(
-            range=[-1.1, 1.1], 
-            zeroline=True, 
-            zerolinewidth=2, 
-            zerolinecolor='black'
-        ),
-        showlegend=False,
-        yaxis=dict(tickfont=dict(size=14, color='black'))
-    )
-
     st.write("\n============================================================================================================================")
     st.write('''  ##### TWO POINT COMPARISON''')
     st.write()
-    st.text(f"OFFENSIVE STATS")
-    st.text(f"2 POINT PERCENTAGE\n{team1 + ':':<12} {teamA_perc:.1f}%\t\t\t{team2 + ':':<12} {teamB_perc:.1f}%")
-    st.text(f"2 POINT ATTEMPT RATE\n{team1 + ':':<12} {teamA_rate:.1f}%\t\t\t{team2 + ':':<12} {teamB_rate:.1f}%")
-    st.write("")
-    st.write("")
-    st.text(f"DEFENSIVE STATS")
-    st.text(f"2 POINT PERCENTAGE\n{team1 + ':':<12} {teamA_dperc:.1f}%\t\t\t{team2 + ':':<12} {teamB_dperc:.1f}%")
-    st.text(f"2 POINT ATTEMPT RATE\n{team1 + ':':<12} {teamA_drate:.1f}%\t\t\t{team2 + ':':<12} {teamB_drate:.1f}%")
-    
-    col1, col2 = st.columns([1,1])
-    with col1:
-        st.plotly_chart(fig)
+    st.text(f"HEAD TO HEAD MATCHUP\nOFFENSE VS DEFENSE 2PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)\n{team1 + ':':<12} {AB_scaled:.2f}\t\t\t{team2 + ':':<12} {BA_scaled:.2f}")
 
 def threept_matchup(team1, team2, data, year):
 
+    data['3PT%']  = data['3PT%'].div(100).round(3)
+    data['3PT%D'] = data['3PT%D'].div(100).round(3)
+    data['3PTR']  = data['3PTR'].div(100).round(3)
+    data['3PTRD'] = data['3PTRD'].div(100).round(3)
+    
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[data['YEAR'] <= year]
     
-    teamA_perc = teamA['3PT%'].iloc[0]
-    teamA_rate = teamA['3PTR'].iloc[0]
-    teamB_perc = teamB['3PT%'].iloc[0]
-    teamB_rate = teamB['3PTR'].iloc[0]
-    
-    teamA_o3 = teamA_perc * teamA_rate
-    teamB_o3 = teamB_perc * teamB_rate
-    
-    teamA_dperc = teamA['3PT%D'].iloc[0]
-    teamA_drate = teamA['3PTRD'].iloc[0]
-    teamB_dperc = teamB['3PT%D'].iloc[0]
-    teamB_drate = teamB['3PTRD'].iloc[0]
-    
-    teamA_d3 = teamA_dperc * teamA_drate
-    teamB_d3 = teamB_dperc * teamB_drate
+    teamA_o3 = teamA['3PT%'].iloc[0] * teamA['3PTR'].iloc[0]
+    teamB_o3 = teamB['3PT%'].iloc[0] * teamB['3PTR'].iloc[0]
+    teamA_d3 = teamA['3PT%D'].iloc[0] * teamA['3PTRD'].iloc[0]
+    teamB_d3 = teamB['3PT%D'].iloc[0] * teamB['3PTRD'].iloc[0]
     teamA_net3 = teamA_o3 - teamA_d3
     teamB_net3 = teamB_o3 - teamB_d3
     
@@ -412,81 +328,33 @@ def threept_matchup(team1, team2, data, year):
     BA_net = np.log(teamB_o3 * teamA_d3) 
     BA_scaled = 2 * ((BA_net - min_matchup) / (max_matchup - min_matchup)) - 1 
     
-    fig = go.Figure()
-    
-    fig.add_trace(go.Bar(
-        x=[float(BA_scaled)],
-        y=[team2],
-        orientation='h',
-        name=team2,
-        marker_color='green' if float(BA_scaled) > 0 else 'red'
-    ))
-    
-    fig.add_trace(go.Bar(
-        x=[float(AB_scaled)],
-        y=[team1],
-        orientation='h',
-        name=team1,
-        marker_color='green' if float(AB_scaled) > 0 else 'red'
-    ))
-    
-    fig.update_layout(
-        title="Predicted Offensive 3PT Scoring Advantage In This Game",
-        xaxis=dict(
-            range=[-1.1, 1.1], 
-            zeroline=True, 
-            zerolinewidth=2, 
-            zerolinecolor='black'
-        ),
-        showlegend=False,
-        yaxis=dict(tickfont=dict(size=14, color='black'))
-    )
-
     st.write("\n============================================================================================================================")
     st.write('''  ##### THREE POINT COMPARISON''')
     st.write()
-    st.text(f"OFFENSIVE STATS")
-    st.text(f"3 POINT PERCENTAGE\n{team1 + ':':<12} {teamA_perc:.1f}%\t\t\t{team2 + ':':<12} {teamB_perc:.1f}%")
-    st.text(f"3 POINT ATTEMPT RATE\n{team1 + ':':<12} {teamA_rate:.1f}%\t\t\t{team2 + ':':<12} {teamB_rate:.1f}%")
-    st.write("")
-    st.write("")
-    st.text(f"DEFENSIVE STATS")
-    st.text(f"3 POINT PERCENTAGE\n{team1 + ':':<12} {teamA_dperc:.1f}%\t\t\t{team2 + ':':<12} {teamB_dperc:.1f}%")
-    st.text(f"3 POINT ATTEMPT RATE\n{team1 + ':':<12} {teamA_drate:.1f}%\t\t\t{team2 + ':':<12} {teamB_drate:.1f}%")
-    
-    col1, col2 = st.columns([1,1])
-    with col1:
-        st.plotly_chart(fig)
+    st.text(f"HEAD TO HEAD MATCHUP\nOFFENSE VS DEFENSE 3PT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)\n{team1 + ':':<12} {AB_scaled:.2f}\t\t\t{team2 + ':':<12} {BA_scaled:.2f}")
 
 def ft_matchup(team1, team2, data, year):
 
+    data['FT%']   = data['FT%'].div(100).round(3)
+    data['FTR']   = data['FTR'].div(100).round(3)
+    data['FTRD']  = data['FTRD'].div(100).round(3)
+    
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[data['YEAR'] <= year]
     
-    teamA_perc = teamA['FT%'].iloc[0]
-    teamA_rate = teamA['FTR'].iloc[0]
-    teamB_perc = teamB['FT%'].iloc[0]
-    teamB_rate = teamB['FTR'].iloc[0]
-    
-    teamA_of = teamA_perc * teamA_rate
-    teamB_of = teamB_perc * teamB_rate
-    
-    teamA_dperc = 71.5
-    teamA_drate = teamA['FTRD'].iloc[0]
-    teamB_dperc = 71.5
-    teamB_drate = teamB['FTRD'].iloc[0]
-    
-    teamA_df = teamA_dperc * teamA_drate
-    teamB_df = teamB_dperc * teamB_drate
+    teamA_of = teamA['FT%'].iloc[0] * teamA['FTR'].iloc[0]
+    teamB_of = teamB['FT%'].iloc[0] * teamB['FTR'].iloc[0]
+    teamA_df = teamB['FT%'].iloc[0] * teamA['FTRD'].iloc[0]
+    teamB_df = teamA['FT%'].iloc[0] * teamB['FTRD'].iloc[0]
     teamA_netf = teamA_of - teamA_df
     teamB_netf = teamB_of - teamB_df
     
     min_of = (df['FT%'] * df['FTR']).min()
     max_of = (df['FT%'] * df['FTR']).max()
-    min_df = (71.5 * df['FTRD']).min()
-    max_df = (71.5 * df['FTRD']).max()
+    min_df = (0.715 * df['FTRD']).min()
+    max_df = (0.715 * df['FTRD']).max()
     
     min_matchup = np.log(min_of * min_df) 
     max_matchup = np.log(max_of * max_df) 
@@ -496,57 +364,20 @@ def ft_matchup(team1, team2, data, year):
     BA_net = np.log(teamB_of * teamA_df) 
     BA_scaled = 2 * ((BA_net - min_matchup) / (max_matchup - min_matchup)) - 1 
     
-    fig = go.Figure()
-    
-    fig.add_trace(go.Bar(
-        x=[float(BA_scaled)],
-        y=[team2],
-        orientation='h',
-        name=team2,
-        marker_color='green' if float(BA_scaled) > 0 else 'red'
-    ))
-    
-    fig.add_trace(go.Bar(
-        x=[float(AB_scaled)],
-        y=[team1],
-        orientation='h',
-        name=team1,
-        marker_color='green' if float(AB_scaled) > 0 else 'red'
-    ))
-    
-    fig.update_layout(
-        title="Predicted Offensive FT Scoring Advantage In This Game",
-        xaxis=dict(
-            range=[-1.1, 1.1], 
-            zeroline=True, 
-            zerolinewidth=2, 
-            zerolinecolor='black'
-        ),
-        showlegend=False,
-        yaxis=dict(tickfont=dict(size=14, color='black'))
-    )
-
     st.write("\n============================================================================================================================")
     st.write('''  ##### FREE THROW COMPARISON''')
     st.write()
-    st.text(f"OFFENSIVE STATS")
-    st.text(f"FREE THROW PERCENTAGE\n{team1 + ':':<12} {teamA_perc:.1f}%\t\t\t{team2 + ':':<12} {teamB_perc:.1f}%")
-    st.text(f"FREE THROW ATTEMPT RATE\n{team1 + ':':<12} {teamA_rate:.1f}%\t\t\t{team2 + ':':<12} {teamB_rate:.1f}%")
-    st.write("")
-    st.write("")
-    st.text(f"DEFENSIVE STATS")
-    st.text(f"FREE THROW ATTEMPT RATE\n{team1 + ':':<12} {teamA_drate:.1f}%\t\t\t{team2 + ':':<12} {teamB_drate:.1f}%")
-    
-    col1, col2 = st.columns([1,1])
-    with col1:
-        st.plotly_chart(fig)
+    st.text(f"HEAD TO HEAD MATCHUP\nOFFENSE VS DEFENSE FT SCORE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)\n{team1 + ':':<12} {AB_scaled:.2f}\t\t\t{team2 + ':':<12} {BA_scaled:.2f}")
 
 def to_matchup(team1, team2, data, year):
 
+    data['TOV%']  = data['TOV%'].div(100).round(3)
+    data['TOV%D'] = data['TOV%D'].div(100).round(3)
+    
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[data['YEAR'] <= year]
 
     min_tov = df['TOV%'].min()   
     max_tov = df['TOV%'].max()   
@@ -566,53 +397,24 @@ def to_matchup(team1, team2, data, year):
     BA = np.log(teamB_tov * teamA_tovd) 
     BA_net = 2 * ((BA - worst) / (best - worst)) - 1 
 
-    fig = go.Figure()
-    
-    fig.add_trace(go.Bar(
-        x=[float(BA_net)],
-        y=[team2],
-        orientation='h',
-        name=team2,
-        marker_color='green' if float(BA_net) > 0 else 'red'
-    ))
-    
-    fig.add_trace(go.Bar(
-        x=[float(AB_net)],
-        y=[team1],
-        orientation='h',
-        name=team1,
-        marker_color='green' if float(AB_net) > 0 else 'red'
-    ))
-    
-    fig.update_layout(
-        title="Predicted Offensive Turnover Advantage In This Game",
-        xaxis=dict(
-            range=[-1.1, 1.1], 
-            zeroline=True, 
-            zerolinewidth=2, 
-            zerolinecolor='black'
-        ),
-        showlegend=False,
-        yaxis=dict(tickfont=dict(size=14, color='black'))
-    )
-
     st.write("\n============================================================================================================================")
     st.write('''  ##### TURNOVER COMPARISON''')
     st.write()
-    st.text(f"OFFENSIVE TURNOVER PERCENTAGE\n{team1 + ':':<12} {teamA_tov}%\t\t\t{team2 + ':':<12} {teamB_tov}%") 
+    st.text(f"OFFENSIVE TURNOVER PERCENTAGE\n{team1 + ':':<12} {teamA_tov}\t\t\t{team2 + ':':<12} {teamB_tov}") 
     st.write()
-    st.text(f"DEFENSIVE TURNOVER PERCENTAGE\n{team1 + ':':<12} {teamA_tovd}%\t\t\t{team2 + ':':<12} {teamB_tovd}%") 
-
-    col1, col2 = st.columns([1,1])
-    with col1:
-        st.plotly_chart(fig)
+    st.text(f"DEFENSIVE TURNOVER PERCENTAGE\n{team1 + ':':<12} {teamA_tovd}\t\t\t{team2 + ':':<12} {teamB_tovd}") 
+    st.write()
+    st.text(f"HEAD TO HEAD MATCHUP\nOFFENSE VS DEFENSE TURNOVER PERCENTAGE (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)\n{team1 + ':':<12} {AB_net:.2f}\t\t\t{team2 + ':':<12} {BA_net:.2f}")
 
 def reb_matchup(team1, team2, data, year):
 
+    data['OREB%'] = data['OREB%'].div(100).round(3)
+    data['DREB%'] = data['DREB%'].div(100).round(3)
+    
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[data['YEAR'] <= year]
 
     min_dreb = df['DREB%'].min() 
     max_dreb = df['DREB%'].max() 
@@ -634,48 +436,16 @@ def reb_matchup(team1, team2, data, year):
     BA = np.log(teamB_oreb / teamA_dreb) 
     BA_net = 2 * ((BA - min_matchup) / (max_matchup - min_matchup)) - 1 
 
-    fig = go.Figure()
-    
-    fig.add_trace(go.Bar(
-        x=[float(BA_net)],
-        y=[team2],
-        orientation='h',
-        name=team2,
-        marker_color='green' if float(BA_net) > 0 else 'red'
-    ))
-    
-    fig.add_trace(go.Bar(
-        x=[float(AB_net)],
-        y=[team1],
-        orientation='h',
-        name=team1,
-        marker_color='green' if float(AB_net) > 0 else 'red'
-    ))
-    
-    fig.update_layout(
-        title="Predicted Offensive Rebounding Advantage In This Game",
-        xaxis=dict(
-            range=[-1.1, 1.1], 
-            zeroline=True, 
-            zerolinewidth=2, 
-            zerolinecolor='black'
-        ),
-        showlegend=False,
-        yaxis=dict(tickfont=dict(size=14, color='black'))
-    )
-
     st.write("\n============================================================================================================================")
     st.write('''  ##### REBOUNDING COMPARISON''')
     st.write()
     st.text(f"EFFECTIVE HEIGHT\n{team1 + ':':<12} {teamA_height:.2f}\t\t\t{team2 + ':':<12} {teamB_height:.2f}") 
     st.write()
-    st.text(f"OFFENSIVE REBOUNDING PERCENTAGE\n{team1 + ':':<12} {teamA_oreb}%\t\t\t{team2 + ':':<12} {teamB_oreb}%") 
+    st.text(f"OFFENSIVE REBOUNDING PERCENTAGE\n{team1 + ':':<12} {teamA_oreb}\t\t\t{team2 + ':':<12} {teamB_oreb}") 
     st.write()
-    st.text(f"DEFENSIVE REBOUND PERCENTAGE\n{team1 + ':':<12} {teamA_dreb}%\t\t\t{team2 + ':':<12} {teamB_dreb}%") 
-    
-    col1, col2 = st.columns([1,1])
-    with col1:
-        st.plotly_chart(fig)
+    st.text(f"DEFENSIVE REBOUND PERCENTAGE\n{team1 + ':':<12} {teamA_dreb}\t\t\t{team2 + ':':<12} {teamB_dreb}") 
+    st.write()
+    st.text(f"HEAD TO HEAD MATCHUP\nOFFENSIVE VS DEFENSIVE REBOUNDING (Closer to -1: Disadvantage, Closer to 0: Even, Closer to 1: Advantage)\n{team1 + ':':<12} {AB_net:.2f}\t\t\t{team2 + ':':<12} {BA_net:.2f}")
                 
 data = pd.read_csv("data/data_official.csv")
 
