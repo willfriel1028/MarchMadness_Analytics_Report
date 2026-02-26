@@ -679,7 +679,7 @@ def reb_matchup(team1, team2, data, year):
                 
 data = pd.read_csv("data/data_official.csv")
 
-years = [2025, 2024, 2023, 2022, 2021, 2019]
+years = [2025, 2024, 2023, 2022, 2021, 2019, 2018]
 col1, col2, col3 = st.columns([1,1,1])
 with col1:
     year = st.selectbox("Pick a year", options=years)
