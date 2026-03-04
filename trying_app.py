@@ -797,14 +797,14 @@ if view == "Matchup Analysis":
     with col3:
         st.write("")
         st.write("")
-        go = st.button("Go!")
+        button = st.button("Go")
 
     if "last_query" not in st.session_state:
         st.session_state.last_query = None
 
     current_query = (team1, team2, year)
 
-    if go:
+    if button:
         st.session_state.last_query = current_query
 
     if st.session_state.last_query == current_query:
