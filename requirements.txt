@@ -3,3 +3,4 @@ numpy
 streamlit>=1.25.0
 plotly
 scikit-learn
+matplotlib
