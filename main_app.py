@@ -775,10 +775,12 @@ if view == "Matchup Analysis":
         team1 = st.selectbox("Team 1", options=chosen_teams)
     with col2:
         team2 = st.selectbox("Team 2", options=chosen_teams)
+    with col3:
+        st.write("") # padding to align button vertically
+        st.write("")
+        button = st.button("Go!")
     
-    
-    container = st.empty()
-    with container.container():
+    if button:
         team_matchup(team1, team2, data, year)
 
 else:
