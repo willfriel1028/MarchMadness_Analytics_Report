@@ -16,9 +16,13 @@ st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MODELS_CACHE = {}
 
+@st.cache_data
+def load_sim_data(year):
+    return pd.read_csv(os.path.join(BASE_DIR, "data", str(year) + "_10000sims0.csv"))
+
 def team_matchup(team1, team2, data, year):
 
-    df_simmed = pd.read_csv(os.path.join(BASE_DIR, "data", str(year) + "_10000sims0.csv"))
+    df_simmed = load_sim_data(year)
        
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
@@ -40,12 +44,16 @@ def team_matchup(team1, team2, data, year):
     to_matchup(team1, team2, data, year)
     reb_matchup(team1, team2, data, year)
 
+@st.cache_resource
+def load_model(year):
+    with open(os.path.join(BASE_DIR, 'bracket_sims', 'RFModels', f'rf_model_{year}.pkl'), 'rb') as f:
+        return pickle.load(f)
+
 def win_percentages(team1, team2, df, year):
 
     if year not in MODELS_CACHE:
         try:
-            with open(os.path.join(BASE_DIR, 'bracket_sims', 'RFmodels', f'rf_model_{year}.pkl'), 'rb') as f:
-                MODELS_CACHE[year] = pickle.load(f)
+            MODELS_CACHE[year] = load_model(year)
         except FileNotFoundError:
             raise ValueError(f"Model for year {year} not found. Please train it first.")
             
@@ -148,6 +156,7 @@ def round_advancement(team1, team2, data, year):
     st.write()
     st.text(f"NATIONAL CHAMPION\n{team1 + ':':<12} {winperc1}% (#{winrank1})\t\t\t{team2 + ':':<12} {winperc2}% (#{winrank2})")
 
+@st.cache_data
 def get_ranks(df):
 
     teams = list(df["TEAM"].unique())
@@ -219,12 +228,16 @@ def experience_matchup(team1, team2, data, year):
     st.write()
     st.text(f"EXPERIENCE\n{team1 + ':':<12} {teamA_exp:.2f}\t\t\t{team2 + ':':<12} {teamB_exp:.2f}")
 
+@st.cache_data
+def get_recent_data(data, year):
+    return data[data['YEAR'] >= (year - 5)]
+
 def off_def_matchup(team1, team2, data, year):
     
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = get_recent_data(data, year)
     
     min_OE = df['KADJ O'].min() 
     max_OE = df['KADJ O'].max() 
@@ -299,7 +312,7 @@ def twopt_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = get_recent_data(data, year)
 
     teamA_perc = teamA['2PT%'].iloc[0]
     teamA_rate = teamA['2PTR'].iloc[0]
@@ -383,7 +396,7 @@ def threept_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = get_recent_data(data, year)
     
     teamA_perc = teamA['3PT%'].iloc[0]
     teamA_rate = teamA['3PTR'].iloc[0]
@@ -467,7 +480,7 @@ def ft_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = get_recent_data(data, year)
     
     teamA_perc = teamA['FT%'].iloc[0]
     teamA_rate = teamA['FTR'].iloc[0]
@@ -550,7 +563,7 @@ def to_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = get_recent_data(data, year)
 
     min_tov = df['TOV%'].min()   
     max_tov = df['TOV%'].max()   
@@ -616,7 +629,7 @@ def reb_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = get_recent_data(data, year)
 
     min_dreb = df['DREB%'].min() 
     max_dreb = df['DREB%'].max() 
@@ -756,7 +769,11 @@ def print_round(df, rd, q):
             for _, row in chunk_df.iterrows():
                 st.text(f"{int(row['Rank']):>2}. {row['TEAM']:<18} {row['Pct']:>5}%")
                 
-data = pd.read_csv(os.path.join(BASE_DIR, "data", "data_official.csv"))
+@st.cache_data
+def load_main_data():
+    return pd.read_csv(os.path.join(BASE_DIR, "data", "data_official.csv"))
+
+data = load_main_data()
 
 years = [2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015]
 
@@ -777,9 +794,21 @@ if view == "Matchup Analysis":
         team1 = st.selectbox("Team 1", options=chosen_teams)
     with col2:
         team2 = st.selectbox("Team 2", options=chosen_teams)
-    
-    
-    team_matchup(team1, team2, data, year)
+    with col3:
+        st.write("")
+        st.write("")
+        go = st.button("Go!")
+
+    if "last_query" not in st.session_state:
+        st.session_state.last_query = None
+
+    current_query = (team1, team2, year)
+
+    if go:
+        st.session_state.last_query = current_query
+
+    if st.session_state.last_query == current_query:
+        team_matchup(team1, team2, data, year)
 
 else:
 
@@ -792,7 +821,7 @@ else:
     with co2:
         rd = st.selectbox("Pick a round", options=rds)
 
-    dat = pd.read_csv(os.path.join(BASE_DIR, "data", str(year) + "_10000sims0.csv"))
+    dat = load_sim_data(year)
 
     x1, x2, x3 = st.columns([1,3,1])
     with x2:
