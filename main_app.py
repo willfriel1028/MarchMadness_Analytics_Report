@@ -777,7 +777,9 @@ if view == "Matchup Analysis":
         team2 = st.selectbox("Team 2", options=chosen_teams)
     
     
-    team_matchup(team1, team2, data, year)
+    container = st.empty()
+    with container.container():
+        team_matchup(team1, team2, data, year)
 
 else:
 
