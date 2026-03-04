@@ -42,7 +42,7 @@ def win_percentages(team1, team2, df, year):
 
     if year not in MODELS_CACHE:
         try:
-            with open(f'bracket_sims/RFmodels/rf_model_{year}.pkl', 'rb') as f:
+            with open(f'bracket_sims/RFModels/rf_model_{year}.pkl', 'rb') as f:
                 MODELS_CACHE[year] = pickle.load(f)
         except FileNotFoundError:
             raise ValueError(f"Model for year {year} not found. Please train it first.")
