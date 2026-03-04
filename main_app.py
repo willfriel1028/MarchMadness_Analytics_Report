@@ -147,32 +147,25 @@ def round_advancement(team1, team2, data, year):
     st.text(f"NATIONAL CHAMPION\n{team1 + ':':<12} {winperc1}% (#{winrank1})\t\t\t{team2 + ':':<12} {winperc2}% (#{winrank2})")
 
 def get_ranks(df):
-
-    teams = list(df["TEAM"].unique())
-
-    dfs = []
-    for team in teams:
-        dfx = {}
-        dfx["TEAM"] = team
-        dfx["R32"] = len(df[(df["TEAM"] == team) & (df["Sim_Wins"] >= 1)])
-        dfx["S16"] = len(df[(df["TEAM"] == team) & (df["Sim_Wins"] >= 2)])
-        dfx["E8"] = len(df[(df["TEAM"] == team) & (df["Sim_Wins"] >= 3)])
-        dfx["F4"] = len(df[(df["TEAM"] == team) & (df["Sim_Wins"] >= 4)])
-        dfx["CG"] = len(df[(df["TEAM"] == team) & (df["Sim_Wins"] >= 5)])
-        dfx["WIN"] = len(df[(df["TEAM"] == team) & (df["Sim_Wins"] == 6)])
-        dfs.append(dfx)
-        
-    dfc = pd.DataFrame(dfs).reset_index(drop=True)
+    grouped = df.groupby("TEAM")["Sim_Wins"].apply(list).reset_index()
     
-    for team in teams:
-        dfc['R32_rank'] = dfc['R32'].rank(ascending=False, method='min').astype(int)
-        dfc['S16_rank'] = dfc['S16'].rank(ascending=False, method='min').astype(int)
-        dfc['E8_rank'] = dfc['E8'].rank(ascending=False, method='min').astype(int)
-        dfc['F4_rank'] = dfc['F4'].rank(ascending=False, method='min').astype(int)
-        dfc['CG_rank'] = dfc['CG'].rank(ascending=False, method='min').astype(int)
-        dfc['WIN_rank'] = dfc['WIN'].rank(ascending=False, method='min').astype(int)
+    dfc = pd.DataFrame()
+    dfc["TEAM"] = grouped["TEAM"]
+    dfc["R32"] = grouped["Sim_Wins"].apply(lambda x: sum(1 for w in x if w >= 1))
+    dfc["S16"] = grouped["Sim_Wins"].apply(lambda x: sum(1 for w in x if w >= 2))
+    dfc["E8"]  = grouped["Sim_Wins"].apply(lambda x: sum(1 for w in x if w >= 3))
+    dfc["F4"]  = grouped["Sim_Wins"].apply(lambda x: sum(1 for w in x if w >= 4))
+    dfc["CG"]  = grouped["Sim_Wins"].apply(lambda x: sum(1 for w in x if w >= 5))
+    dfc["WIN"] = grouped["Sim_Wins"].apply(lambda x: sum(1 for w in x if w == 6))
 
-    return dfc       
+    dfc['R32_rank'] = dfc['R32'].rank(ascending=False, method='min').astype(int)
+    dfc['S16_rank'] = dfc['S16'].rank(ascending=False, method='min').astype(int)
+    dfc['E8_rank']  = dfc['E8'].rank(ascending=False, method='min').astype(int)
+    dfc['F4_rank']  = dfc['F4'].rank(ascending=False, method='min').astype(int)
+    dfc['CG_rank']  = dfc['CG'].rank(ascending=False, method='min').astype(int)
+    dfc['WIN_rank'] = dfc['WIN'].rank(ascending=False, method='min').astype(int)
+
+    return dfc.reset_index(drop=True)       
     
 def sos_matchup(team1, team2, data, year):
     
