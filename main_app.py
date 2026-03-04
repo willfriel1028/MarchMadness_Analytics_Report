@@ -2,11 +2,13 @@ import pandas as pd
 import numpy as np
 import streamlit as st
 import plotly.graph_objects as go
+import matplotlib.pyplot as plt
 import math
 import random
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.calibration import CalibratedClassifierCV
+from itertools import zip_longest
 import warnings
 warnings.filterwarnings('ignore', category=FutureWarning)
 st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
@@ -676,22 +678,122 @@ def reb_matchup(team1, team2, data, year):
     col1, col2 = st.columns([1,1])
     with col1:
         st.plotly_chart(fig)
+
+def show_round(df, rd):
+
+    if rd == "Round of 32":
+        graph_round(df, rd, 1)
+        print_round(df, rd, 1)
+    elif rd == "Sweet 16":
+        graph_round(df, rd, 2)
+        print_round(df, rd, 2)
+    elif rd == "Elite 8":
+        graph_round(df, rd, 3)
+        print_round(df, rd, 3)
+    elif rd == "Final 4":
+        graph_round(df, rd, 4)
+        print_round(df, rd, 4)
+    elif rd == "Championship Game":
+        graph_round(df, rd, 5)
+        print_round(df, rd, 5)
+    elif rd == "National Champion":
+        graph_round(df, rd, 6)
+        print_round(df, rd, 6)
+
+def graph_round(df, rd, x):
+    champ_counts = df.loc[df['Sim_Wins'] >= x, 'TEAM'].value_counts()
+    champ_pct = (champ_counts / 10000 * 100).round(2).loc[lambda x: x > 0]
+
+    fig, ax = plt.subplots(figsize=(12, min(len(champ_pct) * 0.2, 12)))
+    champ_pct[::-1].plot(kind='barh', ax=ax)
+    ax.set_title(rd + " Chance Per Team")
+    ax.set_ylabel("Team")
+    ax.set_xlabel(rd + " %")
+    ax.set_yticklabels(ax.get_yticklabels(), rotation=0)
+    for i, v in enumerate(champ_pct[::-1]):
+        ax.text(v + 0.05, i, f"{v}%", va='center')
+
+    plt.tight_layout()
+    st.pyplot(fig, use_container_width=True)
+
+def print_round(df, rd, q):
+    teams = list(df["TEAM"].unique())
+    cc = []
+    for team in teams:
+        x = df[(df["TEAM"] == team) & (df["Sim_Wins"] >= q)]
+        dfx = {}
+        dfx["TEAM"] = team
+        dfx["Seed"] = np.mean(x["SEED"])
+        if len(x) == 0:
+            dfx["Seed"] = np.mean(df[(df["TEAM"] == team)]["SEED"])
+        dfx["count"] = len(x)
+        cc.append(dfx)
+
+    counts = pd.DataFrame(cc).sort_values(["count", "Seed"], ascending=[False, True]).reset_index(drop=True)
+    counts["Pct"] = (counts["count"] / 10000 * 100).round(2)
+
+    ranks = []
+    rank = 1
+    for i, row in counts.iterrows():
+        if i > 0 and row["Pct"] < counts.iloc[i-1]["Pct"]:
+            rank = i + 1
+        ranks.append(rank)
+    counts["Rank"] = ranks
+
+    st.subheader(rd + " Chance Per Team")
+
+    n = len(counts)
+    chunk = n // 3 + (1 if n % 3 else 0)
+    left   = counts.iloc[:chunk]
+    middle = counts.iloc[chunk:chunk*2]
+    right  = counts.iloc[chunk*2:]
+
+    col1, col2, col3 = st.columns(3)
+    for col, chunk_df in zip([col1, col2, col3], [left, middle, right]):
+        with col:
+            for _, row in chunk_df.iterrows():
+                st.text(f"{int(row['Rank']):>2}. {row['TEAM']:<18} {row['Pct']:>5}%")
                 
 data = pd.read_csv("data/data_official.csv")
 
-years = [2025, 2024, 2023, 2022, 2021, 2019, 2018]
-col1, col2, col3 = st.columns([1,1,1])
-with col1:
-    year = st.selectbox("Pick a year", options=years)
+years = [2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015]
 
-chosen_df = data[data["YEAR"] == year]
-chosen_sorted = chosen_df.sort_values("TEAM")
-chosen_teams = list(chosen_sorted["TEAM"].unique())
+view = st.radio("View", ["Matchup Analysis", "Field Analysis"], horizontal=True)
 
-col1, col2, col3 = st.columns([1,1,2])
-with col1:
-    team1 = st.selectbox("Team 1", options=chosen_teams)
-with col2:
-    team2 = st.selectbox("Team 2", options=chosen_teams)
+if view == "Matchup Analysis":
 
-team_matchup(team1, team2, data, year)
+    col1, col2, col3 = st.columns([1,1,1])
+    with col1:
+        year = st.selectbox("Pick a year", options=years)
+    
+    chosen_df = data[data["YEAR"] == year]
+    chosen_sorted = chosen_df.sort_values("TEAM")
+    chosen_teams = list(chosen_sorted["TEAM"].unique())
+    
+    col1, col2, col3 = st.columns([1,1,2])
+    with col1:
+        team1 = st.selectbox("Team 1", options=chosen_teams)
+    with col2:
+        team2 = st.selectbox("Team 2", options=chosen_teams)
+    
+    
+    team_matchup(team1, team2, data, year)
+
+else:
+
+    col1, col2, col3 = st.columns([2,1,2])
+    with col2:
+        year = st.selectbox("Pick a year", options=years)
+        
+    rds = ["Round of 32", "Sweet 16", "Elite 8", "Final 4", "Championship Game", "National Champion"]
+    co1, co2, co3 = st.columns([2,1,2])
+    with co2:
+        rd = st.selectbox("Pick a round", options=rds)
+
+    dat = pd.read_csv("data/" + str(year) + "_10000sims0.csv")
+
+    x1, x2, x3 = st.columns([1,3,1])
+    with x2:
+        show_round(dat, rd)
+
+    
