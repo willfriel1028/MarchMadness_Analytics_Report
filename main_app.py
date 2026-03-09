@@ -16,8 +16,6 @@ MODELS_CACHE = {}
 
 def team_matchup(team1, team2, data, year):
 
-    data = data[data["YEAR"] <= year]
-
     df_simmed = pd.read_csv("data/" + str(year) + "_10000sims0.csv")
        
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
@@ -217,7 +215,7 @@ def off_def_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[(data['YEAR'] >= (year - 5)) & (data['YEAR'] <= year)]
     
     min_OE = df['KADJ O'].min() 
     max_OE = df['KADJ O'].max() 
@@ -292,7 +290,7 @@ def twopt_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[(data['YEAR'] >= (year - 5)) & (data['YEAR'] <= year)]
 
     teamA_perc = teamA['2PT%'].iloc[0]
     teamA_rate = teamA['2PTR'].iloc[0]
@@ -376,7 +374,7 @@ def threept_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[(data['YEAR'] >= (year - 5)) & (data['YEAR'] <= year)]
     
     teamA_perc = teamA['3PT%'].iloc[0]
     teamA_rate = teamA['3PTR'].iloc[0]
@@ -460,7 +458,7 @@ def ft_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[(data['YEAR'] >= (year - 5)) & (data['YEAR'] <= year)]
     
     teamA_perc = teamA['FT%'].iloc[0]
     teamA_rate = teamA['FTR'].iloc[0]
@@ -543,7 +541,7 @@ def to_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[(data['YEAR'] >= (year - 5)) & (data['YEAR'] <= year)]
 
     min_tov = df['TOV%'].min()   
     max_tov = df['TOV%'].max()   
@@ -609,7 +607,7 @@ def reb_matchup(team1, team2, data, year):
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
     teamB = data[(data['YEAR'] == year) & (data['TEAM'] == team2)] 
     
-    df = data[data['YEAR'] >= (year-5)]
+    df = data[(data['YEAR'] >= (year - 5)) & (data['YEAR'] <= year)]
 
     min_dreb = df['DREB%'].min() 
     max_dreb = df['DREB%'].max() 
