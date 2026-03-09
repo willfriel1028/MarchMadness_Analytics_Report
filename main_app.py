@@ -777,7 +777,6 @@ if view == "Matchup Analysis":
         team_matchup(team1, team2, data, year)
 
 else:
-
     col1, col2, col3 = st.columns([2,1,2])
     with col2:
         year = st.selectbox("Pick a year", options=years)
@@ -791,10 +790,9 @@ else:
         st.write("")
         button = st.button("Go")
 
-    dat = pd.read_csv("data/" + str(year) + "_10000sims0.csv")
-
-    x1, x2, x3 = st.columns([1,3,1])
     if button:
+        dat = load_sim_data(year)
+        x1, x2, x3 = st.columns([1,3,1])
         with x2:
             show_round(dat, rd)
 
