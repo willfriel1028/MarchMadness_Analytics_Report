@@ -791,7 +791,7 @@ else:
         button = st.button("Go")
 
     if button:
-        dat = load_sim_data(year)
+        dat = pd.read_csv("data/" + str(year) + "_10000sims0.csv")
         x1, x2, x3 = st.columns([1,3,1])
         with x2:
             show_round(dat, rd)
