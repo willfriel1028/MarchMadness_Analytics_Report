@@ -16,6 +16,8 @@ MODELS_CACHE = {}
 
 def team_matchup(team1, team2, data, year):
 
+    data = data[data["YEAR"] <= year]
+
     df_simmed = pd.read_csv("data/" + str(year) + "_10000sims0.csv")
        
     teamA = data[(data['YEAR'] == year) & (data['TEAM'] == team1)] 
