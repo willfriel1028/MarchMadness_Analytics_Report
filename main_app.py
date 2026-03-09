@@ -771,7 +771,7 @@ if view == "Matchup Analysis":
     with col3:
         st.write("") 
         st.write("")
-        button = st.button("Go!")
+        button = st.button("Go")
     
     if button:
         team_matchup(team1, team2, data, year)
