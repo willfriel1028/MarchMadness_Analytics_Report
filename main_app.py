@@ -786,11 +786,16 @@ else:
     co1, co2, co3 = st.columns([2,1,2])
     with co2:
         rd = st.selectbox("Pick a round", options=rds)
+    with co3:
+        st.write("") 
+        st.write("")
+        button = st.button("Go")
 
     dat = pd.read_csv("data/" + str(year) + "_10000sims0.csv")
 
     x1, x2, x3 = st.columns([1,3,1])
-    with x2:
-        show_round(dat, rd)
+    if button:
+        with x2:
+            show_round(dat, rd)
 
     
