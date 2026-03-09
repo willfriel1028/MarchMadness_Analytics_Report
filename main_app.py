@@ -769,7 +769,7 @@ if view == "Matchup Analysis":
     with col2:
         team2 = st.selectbox("Team 2", options=chosen_teams)
     with col3:
-        st.write("") # padding to align button vertically
+        st.write("") 
         st.write("")
         button = st.button("Go!")
     
