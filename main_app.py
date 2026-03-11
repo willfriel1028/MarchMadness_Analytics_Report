@@ -745,7 +745,9 @@ def print_round(df, rd, q):
     for col, chunk_df in zip([col1, col2, col3], [left, middle, right]):
         with col:
             for _, row in chunk_df.iterrows():
-                st.text(f"{int(row['Rank']):>2}. {row['TEAM']:<18} {row['Pct']:>5}%")
+                #st.text(f"{int(row['Rank']):>2}. {row['TEAM']}({int(row['Seed'])}){'':<18}{row['Pct']:>5}%")
+                st.text(f"{int(row['Rank']):>2}. {f'{row[chr(84)+(chr(69)+chr(65)+chr(77))]}({int(row[chr(83)+chr(101)+chr(101)+chr(100)])})':<30}{row['Pct']:>5}%")
+                
                 
 data = pd.read_csv("data/data_official.csv")
 
