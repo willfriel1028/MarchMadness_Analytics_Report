@@ -242,9 +242,9 @@ def off_def_matchup(team1, team2, data, year):
     st.write("\n============================================================================================================================")
     st.write('''  ##### OFFENSE VS DEFENSE COMPARISON''')
     st.write()
-    st.text(f"ADJUSTED OFFENSIVE EFFICIENCY\n{team1 + ':':<12} {teamA_OE:.2f}\t\t\t{team2 + ':':<12} {teamB_OE:.2f}")
+    st.text(f"ADJUSTED OFFENSIVE EFFICIENCY (KENPOM)\n{team1 + ':':<12} {teamA_OE:.2f}\t\t\t{team2 + ':':<12} {teamB_OE:.2f}")
     st.write()
-    st.text(f"ADJUSTED DEFENSIVE EFFICIENCY\n{team1 + ':':<12} {teamA_DE:.2f}\t\t\t{team2 + ':':<12} {teamB_DE:.2f}")
+    st.text(f"ADJUSTED DEFENSIVE EFFICIENCY (KENPOM)\n{team1 + ':':<12} {teamA_DE:.2f}\t\t\t{team2 + ':':<12} {teamB_DE:.2f}")
     st.write()
     st.text(f"OFFENSIVE EFFECTIVE FG%\n{team1 + ':':<12} {teamA_efgO}%\t\t\t{team2 + ':':<12} {teamB_efgO}%")
     st.write()
@@ -753,9 +753,9 @@ data = pd.read_csv("data/data_official_26.csv")
 
 years = [2026, 2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015]
 
-view = st.radio("View", ["Matchup Analysis", "Field Analysis"], horizontal=True)
+view = st.radio("View", ["Head-to-Head", "Field"], horizontal=True)
 
-if view == "Matchup Analysis":
+if view == "Head-to-Head":
 
     col1, col2, col3 = st.columns([1,1,1])
     with col1:
