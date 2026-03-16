@@ -751,7 +751,7 @@ def print_round(df, rd, q):
                 
 data = pd.read_csv("data/data_official.csv")
 
-years = [2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015]
+years = [2026, 2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015]
 
 view = st.radio("View", ["Matchup Analysis", "Field Analysis"], horizontal=True)
 
