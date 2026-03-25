@@ -1,3 +1,5 @@
+# README IS OUTDATED - UPDATE IN PROGRESS
+
 # March Madness Matchup Analytics Report
 
 ## Description
